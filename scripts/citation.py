@@ -6,7 +6,8 @@ from pathlib import Path
 import re
 
 
-def formatted_citation(path):
+def format_citation(path):
+    """Return the citation text and its DOI URL."""
     content = Path(path).read_text()
 
     def value(text):
@@ -43,8 +44,10 @@ def formatted_citation(path):
         else ", ".join(authors[:-1]) + ", & " + authors[-1]
     )
     year = scalar("date-released").split("-")[0]
-    return (
+    doi_url = f"https://doi.org/{scalar('doi')}"
+    citation = (
         f"{names} ({year}). {scalar('title')} "
         f"(Version {scalar('version')}) [Computer software]. Zenodo. "
-        f"https://doi.org/{scalar('doi')}"
+        f"{doi_url}"
     )
+    return citation, doi_url

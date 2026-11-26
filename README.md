@@ -85,5 +85,6 @@ Original software and documentation use the [MIT license](LICENSE).
 Papers, videos, data and derived research figures retain their own terms;
 see [third-party notices](docs/THIRD_PARTY_NOTICES.md).
 
-Cite the tool using [CITATION.cff](CITATION.cff), and cite the original papers
-when using their data or figures.
+Cite the [Zenodo software record](https://doi.org/10.5281/zenodo.24571341)
+using [CITATION.cff](CITATION.cff). Cite the original papers when using their
+data or figures.

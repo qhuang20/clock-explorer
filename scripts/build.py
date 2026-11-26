@@ -20,7 +20,7 @@ from project import (
     write_json,
 )
 from check import validate
-from citation import formatted_citation
+from citation import format_citation
 from card_previews import render_card_previews
 from publication import omitted_path, omit_local_media, remove_omitted_references
 
@@ -359,6 +359,7 @@ def build(
     )
     # Shared English footer for the explorer and Help.
     footer = Template((ROOT / "web/partials/footer.html").read_text())
+    citation_text, doi_url = format_citation(ROOT / "CITATION.cff")
     footer_labels = {
         "tagline": "Open science for developmental biology.",
         "project_links": "Project links",
@@ -368,8 +369,9 @@ def build(
         "copied": "Copied",
         "copy_manual": "Select and copy the citation below.",
         "citation_label": "Citation text",
+        "citation_text": citation_text,
+        "doi_url": doi_url,
     }
-    citation = escape(formatted_citation(ROOT / "CITATION.cff"))
     license_title, _, license_body = (
         (ROOT / "LICENSE").read_text().strip().partition("\n\n")
     )
@@ -395,7 +397,6 @@ def build(
         )
     for name in pages:
         labels = {field: escape(value) for field, value in footer_labels.items()}
-        labels["citation_text"] = citation
         page = (ROOT / "web" / name).read_text()
         if "tutorials.html" in pages:
             page = page.replace("<body ", '<body data-tutorials="available" ', 1)
