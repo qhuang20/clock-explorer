@@ -1,0 +1,125 @@
+.rangeExplorer {
+  padding: 8px 0;
+}
+.rangeHeading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+.rangeHeading h3 {
+  margin: 8px 0;
+}
+.rangeHeading label {
+  color: #697386;
+  font-size: 14px;
+}
+.rangeHeading select {
+  max-width: 100%;
+  margin-left: 8px;
+  padding: 10px 12px;
+  border: 1px solid #dfe3eb;
+  border-radius: 10px;
+  background: white;
+  color: #252936;
+}
+.rangeLimit,
+.rangeFoot {
+  font-size: 14px;
+  line-height: 1.65;
+  color: #737d90;
+}
+.rangeControls {
+  display: flex;
+  align-items: end;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: 22px 0 14px;
+}
+.rangeControls button,
+.rangeExplorer .methodDownloads button {
+  padding: 10px 14px;
+  border: 1px solid #dfe3eb;
+  border-radius: 10px;
+  background: #fff;
+  color: #6455ed;
+  cursor: pointer;
+}
+.rangeControls label {
+  display: grid;
+  gap: 5px;
+  font-size: 12px;
+  color: #737d90;
+}
+.rangeControls input {
+  width: 96px;
+  padding: 10px;
+  border: 1px solid #dfe3eb;
+  border-radius: 10px;
+  color: #252936;
+}
+.rangeStatus {
+  display: block;
+  color: #59647a;
+  font-size: 14px;
+  margin: 12px 0;
+}
+.rangeCanvas {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.rangeSources {
+  border-top: 1px solid #e7eaf1;
+  padding-top: 18px;
+  margin-top: 24px;
+  font-size: 14px;
+}
+.rangeSources summary {
+  cursor: pointer;
+  color: #6455ed;
+}
+.rangeSources ul {
+  list-style: none;
+  padding: 0;
+}
+.rangeSources li {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 10px 0;
+  border-bottom: 1px solid #f0f1f5;
+}
+.rangeSources li a {
+  overflow-wrap: anywhere;
+}
+.rangeSources li span {
+  white-space: nowrap;
+  color: #737d90;
+  font-size: 12px;
+}
+.rangeSources p {
+  line-height: 1.65;
+  color: #737d90;
+}
+@media (max-width: 640px) {
+  .rangeHeading select {
+    display: block;
+    margin: 8px 0;
+    max-width: 85vw;
+  }
+  .rangeSources li {
+    display: block;
+  }
+  .rangeSources li span {
+    display: block;
+    margin-top: 5px;
+  }
+  .rangeControls {
+    gap: 8px;
+  }
+  .rangeControls input {
+    width: 80px;
+  }
+}

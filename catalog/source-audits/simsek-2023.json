@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "paper_id": "simsek-2023",
+  "doi": "10.1038/s41586-022-05527-x",
+  "article_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9846577/",
+  "checked": "2026-11-19",
+  "signals": [
+    {
+      "reporter": "Her7-mVenus",
+      "target_gene": "her7",
+      "movie": "Supplementary Video 1",
+      "source_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41586-022-05527-x/MediaObjects/41586_2022_5527_MOESM4_ESM.mp4",
+      "source_sha256": "58b9e522ec27b97df578e2f6cf379e896402aeca252be9281442ca3e90e4fd4a",
+      "experiment": "Live double-reporter embryo",
+      "panel_relationship": "Supplementary Video 1 accompanies the simultaneous Her7 and ERK imaging in Fig. 1. This local axial profile uses the Her7 display panel only. No author ROI or numerical kymograph is claimed.",
+      "route": "axial",
+      "source_class": "Publisher display export"
+    }
+  ],
+  "scope": "Selected gene-reporter movies for the local redraw."
+}

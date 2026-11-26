@@ -1,0 +1,4 @@
+interface:
+  display_name: "kymograph-radial"
+  short_description: "Extract radial kymographs with reviewed centers and ROIs"
+  default_prompt: "Use $kymograph-radial to review the center and biological direction in this time-lapse, register a center-to-periphery strip, and extract a kymograph with ROI overlays."

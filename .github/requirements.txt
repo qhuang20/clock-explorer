@@ -1,0 +1,2 @@
+# Optional Python formatting/static checks; runtime site build needs no pip packages.
+ruff==0.14.4

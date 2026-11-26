@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "Please cite this tool and the original publications for the datasets you use."
+type: software
+title: "Clock Explorer: A Cross-Species Atlas of the Segmentation Clock with a Multi-Agent Workflow"
+authors:
+  - family-names: Huang
+    given-names: Qichen
+  - family-names: Chan
+    given-names: Serena
+  - family-names: Mochulska
+    given-names: Victoria
+  - family-names: Qi
+    given-names: Baowen
+version: 0.1.0
+date-released: 2026-11-26
+doi: 10.5281/zenodo.24571341
+license: MIT
+repository-code: "https://github.com/qhuang20/clock-explorer"
+url: "https://segmentation-clock-explorer.pages.dev/"
+abstract: "Clock Explorer brings together segmentation-clock experiments across species and redraws kymographs from published data and time-lapse videos in a consistent visual format. Explore mouse, zebrafish, medaka and human stem-cell models side by side to compare oscillations, traveling waves and their arrest during somite formation. The goal is to make shared patterns and species-specific differences easier to see and use as a reference for modeling."

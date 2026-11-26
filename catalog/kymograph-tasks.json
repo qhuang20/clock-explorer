@@ -1,0 +1,1021 @@
+{
+  "library_only": ["hubaud-2017", "simsek-2023"],
+  "tasks": [
+    {
+      "id": "aulehla-2008",
+      "role": "axial",
+      "short": "Aulehla 2008",
+      "title": "A β-catenin gradient links the clock and wavefront systems in mouse embryo segmentation",
+      "doi": "10.1038/ncb1679",
+      "article": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7391962/",
+      "authors": [
+        "Alexander Aulehla",
+        "Winfried Wiegraebe",
+        "Valerie Baubet",
+        "Matthias B. Wahl",
+        "Chuxia Deng",
+        "Makoto Taketo",
+        "Mark Lewandoski",
+        "Olivier Pourquié"
+      ],
+      "journal": "Nature Cell Biology",
+      "movie": "Movie 1",
+      "source": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fncb1679/MediaObjects/41556_2008_BFncb1679_MOESM15_ESM.mov",
+      "filename": "control.mov",
+      "frames": 75,
+      "dimensions": [
+        519,
+        512
+      ],
+      "bar_pixels": 82,
+      "system": "Control embryo",
+      "view": "Embryo imaging",
+      "panel": "Figure 5a identifies the control Movie 1 and marks the PSM sampling line. Figure 5c uses space horizontally and time vertically. This local redraw uses a separately traced medial curve, movie green excess and time horizontally.",
+      "time_h": [
+        0,
+        0.16,
+        0.32,
+        0.49,
+        0.65,
+        0.81,
+        0.97,
+        1.13,
+        1.3,
+        1.46,
+        1.62,
+        1.78,
+        1.94,
+        2.11,
+        2.27,
+        2.43,
+        2.59,
+        2.75,
+        2.92,
+        3.08,
+        3.24,
+        3.4,
+        3.57,
+        3.73,
+        3.89,
+        4.05,
+        4.21,
+        4.38,
+        4.54,
+        4.7,
+        4.86,
+        5.02,
+        5.19,
+        5.35,
+        5.51,
+        5.67,
+        5.83,
+        6,
+        6.16,
+        6.32,
+        6.48,
+        6.64,
+        6.81,
+        6.97,
+        7.13,
+        7.29,
+        7.46,
+        7.62,
+        7.78,
+        7.94,
+        8.1,
+        8.27,
+        8.41,
+        8.58,
+        8.74,
+        8.9,
+        9.06,
+        9.22,
+        9.39,
+        9.55,
+        9.71,
+        9.87,
+        10.03,
+        10.2,
+        10.36,
+        10.52,
+        10.68,
+        10.84,
+        11.01,
+        11.17,
+        11.33,
+        11.49,
+        11.65,
+        11.82,
+        11.98
+      ],
+      "keyframes": [
+        0,
+        18,
+        37,
+        55,
+        74
+      ],
+      "path_xy": [
+        [
+          [
+            370,
+            402
+          ],
+          [
+            451,
+            323
+          ],
+          [
+            413,
+            217
+          ],
+          [
+            313,
+            161
+          ]
+        ],
+        [
+          [
+            391,
+            397
+          ],
+          [
+            460,
+            316
+          ],
+          [
+            421,
+            205
+          ],
+          [
+            333,
+            149
+          ]
+        ],
+        [
+          [
+            404,
+            409
+          ],
+          [
+            466,
+            310
+          ],
+          [
+            422,
+            198
+          ],
+          [
+            354,
+            154
+          ]
+        ],
+        [
+          [
+            419,
+            415
+          ],
+          [
+            463,
+            306
+          ],
+          [
+            427,
+            194
+          ],
+          [
+            365,
+            152
+          ]
+        ],
+        [
+          [
+            433,
+            418
+          ],
+          [
+            469,
+            313
+          ],
+          [
+            439,
+            209
+          ],
+          [
+            383,
+            160
+          ]
+        ]
+      ],
+      "steps": [
+        "P marks the visible tail tip in the final frame. The solid band shows tissue sampled in the current frame. The dashed P-side segment is blank in the kymograph, as are distances beyond the traced A end.",
+        "Register anterior structural features using translation and rotation. Trace the posterior outline and join it to the medial PSM curve. Sample to the traced anterior endpoint in each frame. The shared axis covers the longest observed distance from the fixed P reference.",
+        "Average green excess across 13 transverse pixels. Leave the 8 px rim margin and unsupported intervals missing. Use the embedded timestamps and 200 µm scale bar."
+      ],
+      "limit": "P is the visible tail outline in projection. A marks the anterior end of the traced corridor in each frame. Bending, registration uncertainty and the rim margin affect coverage. The arrow shows sampling from P toward A.",
+      "sha256": "01fc8a4c3cce41b2329a7510683eee5eb146f10a3c0a105cc4eea6c7e68f032a",
+      "final_tail_reference": {
+        "anterior_feature_window": [
+          225,
+          133,
+          310,
+          193
+        ],
+        "rim_frames": [
+          0,
+          5,
+          10,
+          15,
+          20,
+          25,
+          30,
+          35,
+          40,
+          45,
+          50,
+          55,
+          60,
+          65,
+          70,
+          74
+        ],
+        "rim_xy": [
+          [
+            352,
+            430
+          ],
+          [
+            359,
+            412
+          ],
+          [
+            367,
+            413
+          ],
+          [
+            376,
+            418
+          ],
+          [
+            385,
+            408
+          ],
+          [
+            395,
+            407
+          ],
+          [
+            406,
+            416
+          ],
+          [
+            415,
+            424
+          ],
+          [
+            422,
+            432
+          ],
+          [
+            427,
+            437
+          ],
+          [
+            431,
+            442
+          ],
+          [
+            434,
+            445
+          ],
+          [
+            437,
+            452
+          ],
+          [
+            439,
+            456
+          ],
+          [
+            440,
+            460
+          ],
+          [
+            441,
+            463
+          ]
+        ],
+        "posterior_inset_px": 8
+      }
+    },
+    {
+      "id": "hubaud-2017",
+      "role": "radial",
+      "short": "Hubaud 2017",
+      "title": "Excitable Dynamics and Yap-Dependent Mechanical Cues Drive the Segmentation Clock",
+      "doi": "10.1016/j.cell.2017.08.043",
+      "article": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5722254/",
+      "authors": [
+        "Alexis Hubaud",
+        "Ido Regev",
+        "L. Mahadevan",
+        "Olivier Pourquié"
+      ],
+      "journal": "Cell",
+      "movie": "Movie S1",
+      "source": "https://ars.els-cdn.com/content/image/1-s2.0-S0092867417310012-mmc2.mp4",
+      "filename": "s1.mp4",
+      "frames": 86,
+      "dimensions": [
+        312,
+        312
+      ],
+      "bar_pixels": 51,
+      "system": "PSM explant culture",
+      "view": "Culture-plane imaging",
+      "panel": "Figure 1C marks a center-to-upper-right strip for the 36 h kymograph in Figure 1B. Movie S1 covers 21.25 h. The local strip follows that direction from a fitted origin; specimen and exact ROI correspondence are unconfirmed.",
+      "time_h": [
+        0,
+        0.25,
+        0.5,
+        0.75,
+        1,
+        1.25,
+        1.5,
+        1.75,
+        2,
+        2.25,
+        2.5,
+        2.75,
+        3,
+        3.25,
+        3.5,
+        3.75,
+        4,
+        4.25,
+        4.5,
+        4.75,
+        5,
+        5.25,
+        5.5,
+        5.75,
+        6,
+        6.25,
+        6.5,
+        6.75,
+        7,
+        7.25,
+        7.5,
+        7.75,
+        8,
+        8.25,
+        8.5,
+        8.75,
+        9,
+        9.25,
+        9.5,
+        9.75,
+        10,
+        10.25,
+        10.5,
+        10.75,
+        11,
+        11.25,
+        11.5,
+        11.75,
+        12,
+        12.25,
+        12.5,
+        12.75,
+        13,
+        13.25,
+        13.5,
+        13.75,
+        14,
+        14.25,
+        14.5,
+        14.75,
+        15,
+        15.25,
+        15.5,
+        15.75,
+        16,
+        16.25,
+        16.5,
+        16.75,
+        17,
+        17.25,
+        17.5,
+        17.75,
+        18,
+        18.25,
+        18.5,
+        18.75,
+        19,
+        19.25,
+        19.5,
+        19.75,
+        20,
+        20.25,
+        20.5,
+        20.75,
+        21,
+        21.25
+      ],
+      "steps": [
+        "Estimate the wave center in overlapping windows by maximizing agreement among radial profiles in different directions. Interpolate these centers in source-frame coordinates.",
+        "Sample toward image upper right, following the Figure 1C strip orientation. Average across a 13-pixel-wide band and stop at the supported envelope or usable image boundary.",
+        "Average displayed luminance across the strip. Preserve missing values and normalize once across the movie."
+      ],
+      "limit": "The fitted origin estimates wave symmetry. Pseudocolor luminance measures display contrast. The public movie covers 21.25 h of imaging; the published example spans 36 h.",
+      "sha256": "eb3719d0d0dcbf554f871087e6b815c859d0f19eb240d95528097b3f57772c0f",
+      "direction_xy": [
+        84,
+        -74
+      ]
+    },
+    {
+      "id": "tsiairis-2016",
+      "role": "library",
+      "reason": "No verified spatial source movie for the selected redraw. Resume source audit if a movie or image stack becomes available."
+    },
+    {
+      "id": "aulehla-2008-mutant",
+      "role": "axial",
+      "short": "Aulehla 2008",
+      "title": "A β-catenin gradient links the clock and wavefront systems in mouse embryo segmentation",
+      "doi": "10.1038/ncb1679",
+      "article": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7391962/",
+      "authors": [
+        "Alexander Aulehla",
+        "Winfried Wiegraebe",
+        "Valerie Baubet",
+        "Matthias B. Wahl",
+        "Chuxia Deng",
+        "Makoto Taketo",
+        "Mark Lewandoski",
+        "Olivier Pourquié"
+      ],
+      "journal": "Nature Cell Biology",
+      "movie": "Movie 2",
+      "source": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fncb1679/MediaObjects/41556_2008_BFncb1679_MOESM16_ESM.mov",
+      "filename": "mutant.mov",
+      "frames": 75,
+      "dimensions": [
+        519,
+        512
+      ],
+      "bar_pixels": 82,
+      "system": "Stabilized β-catenin mutant embryo",
+      "view": "Embryo imaging",
+      "panel": "The mutant embryo and kymograph are shown in Fig. 5b,d. The local curve was traced independently on Movie 2. The paper puts space horizontally and time vertically.",
+      "time_h": [
+        0.0,
+        0.16,
+        0.32,
+        0.49,
+        0.65,
+        0.81,
+        0.97,
+        1.13,
+        1.3,
+        1.46,
+        1.62,
+        1.78,
+        1.94,
+        2.11,
+        2.27,
+        2.43,
+        2.59,
+        2.75,
+        2.92,
+        3.08,
+        3.24,
+        3.4,
+        3.56,
+        3.73,
+        3.89,
+        4.05,
+        4.21,
+        4.38,
+        4.54,
+        4.7,
+        4.86,
+        5.02,
+        5.19,
+        5.35,
+        5.51,
+        5.67,
+        5.83,
+        6.0,
+        6.16,
+        6.32,
+        6.48,
+        6.64,
+        6.81,
+        6.97,
+        7.13,
+        7.29,
+        7.45,
+        7.62,
+        7.78,
+        7.94,
+        8.1,
+        8.26,
+        8.43,
+        8.59,
+        8.75,
+        8.91,
+        9.07,
+        9.24,
+        9.4,
+        9.56,
+        9.72,
+        9.88,
+        10.05,
+        10.21,
+        10.37,
+        10.53,
+        10.69,
+        10.86,
+        11.02,
+        11.18,
+        11.34,
+        11.51,
+        11.67,
+        11.83,
+        11.99
+      ],
+      "keyframes": [
+        0,
+        18,
+        37,
+        55,
+        74
+      ],
+      "path_xy": [
+        [
+          [
+            229.52,
+            411.37
+          ],
+          [
+            307.2,
+            388.41
+          ],
+          [
+            370.76,
+            259.53
+          ],
+          [
+            312.5,
+            178.32
+          ]
+        ],
+        [
+          [
+            245.41,
+            402.54
+          ],
+          [
+            324.86,
+            383.12
+          ],
+          [
+            367.23,
+            248.94
+          ],
+          [
+            312.5,
+            157.13
+          ]
+        ],
+        [
+          [
+            263.06,
+            384.88
+          ],
+          [
+            333.68,
+            379.59
+          ],
+          [
+            374.29,
+            256.0
+          ],
+          [
+            316.03,
+            135.94
+          ]
+        ],
+        [
+          [
+            277.19,
+            391.94
+          ],
+          [
+            356.63,
+            365.46
+          ],
+          [
+            386.65,
+            227.75
+          ],
+          [
+            317.79,
+            137.71
+          ]
+        ],
+        [
+          [
+            293.08,
+            391.94
+          ],
+          [
+            372.52,
+            365.46
+          ],
+          [
+            390.18,
+            220.69
+          ],
+          [
+            303.67,
+            127.12
+          ]
+        ]
+      ],
+      "steps": [
+        "P marks the visible tail tip in the final frame. The solid band shows tissue sampled in the current frame. The dashed P-side segment is blank in the kymograph, as are distances beyond the traced A end.",
+        "Register anterior structural features using translation and rotation. Trace the posterior outline and join it to the medial PSM curve. Sample to the traced anterior endpoint in each frame. The shared axis covers the longest observed distance from the fixed P reference.",
+        "Average green excess across 13 transverse pixels. Leave the 8 px rim margin and unsupported intervals missing. Use the embedded timestamps and 200 µm scale bar."
+      ],
+      "limit": "P is the visible tail outline in projection. A marks the anterior end of the traced corridor in each frame. Bending, registration uncertainty and the rim margin affect coverage. The arrow shows sampling from P toward A.",
+      "sha256": "60189039e909bbaaab1753d0e46db88411886e8214f836711c30ad3f0e4bcf32",
+      "paper_id": "aulehla-2008",
+      "video_id": "movie-2",
+      "final_tail_reference": {
+        "anterior_feature_window": [
+          205,
+          99,
+          275,
+          157
+        ],
+        "rim_frames": [
+          0,
+          5,
+          10,
+          15,
+          20,
+          25,
+          30,
+          35,
+          40,
+          45,
+          50,
+          55,
+          60,
+          65,
+          70,
+          74
+        ],
+        "rim_xy": [
+          [
+            221,
+            449
+          ],
+          [
+            226,
+            447
+          ],
+          [
+            231,
+            442
+          ],
+          [
+            237,
+            436
+          ],
+          [
+            242,
+            437
+          ],
+          [
+            249,
+            434
+          ],
+          [
+            255,
+            429
+          ],
+          [
+            262,
+            423
+          ],
+          [
+            268,
+            425
+          ],
+          [
+            274,
+            427
+          ],
+          [
+            280,
+            430
+          ],
+          [
+            285,
+            433
+          ],
+          [
+            289,
+            434
+          ],
+          [
+            293,
+            435
+          ],
+          [
+            296,
+            436
+          ],
+          [
+            298,
+            437
+          ]
+        ],
+        "posterior_inset_px": 8
+      }
+    },
+    {
+      "id": "simsek-2023",
+      "role": "axial",
+      "short": "Şimşek 2023",
+      "title": "Periodic inhibition of Erk activity drives sequential somite segmentation",
+      "doi": "10.1038/s41586-022-05527-x",
+      "article": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9846577/",
+      "authors": [
+        "M. Fethullah Şimşek",
+        "Angad Singh Chandel",
+        "Didar Saparov",
+        "Oriana Zinani",
+        "Nicholas Clason",
+        "Ertuğrul M. Özbudak"
+      ],
+      "journal": "Nature",
+      "reporter": "Her7-mVenus",
+      "gene": "her7",
+      "construct": "her7:Her7-mVenus fusion reporter",
+      "species": "Danio rerio",
+      "species_label": "Zebrafish",
+      "systems": [
+        "in vivo"
+      ],
+      "tissue": "Embryonic PSM",
+      "system": "Live double-reporter embryo",
+      "view": "Lateral view",
+      "temperature": "25 ± 0.7°C",
+      "video_id": "supp-video-1",
+      "movie": "Supplementary Video 1",
+      "filename": "supp-video-1.mp4",
+      "source": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41586-022-05527-x/MediaObjects/41586_2022_5527_MOESM4_ESM.mp4",
+      "sha256": "58b9e522ec27b97df578e2f6cf379e896402aeca252be9281442ca3e90e4fd4a",
+      "dimensions": [
+        1800,
+        1214
+      ],
+      "crop_xywh": [
+        900,
+        376,
+        900,
+        390
+      ],
+      "channel": "magenta",
+      "bar_um": 100,
+      "bar_pixels": 225,
+      "frames": 35,
+      "time_h": [
+        0.1,
+        0.2,
+        0.3,
+        0.4,
+        0.5,
+        0.6,
+        0.7,
+        0.8,
+        0.9,
+        1.0,
+        1.1,
+        1.2,
+        1.3,
+        1.4,
+        1.5,
+        1.6,
+        1.7,
+        1.8,
+        1.9,
+        2.0,
+        2.1,
+        2.2,
+        2.3,
+        2.4,
+        2.5,
+        2.6,
+        2.7,
+        2.8,
+        2.9,
+        3.0,
+        3.1,
+        3.2,
+        3.3,
+        3.4,
+        3.5
+      ],
+      "keyframes": [
+        0,
+        8,
+        17,
+        18,
+        19,
+        25,
+        31,
+        32,
+        34
+      ],
+      "path_xy": [
+        [
+          [
+            566,
+            256
+          ],
+          [
+            428,
+            132
+          ],
+          [
+            240,
+            150
+          ],
+          [
+            60,
+            220
+          ]
+        ],
+        [
+          [
+            564,
+            274
+          ],
+          [
+            412,
+            136
+          ],
+          [
+            240,
+            140
+          ],
+          [
+            60,
+            226
+          ]
+        ],
+        [
+          [
+            546,
+            262
+          ],
+          [
+            410,
+            154
+          ],
+          [
+            246,
+            132
+          ],
+          [
+            140,
+            190
+          ]
+        ],
+        [
+          [
+            546,
+            262
+          ],
+          [
+            410,
+            154
+          ],
+          [
+            246,
+            132
+          ],
+          [
+            140,
+            190
+          ]
+        ],
+        [
+          [
+            690,
+            282
+          ],
+          [
+            580,
+            212
+          ],
+          [
+            416,
+            146
+          ],
+          [
+            238,
+            154
+          ]
+        ],
+        [
+          [
+            682,
+            310
+          ],
+          [
+            570,
+            222
+          ],
+          [
+            418,
+            152
+          ],
+          [
+            274,
+            156
+          ]
+        ],
+        [
+          [
+            664,
+            296
+          ],
+          [
+            522,
+            218
+          ],
+          [
+            382,
+            154
+          ],
+          [
+            252,
+            144
+          ]
+        ],
+        [
+          [
+            704,
+            318
+          ],
+          [
+            616,
+            256
+          ],
+          [
+            466,
+            194
+          ],
+          [
+            336,
+            156
+          ]
+        ],
+        [
+          [
+            710,
+            322
+          ],
+          [
+            616,
+            262
+          ],
+          [
+            484,
+            200
+          ],
+          [
+            358,
+            156
+          ]
+        ]
+      ],
+      "panel": "Supplementary Video 1 accompanies the simultaneous Her7 and ERK imaging in Fig. 1. This local axial profile uses the Her7 display panel only. No author ROI or numerical kymograph is claimed.",
+      "signal_note": "Mean red and blue display levels in the isolated magenta Her7 panel",
+      "polarity_note": "Posteriorward to anteriorward along the lateral PSM, using visible somites in the matched brightfield panel.",
+      "steps": [
+        "Trace the lateral PSM with the matched brightfield panel on nine keyframes, including consecutive frames at both field changes (18/19 and 31/32). Transfer the strip to the Her7 crop.",
+        "Interpolate the curvature between keyframes. Every pixel of arc length averages 13 transverse samples of magenta display intensity.",
+        "Read movie time from the overlay and scale from the 100 µm bar. Normalize once across the finite matrix."
+      ],
+      "limit": "P/A endpoints are regional. At frames 19 and 32 the displayed field shifts. Distances refer to each traced strip; interpreting changes across those cuts requires care. Intensities are in display units."
+    }
+  ]
+}

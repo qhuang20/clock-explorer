@@ -1,0 +1,179 @@
+.tutorial {
+  max-width: 1060px;
+  margin-inline: auto;
+}
+.tutorial .hero {
+  padding-bottom: 24px;
+}
+.tutorial .hero .intro {
+  max-width: 66ch;
+}
+.tutorialCase {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: clamp(20px, 3.5vw, 36px);
+  margin-bottom: 22px;
+}
+.tutorialCase h2 {
+  font-size: clamp(21px, 2.4vw, 29px);
+  line-height: 1.22;
+  letter-spacing: -0.025em;
+  margin: 0 0 10px;
+}
+.tutorialCase p {
+  max-width: 82ch;
+  color: var(--muted);
+  margin: 0 0 12px;
+}
+.tutorialCase .caseMeta {
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.caseMeta b {
+  color: #be4c18;
+}
+.casePair {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: clamp(16px, 3vw, 32px);
+  border-top: 1px solid var(--line);
+  padding-top: 18px;
+  margin-top: 19px;
+}
+.casePair figure {
+  margin: 0;
+  min-width: 0;
+}
+.casePair h3 {
+  font-size: 16px;
+  margin: 0 0 10px;
+}
+.movieStage,
+.plotStage {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4/3;
+  display: grid;
+  place-items: center;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.movieStage {
+  background: #101115;
+}
+.movieStage video,
+.movieStage svg,
+.plotStage img {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  inset: 0;
+  object-fit: contain;
+}
+.movieStage svg {
+  pointer-events: none;
+}
+.movieStage svg[hidden],
+.tutorial [hidden] {
+  display: none;
+}
+.casePair figcaption,
+.batchFigure figcaption,
+.mediaStatus {
+  font-size: 14px;
+  color: var(--muted);
+  padding-top: 10px;
+}
+.movieSources {
+  margin-top: 9px;
+}
+.casePair .videoAttribution {
+  margin: 6px 0 0;
+}
+.movieTools,
+.scrubber {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-top: 10px;
+  font-size: 13px;
+}
+.movieTools label {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+.playToggle {
+  padding: 4px 13px;
+  border: 1px solid var(--line);
+  border-radius: 7px;
+  background: var(--light);
+  color: var(--accent);
+}
+.scrubber {
+  color: var(--muted);
+  flex-wrap: wrap;
+  gap: 4px 12px;
+}
+.scrubber input {
+  flex: 1 1 88px;
+  min-width: 68px;
+}
+.tutorial input {
+  accent-color: var(--accent);
+}
+.tutorialCase footer {
+  border-top: 1px solid var(--line);
+  margin-top: 18px;
+  padding-top: 14px;
+}
+.tutorialCase .links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  font-size: 14px;
+}
+.skillList {
+  display: grid;
+  grid-template-columns: minmax(125px, 1fr) 4fr;
+  margin: 18px 0 0;
+}
+.skillList dt,
+.skillList dd {
+  border-top: 1px solid var(--line);
+  padding: 9px 0;
+  margin: 0;
+}
+.skillList dt {
+  font-weight: 600;
+}
+.skillList code {
+  display: block;
+  color: var(--muted);
+  font-size: 12px;
+  overflow-wrap: anywhere;
+}
+.batch .caseMeta {
+  color: var(--accent);
+}
+.batchFigure {
+  margin: 0;
+}
+.batch img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-top: 20px;
+}
+@media (max-width: 700px) {
+  .casePair {
+    grid-template-columns: 1fr;
+  }
+  .skillList {
+    grid-template-columns: minmax(92px, 1fr) 2fr;
+    gap: 0 10px;
+  }
+}

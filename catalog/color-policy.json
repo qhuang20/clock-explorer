@@ -1,0 +1,12 @@
+{
+  "experimental_intensity": "OrRd",
+  "synthetic_intensity": "Blues",
+  "phase": "twilight_shifted",
+  "intensity_direction": {
+    "experimental": "low values pale cream; high values dark red",
+    "synthetic": "low values light; high values dark blue"
+  },
+  "no_data_color": "#f1f3f6",
+  "note": "Color distinguishes experimental versus synthetic intensity; retain explicit labels. No synthetic dataset is currently connected.",
+  "colorbar_direction": "low values at bottom; high values at top"
+}

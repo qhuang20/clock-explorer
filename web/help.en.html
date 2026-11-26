@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="brand/icon.svg?v=clock" type="image/svg+xml" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Help · Clock Explorer</title>
+    <link rel="stylesheet" href="assets/site.css" />
+  </head>
+  <body data-page="help">
+    <div id="siteHeader"></div>
+    <script src="assets/header.js"></script>
+    <main class="helpMain">
+      <section class="hero">
+        <div>
+          <p class="eyebrow">HELP &amp; METHODS</p>
+          <h1>Help</h1>
+        </div>
+      </section>
+      <div class="helpContent">
+        <article class="planCard">
+          <h3>Open the explorer</h3>
+          <p>
+            Open the shared website, or follow the repository README to build
+            and start a local copy.
+          </p>
+        </article>
+        <article class="planCard">
+          <h3>Compare kymographs</h3>
+          <p>
+            Cards are grouped by species and ordered by paper year. Open Figure
+            & sampling for reporter, calibration, provenance and figure
+            variants. The gallery shows each dataset's full extracted range,
+            with its own time axis.
+          </p>
+        </article>
+        <article class="planCard" id="data-methods">
+          <h3>Data and rendering methods</h3>
+          <p>
+            Each complete dataset is independently min–max normalized.
+            Orange-red runs from light (low) to dark (high); gray marks missing
+            or masked values. Phase plots retain cyclic colors. Zero is the
+            sample's minimum, not zero fluorescence; colors do not compare
+            absolute expression across samples.
+          </p>
+          <p>
+            Author matrices, video extraction, binned tracks and color
+            reconstruction are different data sources. Grayscale movies retain
+            display intensity; pseudocolor reconstruction only approximates a
+            color-scale index and may exclude pixels that cannot be matched.
+            Neither recovers raw fluorescence. Open each card's Figure &amp;
+            sampling for its ROI, registration, channel, calibration and any
+            smoothing or derived variants.
+          </p>
+          <p>
+            Each plot retains its own coordinates, units and extracted time
+            range. This may cover only a subset of the source movie; check the
+            card's frame and time summary. Missing values remain missing.
+          </p>
+          <div class="links">
+            <a href="figures/comparison/all-paper-full.svg" download>SVG ↓</a>
+            <a href="figures/comparison/all-paper-full.png" download>PNG ↓</a>
+            <a href="data/comparison.json" download>Processing records ↓</a>
+            <a href="data/temporal-coverage.json" download
+              >Frame coverage records ↓</a
+            >
+          </div>
+        </article>
+        <article class="planCard">
+          <h3>Videos and source ranges</h3>
+          <p>
+            Choose Videos in a paper dialog. Only the selected movie loads when
+            you press Play. Speed, seek and available ROI overlays are
+            supported. Playback time is not experimental time. Range & source
+            files lets you crop stored time points without rescaling colors or
+            filling missing values.
+          </p>
+        </article>
+        <article class="planCard">
+          <h3>Library and local notes</h3>
+          <p>
+            Redrawn means the paper has a comparison dataset. Need data means no
+            redraw is available yet; Reference identifies background/method
+            papers. Notes stay in this browser and origin. Export JSON before
+            changing browser or website address.
+          </p>
+        </article>
+        <article class="planCard">
+          <h3>Sources</h3>
+          <p>
+            Source links, optional media and missing local assets require an
+            internet connection. Original media and data retain their own
+            licenses.
+          </p>
+        </article>
+      </div>
+    </main>
+    <!-- site-footer -->
+  </body>
+</html>

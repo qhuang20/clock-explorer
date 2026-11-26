@@ -1,0 +1,18 @@
+{
+  "paper_id": "falk-2022",
+  "doi": "10.1242/dev.200083",
+  "scope": "Movie 4 sampling audit only",
+  "source": "https://movie.biologists.com/video/10.1242/dev.200083/video-4",
+  "source_sha256": "45b74345829b9422b457781da633560ec3ef5682184927a6d93ff2471414309a",
+  "panels": {
+    "2A": "Movie 4 views the same embryo from three angles. Match the top-left posterior view to the bottom row of 2A.",
+    "2E/F": "Left diagram in E depicts two surface paths from proximal to the two distal ends. F uses another representative embryo. Proximal is central, left distal is above, right distal below.",
+    "5A/B": "The corresponding three-dimensional surface spline geometry is illustrated directly. Movie 12 shows the overlaid author path."
+  },
+  "figure_urls": [
+    "https://pmc-oa-opendata.s3.amazonaws.com/PMC9340547.1/develop-149-200083-g2.jpg",
+    "https://pmc-oa-opendata.s3.amazonaws.com/PMC9340547.1/develop-149-200083-g5.jpg",
+    "https://movie.biologists.com/video/10.1242/dev.200083/video-12"
+  ],
+  "limitations": "A maximum-intensity projection flattened through depth cannot reconstruct the authors’ two 3D arc lengths or spherical sampling neighborhoods. Movie 4 includes an oxygen switch at 12:30 h. No card generated."
+}

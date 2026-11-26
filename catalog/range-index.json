@@ -1,0 +1,62 @@
+{
+  "chhabra-2026": {
+    "paper": "chhabra-2026",
+    "script": "data/range-explorer/chhabra-2026.js",
+    "title": "Her7–mVenus"
+  },
+  "lauschke-2013": {
+    "paper": "lauschke-2013",
+    "script": "data/range-explorer/lauschke-2013.js",
+    "title": "LuVeLu"
+  },
+  "sonnen-2018": {
+    "paper": "sonnen-2018",
+    "script": "data/range-explorer/sonnen-2018.js",
+    "title": "Axin2T2A"
+  },
+  "delaune-2012": {
+    "paper": "delaune-2012",
+    "script": "data/range-explorer/delaune-2012.js",
+    "title": "Her1–Venus"
+  },
+  "yaman-2023": {
+    "paper": "yaman-2023",
+    "script": "data/range-explorer/yaman-2023.js",
+    "title": "Author example"
+  },
+  "rohde-2024": {
+    "paper": "rohde-2024",
+    "script": "data/range-explorer/rohde-2024.js",
+    "title": "Her1–YFP"
+  },
+  "sanaki-2022": {
+    "paper": "sanaki-2022",
+    "script": "data/range-explorer/sanaki-2022.js",
+    "title": "HES7–luciferase"
+  },
+  "miao-2023": {
+    "paper": "miao-2023",
+    "script": "data/range-explorer/miao-2023.js",
+    "title": "HES7 / MESP2 · composite video"
+  },
+  "miao-2023-segmentoid": {
+    "paper": "miao-2023",
+    "script": "data/range-explorer/miao-2023-segmentoid.js",
+    "title": "HES7 / UNCX"
+  },
+  "masamizu-2006": {
+    "paper": "masamizu-2006",
+    "script": "data/range-explorer/masamizu-2006.js",
+    "title": "Hes1–Ub1–Luc"
+  },
+  "sonnen-2018-embryo": {
+    "paper": "sonnen-2018",
+    "script": "data/range-explorer/sonnen-2018-embryo.js",
+    "title": "Axin2T2A"
+  },
+  "sonnen-2018-microfluidic": {
+    "paper": "sonnen-2018",
+    "script": "data/range-explorer/sonnen-2018-microfluidic.js",
+    "title": "LuVeLu"
+  }
+}

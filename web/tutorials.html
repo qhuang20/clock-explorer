@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>From reporter movie to kymograph · Clock Explorer</title>
+    <link rel="icon" href="brand/icon.svg?v=clock" type="image/svg+xml" />
+    <link rel="stylesheet" href="assets/site.css" />
+    <link rel="stylesheet" href="assets/tutorial.css?v=2" />
+  </head>
+  <body data-page="tutorials">
+    <div id="siteHeader"></div>
+    <script src="assets/header.js"></script>
+    <main class="tutorial">
+      <header class="hero">
+        <div>
+          <p class="eyebrow">TUTORIALS</p>
+          <h1>From reporter movie to kymograph</h1>
+          <p class="intro">
+            Play the zebrafish embryo movie to see how sampling along its
+            anterior–posterior axis produces one kymograph column per frame.
+          </p>
+        </div>
+      </header>
+      <section class="tutorialCase" id="workflow">
+        <h2>How agents use the five project skills</h2>
+        <p>
+          An agent is responsible for a decision or a handoff. A skill is a
+          project guide it can follow. The search and source-audit skills
+          identify a usable reporter movie. The specimen geometry determines
+          which sampling skill to use. The UI skill pairs the resulting
+          kymograph with its video and sampling region (ROI).
+        </p>
+        <dl class="skillList">
+          <dt>Literature search</dt>
+          <dd>
+            Find reporter movies and check for existing cards.<code
+              >kymograph-literature-search</code
+            >
+          </dd>
+          <dt>Source audit</dt>
+          <dd>
+            Match a movie to its specimen, reporter and paper panel. Record
+            timing and scale.<code>kymograph-source-audit</code>
+          </dd>
+          <dt>Axial sampling</dt>
+          <dd>
+            Save a band along the anatomical axis.<code>kymograph-axial</code>
+          </dd>
+          <dt>Radial sampling</dt>
+          <dd>
+            Save a center, ray and valid outer extent for each frame.<code
+              >kymograph-radial</code
+            >
+          </dd>
+          <dt>Card assembly</dt>
+          <dd>
+            Pair the verified matrix with its source video and synchronized
+            ROI.<code>ui-card</code>
+          </dd>
+        </dl>
+      </section>
+      <section class="tutorialCase batch">
+        <h2>Proposed batch workflow</h2>
+        <figure class="batchFigure">
+          <a
+            href="assets/batch-workflow.png?v=0857867b"
+            aria-label="Open full-size proposed batch orchestration diagram"
+            ><img
+              src="assets/batch-workflow.png?v=0857867b"
+              alt="Proposed workflow. Paper audits branch into axial or radial movie jobs. A program recomputes each result. Passing jobs go to the UI card agent."
+          /></a>
+          <figcaption>
+            Proposed multi-agent workflow for kymograph extraction and
+            validation. Agents audit papers in parallel and sample each movie
+            independently. A program verifies each result before card assembly.
+          </figcaption>
+        </figure>
+      </section>
+      <article
+        class="tutorialCase"
+        id="zebrafish-example"
+        data-case="keseroglu-2023-wt-her1-her7-venus"
+      >
+        <header>
+          <p class="caseMeta"><b>Zebrafish</b> · Keseroğlu 2023 · Embryo 1</p>
+          <h2>Axial sampling in a zebrafish embryo</h2>
+          <p>
+            Follow segmentation-clock waves in a wild-type-background embryo
+            imaged at 26°C. Her1–Venus and Her7–Venus share one fluorescence
+            channel.
+          </p>
+        </header>
+        <div class="casePair">
+          <figure>
+            <h3>Video &amp; sampling ROI</h3>
+            <div class="movieStage">
+              <video
+                playsinline
+                muted
+                preload="none"
+                aria-label="Keseroğlu 2023 · Embryo 1 · Combined Venus fluorescence"
+              ></video
+              ><svg aria-hidden="true"></svg>
+            </div>
+            <div class="movieTools">
+              <button class="playToggle" type="button" disabled>Play</button
+              ><label
+                ><input class="roiToggle" type="checkbox" checked /> Show
+                sampling ROI</label
+              >
+            </div>
+            <label class="scrubber"
+              ><span class="frameTime">85 frames · 5.00–12.00 h</span
+              ><input
+                type="range"
+                min="0"
+                step="1"
+                value="0"
+                aria-label="Select acquisition frame"
+                disabled
+            /></label>
+            <p role="status" class="mediaStatus">Loading sampling ROI…</p>
+            <figcaption>
+              A follows an anterior somite. P marks the common distance zero at
+              the final-frame caudal bud. The solid band shows sampled tissue. A
+              dashed extension marks unsampled distance toward P.
+            </figcaption>
+            <div class="links movieSources">
+              <a
+                class="sourceMovieLink"
+                href="https://www.ebi.ac.uk/biostudies/studies/S-BSST1156"
+                target="_blank"
+                rel="noopener noreferrer"
+                hidden
+                >Source data ↗</a
+              >
+              <a
+                class="videoLicense"
+                target="_blank"
+                rel="noopener noreferrer"
+                hidden
+              ></a>
+            </div>
+            <p class="videoAttribution" hidden></p>
+          </figure>
+          <figure>
+            <h3>Kymograph</h3>
+            <a
+              class="plotStage"
+              href="figures/keseroglu-2023-wt-her1-her7-venus/plot.svg"
+              aria-label="Open the full-size combined Venus kymograph"
+              ><img
+                src="figures/keseroglu-2023-wt-her1-her7-venus/plot.svg"
+                alt="Combined Her1–Venus and Her7–Venus intensity by acquisition time and distance from P in micrometers. A is at the top and P at the bottom."
+            /></a>
+            <figcaption>
+              Average the combined Venus signal across the strip at each axial
+              position. Each frame yields one column. Gray marks unsampled
+              positions.
+            </figcaption>
+          </figure>
+        </div>
+        <footer>
+          <p>
+            The video and kymograph show the same 85 of 361 acquired frames,
+            covering 5.00–12.00 h from the start of imaging.
+          </p>
+          <div class="links">
+            <a
+              href="index.html#view=kymographs&amp;method=keseroglu-2023-wt-her1-her7-venus"
+              >Figure &amp; sampling ↗</a
+            ><a href="https://doi.org/10.1038/s41467-023-42220-7">Paper ↗</a>
+          </div>
+        </footer>
+      </article>
+      <section class="tutorialCase">
+        <h2>Check the extraction</h2>
+        <p>
+          The sampling record documents the source frame indices, acquisition
+          timestamps, geometry and intensity checks against the original ND2
+          recording.
+        </p>
+        <div class="links">
+          <a href="data/derived/keseroglu-2023-wt-her1-her7-venus/audit.json"
+            >Sampling record ↗</a
+          >
+        </div>
+      </section>
+    </main>
+    <!-- site-footer -->
+    <script src="data/asset-map.js"></script>
+    <script src="assets/tutorial-cases.js?v=3"></script>
+    <script src="assets/tutorial.js?v=3"></script>
+  </body>
+</html>

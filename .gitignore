@@ -1,0 +1,28 @@
+# Dependencies, generated site, and optional research downloads
+node_modules/
+dist/
+assets/*
+!assets/README.md
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.plot-cache/
+mpl-cache/
+# Previous research workspace; retained locally, never pushed
+work/
+outputs/
+.wrangler/
+PROJECT.txt
+# Local state and secrets
+.env
+.env.*
+!.env.example
+.dev.vars
+.dev.vars.*
+.DS_Store
+*.log
+*.partial
+coverage/
+.ruff_cache/
+.local/

@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="color-scheme" content="light" />
+    <link rel="icon" href="brand/icon.svg?v=clock" type="image/svg+xml" />
+    <title>Clock Explorer</title>
+
+    <link rel="stylesheet" href="assets/site.css" />
+  </head>
+  <body data-page="app">
+    <div id="siteHeader"></div>
+    <script src="assets/header.js"></script>
+    <main>
+      <section class="hero">
+        <div>
+          <p class="eyebrow">RESEARCH TOOL</p>
+          <h1>Segmentation clock</h1>
+          <p class="intro">
+            Explore kymographs from mouse, zebrafish, medaka, chicken and human
+            stem-cell models. Compare oscillations, traveling waves and gene
+            expression patterns as somites form.
+          </p>
+        </div>
+        <span class="audit"><span>Updated</span> <span id="date"></span></span>
+      </section>
+      <section
+        id="stats"
+        class="stats"
+        hidden
+        aria-label="Literature overview"
+      ></section>
+      <section id="kymographs" aria-label="Kymograph gallery"></section>
+      <section id="library" hidden>
+        <p class="libraryScope">
+          Counts are per paper. Redrawn papers appear in Kymographs; the others
+          do not yet.
+        </p>
+        <div class="toolbar">
+          <div class="searchWrap">
+            <span aria-hidden="true">⌕</span
+            ><input
+              id="search"
+              aria-label="Search papers"
+              type="search"
+              placeholder="Search author, reporter, DOI…"
+              autocomplete="off"
+            />
+          </div>
+          <div class="actions">
+            <div class="segmented" aria-label="Display mode">
+              <button id="tableView" aria-pressed="true">Table</button
+              ><button id="cardsView" aria-pressed="false">Cards</button>
+            </div>
+            <details class="exportMenu">
+              <summary>Export ↓</summary>
+              <div>
+                <button id="exportJson">JSON</button
+                ><button id="exportCsv">CSV</button>
+              </div>
+            </details>
+          </div>
+        </div>
+        <div class="filterbar">
+          <div id="filterSelects"></div>
+          <button id="reset" class="textbtn">Reset</button>
+        </div>
+        <div class="resultsMeta">
+          <p id="resultCount" aria-live="polite"></p>
+          <span>Select 2–3 papers to compare</span>
+        </div>
+        <div id="results"></div>
+      </section>
+    </main>
+    <div id="compareBar" class="comparebar" hidden>
+      <div>
+        <strong id="selectionCount"></strong><span id="selectionNames"></span>
+      </div>
+      <button id="clearSelection">Clear</button
+      ><button id="compare" class="primary">Compare →</button>
+    </div>
+    <dialog id="detailDialog" aria-labelledby="detailTitle">
+      <div class="dialogTop">
+        <span>Paper details</span
+        ><button class="closeDialog" aria-label="Close details">✕</button>
+      </div>
+      <article id="detail"></article>
+    </dialog>
+    <dialog id="compareDialog" aria-labelledby="compareTitle">
+      <div class="dialogTop">
+        <h2 id="compareTitle">Side-by-side comparison</h2>
+        <button class="closeDialog" aria-label="Close comparison">✕</button>
+      </div>
+      <div id="comparison"></div>
+    </dialog>
+    <div
+      id="sourceMethodTooltip"
+      class="sourceMethodTooltip"
+      role="tooltip"
+      hidden
+    ></div>
+    <div id="toast" role="status" aria-live="polite"></div>
+    <!-- site-footer -->
+
+    <script src="data/data.js"></script>
+    <script src="data/videos.js"></script>
+    <script src="data/range-explorer/index.js"></script>
+    <script src="data/source-archive/index.js"></script>
+    <script src="data/asset-map.js"></script>
+    <script src="assets/app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,4 @@
+interface:
+  display_name: "ui-card"
+  short_description: "Maintain Clock Explorer cards and their detail dialogs"
+  default_prompt: "Use $ui-card to update a Clock Explorer card or its detail dialog within the requested scope, following the current shared guidelines and adapting the layout to the dataset."

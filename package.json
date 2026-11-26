@@ -1,0 +1,31 @@
+{
+  "name": "segmentation-kymograph-explorer",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "description": "Explore and compare segmentation-clock kymographs across species.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/qhuang20/segmentation-kymograph-explorer.git"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "python3 scripts/build.py",
+    "start": "python3 scripts/serve.py",
+    "dev": "python3 scripts/build.py --no-minify --local-media && python3 scripts/serve.py --local-media",
+    "check": "python3 scripts/check.py && npm run lint",
+    "test": "node --test tests/*.test.js && python3 -m unittest discover -s tests -p \"test_*.py\"",
+    "format": "prettier --write web scripts/*.js tests/*.js docs *.md package.json .github",
+    "format:check": "prettier --check web scripts/*.js tests/*.js docs *.md package.json .github",
+    "data:fetch": "python3 scripts/fetch_assets.py",
+    "lint": "eslint --config scripts/eslint.config.js web/src"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2",
+    "eslint": "10.15.0",
+    "prettier": "3.10.1"
+  }
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "kymograph-axial"
+  short_description: "Extract AP-axis kymographs with reviewed anatomical landmarks"
+  default_prompt: "Use $kymograph-axial to identify posterior and anterior landmarks, review a straight AP sampling strip, and extract a calibrated kymograph with ROI overlays."

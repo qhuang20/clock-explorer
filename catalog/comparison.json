@@ -1,0 +1,2075 @@
+{
+  "checked": "2026-11-09",
+  "color_encoding": {
+    "experimental_intensity": "OrRd",
+    "synthetic_intensity": "Blues",
+    "phase": "twilight_shifted",
+    "intensity_direction": {
+      "experimental": "low values pale cream; high values dark red",
+      "synthetic": "low values light; high values dark blue"
+    },
+    "no_data_color": "#f1f3f6",
+    "note": "Color distinguishes experimental versus synthetic intensity; retain explicit labels. No synthetic dataset is currently connected.",
+    "colorbar_direction": "low values at bottom; high values at top"
+  },
+  "datasets": [
+    {
+      "id": "chhabra-2026-22c",
+      "paper_id": "chhabra-2026",
+      "short": "Chhabra 2026",
+      "reporter": "Her7–mVenus",
+      "kind": "matrix",
+      "label": "Processed matrix",
+      "source_url": "https://github.com/victoria-mochulska/cycles_upon_cycles",
+      "data_url": "https://github.com/victoria-mochulska/cycles_upon_cycles/blob/c8942dd1aeeea790e2cb141662b9ef235756d2c4/2026_PNAS_CyclesUponCycles_intensityPhaseKymographs/batch1_chronic_22C/intensityKymo/Kymo_20210301_P1.tif",
+      "sample": "22°C · 20210301 P1",
+      "system_label": "Medaka tail explant",
+      "card_context": {
+        "condition": "22°C",
+        "sample": "20210301 P1"
+      },
+      "origin": "First stored row",
+      "origin_short": "Stored position",
+      "position_unit": "µm",
+      "input": "data/samples/chhabra-2026-22c/Kymo_20210301_P1.tif",
+      "input_sha256": "4eb6442d32b110ed421d1bf898d3ea0017ec0c11af3e30e89b38172de20feed0",
+      "shape_space_time": [
+        321,
+        127
+      ],
+      "time_range_h": [
+        0,
+        21.0
+      ],
+      "spatial_range": [
+        0,
+        441.59999999999997
+      ],
+      "spatial_range_um": [
+        0,
+        441.59999999999997
+      ],
+      "missing_values": 0,
+      "normalization": {
+        "method": "linear min-max of finite values in the complete sample",
+        "min": 5480.0,
+        "max": 25810.0
+      },
+      "provenance": "data/derived/chhabra-2026-22c/provenance.json",
+      "sampling_method": "Display the stored intensity TIFF at 10 min per column and 1.38 µm per row. Preserve its ordering and normalize over the complete sample.",
+      "common_preview": "figures/comparison/chhabra-2026-22c-common.svg",
+      "full_preview": "figures/comparison/chhabra-2026-22c-full.svg"
+    },
+    {
+      "id": "chhabra-2026",
+      "short": "Chhabra 2026",
+      "reporter": "Her7–mVenus",
+      "kind": "matrix",
+      "label": "Processed matrix",
+      "source_url": "https://github.com/victoria-mochulska/cycles_upon_cycles",
+      "origin": "First stored row",
+      "origin_short": "Stored position",
+      "sample": "27°C · 20200815 P1",
+      "system_label": "Medaka tail explant",
+      "position_unit": "µm",
+      "input": "data/samples/chhabra-2026/Kymo_20200815_P1.tif",
+      "input_sha256": "5d615be397563026e89acf6c030eef61980256ba5686a41a52633bfd4108ea1b",
+      "shape_space_time": [
+        279,
+        119
+      ],
+      "time_range_h": [
+        0.0,
+        19.666666666666668
+      ],
+      "spatial_range": [
+        0.0,
+        383.64
+      ],
+      "missing_values": 0,
+      "normalization": {
+        "method": "linear min-max of finite values in the complete sample",
+        "min": 6561.0,
+        "max": 33060.0
+      },
+      "spatial_range_um": [
+        0.0,
+        383.64
+      ],
+      "common_preview": "figures/comparison/chhabra-2026-common.svg",
+      "full_preview": "figures/comparison/chhabra-2026-full.svg"
+    },
+    {
+      "id": "chhabra-2026-32c",
+      "paper_id": "chhabra-2026",
+      "short": "Chhabra 2026",
+      "reporter": "Her7–mVenus",
+      "kind": "matrix",
+      "label": "Processed matrix",
+      "source_url": "https://github.com/victoria-mochulska/cycles_upon_cycles",
+      "data_url": "https://github.com/victoria-mochulska/cycles_upon_cycles/blob/c8942dd1aeeea790e2cb141662b9ef235756d2c4/2026_PNAS_CyclesUponCycles_intensityPhaseKymographs/batch1_chronic_32C/intensityKymo/Kymo_20220428_P1.tif",
+      "sample": "32°C · 20220428 P1",
+      "system_label": "Medaka tail explant",
+      "card_context": {
+        "condition": "32°C",
+        "sample": "20220428 P1"
+      },
+      "origin": "First stored row",
+      "origin_short": "Stored position",
+      "position_unit": "µm",
+      "input": "data/samples/chhabra-2026-32c/Kymo_20220428_P1.tif",
+      "input_sha256": "c81e16ccca979a6957a480057f6b1d509a6b098fed3091aff75ae93fd60e58b7",
+      "shape_space_time": [
+        239,
+        188
+      ],
+      "time_range_h": [
+        0,
+        15.583333333333334
+      ],
+      "spatial_range": [
+        0,
+        328.44
+      ],
+      "spatial_range_um": [
+        0,
+        328.44
+      ],
+      "missing_values": 0,
+      "normalization": {
+        "method": "linear min-max of finite values in the complete sample",
+        "min": 4524.0,
+        "max": 23856.0
+      },
+      "provenance": "data/derived/chhabra-2026-32c/provenance.json",
+      "sampling_method": "Display the stored intensity TIFF at 5 min per column and 1.38 µm per row. Preserve its ordering and normalize over the complete sample.",
+      "common_preview": "figures/comparison/chhabra-2026-32c-common.svg",
+      "full_preview": "figures/comparison/chhabra-2026-32c-full.svg"
+    },
+    {
+      "id": "lauschke-2013",
+      "short": "Lauschke 2013",
+      "reporter": "LuVeLu",
+      "kind": "video",
+      "label": "Wavefront-fitted radial ROI",
+      "source_url": "https://www.nature.com/articles/nature11804",
+      "origin": "Shared wavefront center near dark core + BF translation → periphery",
+      "origin_short": "Fitted wavefront center → periphery",
+      "sample": "video5",
+      "position_unit": "µm",
+      "roi": "figures/lauschke-2013/video5-wavefront-roi.png",
+      "input": "data/derived/lauschke-2013/video5-wavefront-comparison.npz",
+      "input_sha256": "0b065769a0541758cacdbc82f37e67250c42c9b4aeb2c8074d30da0e16b83958",
+      "shape_space_time": [
+        401,
+        61
+      ],
+      "time_range_h": [
+        0.0,
+        10.0
+      ],
+      "spatial_range": [
+        0.0,
+        380.9523809523809
+      ],
+      "missing_values": 1321,
+      "normalization": {
+        "method": "linear min-max of finite values in the complete sample",
+        "min": 0.07465088504110212,
+        "max": 164.25023392207677
+      },
+      "spatial_range_um": [
+        0.0,
+        380.9523809523809
+      ],
+      "common_preview": "figures/comparison/lauschke-2013-common.svg",
+      "full_preview": "figures/comparison/lauschke-2013-full.svg",
+      "axis_label": "Distance from fitted center (µm)",
+      "roi_note": "The primary uses a shared wavefront center near the dark core, sampled outward at 45° with a 20 px strip. Contours support 1.67–9.17 h across 13 frames; other frames continue by BF translation. This is not an exact author ROI or a validated biological pacemaker.",
+      "geometry_version": "video5-dark-core-wavefront-v1",
+      "system_label": "Segmenting mPSM",
+      "card_title": "LuVeLu",
+      "reporter_note": "LuVeLu video display values · wavefront-fit sampling",
+      "signal_label": "Relative display intensity",
+      "provenance": "data/derived/lauschke-2013/video5-wavefront-center.json"
+    },
+    {
+      "id": "sonnen-2018",
+      "short": "Sonnen 2018",
+      "reporter": "Axin2T2A",
+      "kind": "video",
+      "label": "Fixed final-frame reference",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5847172/",
+      "origin": "Distance from the fixed final-frame inner P-side reference toward the supported periphery",
+      "origin_short": "Fixed final P-side reference → periphery",
+      "sample": "Movie S2",
+      "position_unit": "µm",
+      "roi": "figures/sonnen-2018/s2-final-reference/roi.png",
+      "input": "data/derived/sonnen-2018/s2-smoothed/kymograph.npz",
+      "input_sha256": "f3996a42fd6e749175fc6e22d1d3e1b43aed7e683ad1f9e07a98c0945aa2c658",
+      "shape_space_time": [
+        524,
+        155
+      ],
+      "time_range_h": [
+        0.0,
+        25.69
+      ],
+      "spatial_range": [
+        0.0,
+        377.15020460900445
+      ],
+      "missing_values": 9178,
+      "normalization": {
+        "method": "linear display scale from finite values in the complete unsmoothed strip",
+        "min": 38.054942933777404,
+        "max": 252.0622838290829
+      },
+      "spatial_range_um": [
+        0.0,
+        377.15020460900445
+      ],
+      "common_preview": "figures/sonnen-2018/s2-smoothed/kymograph-common.svg",
+      "full_preview": "figures/sonnen-2018/s2-smoothed/kymograph.svg",
+      "axis_label": "Distance from fixed P reference (approx. µm)",
+      "signal_label": "Relative display intensity",
+      "spatial_scale_approximate": true,
+      "reporter_note": "Fluorescence display movie · Exploratory strip",
+      "roi_note": "P is the last-frame inner reference, fixed in registered coordinates. Its source-movie marker follows the saved specimen translations. E marks the last full-width supported position along the outward ray.",
+      "provenance": "data/derived/sonnen-2018/s2-smoothed/provenance.json",
+      "position_increases_up": true,
+      "geometry_version": "sonnen-s2-final-reference-v1"
+    },
+    {
+      "id": "delaune-2012",
+      "short": "Delaune 2012",
+      "reporter": "Her1–Venus",
+      "kind": "video",
+      "label": "Video-derived ROI · fixed image strip",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/3500528/bin/NIHMS417414-supplement-04.mov",
+      "data_url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/3500528/bin/NIHMS417414-supplement-04.mov",
+      "position_unit": "video px",
+      "native_space_only": true,
+      "axis_label": "Image Y (video px)",
+      "origin": "Absolute image Y; anterior toward posterior; not tissue registered",
+      "origin_short": "Fixed image coordinates",
+      "sample": "Movie S1 · wild type",
+      "roi": "figures/delaune-2012/roi-overlay.jpg",
+      "provenance": "data/derived/delaune-2012/provenance.json",
+      "roi_note": "First, middle and last S1 frames; orange box marks the fixed 120 px strip. Growth, drift and out-of-plane motion are not corrected.",
+      "coverage_note": "24 frames · 4 min / frame · 1.53 h",
+      "source_label": "Video extraction",
+      "input": "data/derived/delaune-2012/movie-s1-kymograph.npz",
+      "input_sha256": "7df839b8670fe4b0643064497005541b50f2a1d9bf4432dc3a28895c7a7fae18",
+      "shape_space_time": [
+        671,
+        24
+      ],
+      "time_range_h": [
+        0.0,
+        1.5333333333333334
+      ],
+      "spatial_range": [
+        180.0,
+        850.0
+      ],
+      "missing_values": 0,
+      "normalization": {
+        "method": "linear min-max of finite values in the complete sample",
+        "min": 27.291666666666668,
+        "max": 194.60833333333332
+      },
+      "common_preview": "figures/comparison/delaune-2012-common.svg",
+      "full_preview": "figures/comparison/delaune-2012-full.svg"
+    },
+    {
+      "short": "Yaman 2023",
+      "reporter": "Author example",
+      "card_title": "Author example",
+      "reporter_note": "Paper: HES7 / MESP2",
+      "kind": "matrix",
+      "source_label": "Author matrix",
+      "label": "Author matrix · channel unspecified",
+      "source_url": "https://zenodo.org/records/7458178",
+      "position_unit": "row",
+      "axis_label": "Stored position (row)",
+      "origin": "First stored row; physical scale and direction unspecified",
+      "origin_short": "Stored rows",
+      "sample": "Unspecified author example",
+      "id": "yaman-2023",
+      "provenance": "data/derived/yaman-2023/provenance.json",
+      "input": "data/derived/yaman-2023/kymograph.npz",
+      "input_sha256": "9e76a9d7f4cd35983373560f44df7d07d8c3ece21bd0d06ccf4ed12c8508b4e6",
+      "shape_space_time": [
+        395,
+        172
+      ],
+      "time_range_h": [
+        0.0,
+        42.75
+      ],
+      "spatial_range": [
+        0.0,
+        394.0
+      ],
+      "missing_values": 0,
+      "normalization": {
+        "method": "linear min-max of finite values in the complete sample",
+        "min": 0.0,
+        "max": 4092.0
+      },
+      "common_preview": "figures/comparison/yaman-2023-common.svg",
+      "full_preview": "figures/comparison/yaman-2023-full.svg"
+    },
+    {
+      "short": "Rohde 2024",
+      "reporter": "Her1–YFP",
+      "kind": "tracks",
+      "source_label": "Binned tracks",
+      "label": "Tracked cells · 20 µm bins",
+      "source_url": "https://github.com/EPFL-TOP/WSC_NotebooksPaper",
+      "position_unit": "µm",
+      "origin": "each frame's first notochord ROI point, identified as posterior tail-tip reference in author notebook",
+      "origin_short": "Cell cohorts · 20 µm",
+      "sample": "PSM4 · Position 2",
+      "roi": "figures/rohde-2024/roi-overlay.png",
+      "coverage_note": "Measured 0.25–5.50 h · 210 time points",
+      "roi_note": "Published projections at 150 and 300min, the authors' notochord ROIs, and inverse-transformed cell positions. Intensities come from CSV; RGB images only check sampling geometry.",
+      "id": "rohde-2024",
+      "provenance": "data/derived/rohde-2024/provenance.json",
+      "input": "data/derived/rohde-2024/psm4_cohort.npz",
+      "input_sha256": "c91153649cab01f2627235f7d87cafdd960136e5281596ddedefe46f4f5d7617",
+      "shape_space_time": [
+        16,
+        300
+      ],
+      "time_range_h": [
+        0.0,
+        7.475
+      ],
+      "spatial_range": [
+        10.0,
+        310.0
+      ],
+      "missing_values": 3626,
+      "normalization": {
+        "method": "linear min-max of finite values in the complete sample",
+        "min": 115.522137771044,
+        "max": 426.423828843253
+      },
+      "spatial_range_um": [
+        10.0,
+        310.0
+      ],
+      "common_preview": "figures/comparison/rohde-2024-common.svg",
+      "full_preview": "figures/comparison/rohde-2024-full.svg"
+    },
+    {
+      "short": "Sanaki-Matsumiya 2022",
+      "reporter": "HES7–luciferase",
+      "kind": "video_lut",
+      "source_label": "Color reconstruction",
+      "label": "Approx. video color index",
+      "signal_label": "Relative color index",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9050736/",
+      "roi": "figures/sanaki-2022/whole-roi.png",
+      "native_space_only": true,
+      "position_unit": "video px",
+      "origin": "Per-frame whole-tissue centroid",
+      "origin_short": "Major axis · video px",
+      "axis_label": "Projection from tissue centroid (px)",
+      "sample": "Supplementary Movie 4",
+      "roi_note": "The orange contour shows the whole somitoid on the structural and reporter panels. Each frame uses its own tissue outline and centroid.",
+      "coverage_note": "All 362 frames · 0–59 h 58 min",
+      "id": "sanaki-2022",
+      "provenance": "data/derived/sanaki-2022-whole/provenance.json",
+      "input": "data/derived/sanaki-2022-whole/kymograph.npz",
+      "input_sha256": "cfa0bf52ddd19eff2326ef227bb775fd28d9d03be0ba4732e8397501170ec4af",
+      "shape_space_time": [
+        223,
+        362
+      ],
+      "time_range_h": [
+        0.0,
+        59.96666666666667
+      ],
+      "spatial_range": [
+        -227,
+        217
+      ],
+      "missing_values": 32309,
+      "normalization": {
+        "method": "linear min-max of finite values in the complete sample",
+        "min": 2.3333332538604736,
+        "max": 246.3333282470703
+      },
+      "common_preview": "figures/comparison/sanaki-2022-common.svg",
+      "full_preview": "figures/comparison/sanaki-2022-full.svg",
+      "position_increases_up": true
+    },
+    {
+      "short": "Miao 2023",
+      "reporter": "HES7-dominant signal",
+      "kind": "video_lut",
+      "source_label": "Color reconstruction",
+      "label": "Approx. video color index",
+      "signal_label": "Relative color index",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10018515/",
+      "roi": "figures/miao-2023/right-radius-roi.png",
+      "native_space_only": true,
+      "position_unit": "µm",
+      "origin": "Per-frame tissue centroid → image-right edge",
+      "origin_short": "Geometric center → right edge",
+      "axis_label": "Radius from geometric center (approx. µm)",
+      "sample": "Movie 2 · early subset",
+      "roi_note": "O marks the geometric center of the visible tissue. E marks the tissue edge along the image-right ray. The 40 px-wide band follows the tissue in each measured frame.",
+      "card_title": "HES7-dominant",
+      "reporter_note": "May include MESP2 mixing",
+      "time_offset_h": 50.5,
+      "original_time_range_h": [
+        50.5,
+        63.913
+      ],
+      "coverage_note": "Early 52 frames · 13.41 h",
+      "id": "miao-2023",
+      "provenance": "data/derived/miao-2023-radius/provenance.json",
+      "system_label": "Somitoid",
+      "input": "data/derived/miao-2023-radius/kymograph.npz",
+      "input_sha256": "f1448fc0eb9a80cc13d95a293d57619fe359397eaa2032451db87f38dcd3cc9e",
+      "shape_space_time": [
+        281,
+        52
+      ],
+      "time_range_h": [
+        0.0,
+        13.412999999999997
+      ],
+      "spatial_range": [
+        0.0,
+        486.95652173913044
+      ],
+      "missing_values": 4454,
+      "normalization": {
+        "method": "linear min-max of finite values in the complete sample",
+        "min": 3.129032258064516,
+        "max": 105.96296296296296
+      },
+      "spatial_range_um": [
+        0.0,
+        486.95652173913044
+      ],
+      "common_preview": "figures/comparison/miao-2023-common.svg",
+      "full_preview": "figures/comparison/miao-2023-full.svg",
+      "system_meaning": "Somite-like tissue",
+      "position_increases_up": true,
+      "spatial_scale_approximate": true
+    },
+    {
+      "id": "miao-2023-segmentoid",
+      "paper_id": "miao-2023",
+      "short": "Miao 2023",
+      "reporter": "HES7 / UNCX",
+      "reporter_note": "Wild type · shared HES7 / UNCX channel",
+      "system_label": "Segmentoid",
+      "kind": "matrix",
+      "source_label": "Author matrix",
+      "label": "Author-processed matrix",
+      "source_url": "https://drive.google.com/file/d/15o-6nOMArxW6rLGYv5WqQHi1q7tN9ZGz/view",
+      "data_url": "https://drive.google.com/file/d/15o-6nOMArxW6rLGYv5WqQHi1q7tN9ZGz/view",
+      "position_unit": "µm",
+      "axis_label": "Distance from posterior (µm)",
+      "origin": "Author-aligned posterior reference",
+      "origin_short": "Posterior aligned",
+      "position_increases_up": true,
+      "native_space_only": true,
+      "show_full_position_cells": true,
+      "sample": "WT 1 · Segmentoid",
+      "coverage_note": "150 frames · 18 min / frame · 44.7 h",
+      "card_context": {
+        "condition": "Temp. unverified",
+        "sample": "WT 1"
+      },
+      "provenance": "data/derived/miao-2023-segmentoid/provenance.json",
+      "detail_primary_context": "Author matrix · WT #1, left specimen in Movie 8 · 150 time points · 18 min per column",
+      "comparison_video_id": "movie-9",
+      "detail_title": "Compare MESP2 and HES7-null",
+      "detail_summary": "Replotted from author-processed numerical matrices. Wild type: 150 frames; HES7-null: 139 frames; both sampled every 18 min.",
+      "detail_figures": [
+        {
+          "id": "wildtype",
+          "label": "Wild type · two reporters",
+          "preview": "figures/miao-2023-segmentoid/wildtype-kymographs.svg",
+          "alt": "Miao 2023 Segmentoid wild-type HES7 / UNCX and MESP2 kymographs",
+          "downloads": {
+            "pdf": "figures/miao-2023-segmentoid/wildtype-kymographs.pdf",
+            "svg": "figures/miao-2023-segmentoid/wildtype-kymographs.svg",
+            "png": "figures/miao-2023-segmentoid/wildtype-kymographs.png"
+          }
+        },
+        {
+          "id": "comparison",
+          "label": "Wild type / HES7-null",
+          "preview": "figures/miao-2023-segmentoid/wildtype-vs-hes7null.svg",
+          "alt": "Miao 2023 wild-type versus HES7-null Segmentoids, both reporter channels",
+          "downloads": {
+            "pdf": "figures/miao-2023-segmentoid/wildtype-vs-hes7null.pdf",
+            "svg": "figures/miao-2023-segmentoid/wildtype-vs-hes7null.svg",
+            "png": "figures/miao-2023-segmentoid/wildtype-vs-hes7null.png"
+          }
+        }
+      ],
+      "detail_facts": [
+        [
+          "Time axis",
+          "0 h is the first recorded frame: WT 0–44.7 h; HES7-null 0–41.4 h. This is not time since differentiation began."
+        ],
+        [
+          "Space axis",
+          "Distance from the aligned posterior reference (0 µm), with A above P. All stored positions are shown, including the 10 positions beyond P. WT: −13.84 to 1360.25 µm. HES7-null: −13.84 to 1364.40 µm."
+        ]
+      ],
+      "detail_steps": [
+        "Read kimoHUf_t and kimoMf_t from the author’s MAT files. HES7 and UNCX share a channel; the knockout uses pseudoHES7 / UNCX. MESP2 is a separate channel.",
+        "The author applied transverse ROI averaging, a 50 px spatial box filter, and 9 h smoothing of the posterior edge for translation alignment. We did not resample a video or add smoothing.",
+        "Convert stored orientation to distance from the posterior. Mask only leading and trailing runs that are zero in both channels at each frame; retain interior zeros. Gray may represent background or alignment padding, not a measured tissue boundary.",
+        "Normalize each complete channel independently by min–max; the common 0–10 h view retains that scale. Compare patterns, not absolute expression between channels or genotypes."
+      ],
+      "detail_limit": "One sample per genotype. Movie 8 shows WT #1 on the left at 72.0–116.7 h of differentiation. Movie 9 shows HES7-null #1 at 72.0–113.1 h and ends one time point before its matrix. Sample temperatures are unverified.",
+      "detail_data": [
+        {
+          "label": "WT reporter matrices",
+          "path": "data/derived/miao-2023-segmentoid/wt-matrices.npz"
+        },
+        {
+          "label": "HES7-null reporter matrices",
+          "path": "data/derived/miao-2023-segmentoid/null-matrices.npz"
+        },
+        {
+          "label": "Processing record",
+          "path": "data/derived/miao-2023-segmentoid/provenance.json"
+        }
+      ],
+      "author_code_url": "https://github.com/desimonea/MiaoSomitogenesis2022",
+      "input": "data/derived/miao-2023-segmentoid/kymograph.npz",
+      "input_sha256": "c8b87dbfe3dea87ca314ac68d034d1cefb226f76042d70abdbe9bc85ca2ecc90",
+      "shape_space_time": [
+        994,
+        150
+      ],
+      "time_range_h": [
+        0.0,
+        44.699999999999996
+      ],
+      "spatial_range": [
+        -13.837766031051949,
+        1360.2524008524065
+      ],
+      "missing_values": 40768,
+      "normalization": {
+        "method": "linear min-max of finite values in the complete sample",
+        "min": 0.0,
+        "max": 1.3673596176821985
+      },
+      "spatial_range_um": [
+        -13.837766031051949,
+        1360.2524008524065
+      ],
+      "common_preview": "figures/comparison/miao-2023-segmentoid-common.svg",
+      "full_preview": "figures/comparison/miao-2023-segmentoid-full.svg",
+      "system_meaning": "Sequentially segmenting tissue"
+    },
+    {
+      "id": "miao-2023-segmentoid-mesp2",
+      "paper_id": "miao-2023",
+      "short": "Miao 2023",
+      "reporter": "MESP2",
+      "reporter_note": "Wild type · MESP2 channel",
+      "system_label": "Segmentoid",
+      "kind": "matrix",
+      "source_label": "Author matrix",
+      "label": "Author-processed matrix",
+      "source_url": "https://drive.google.com/file/d/15o-6nOMArxW6rLGYv5WqQHi1q7tN9ZGz/view",
+      "data_url": "https://drive.google.com/file/d/15o-6nOMArxW6rLGYv5WqQHi1q7tN9ZGz/view",
+      "position_unit": "µm",
+      "axis_label": "Distance from posterior (µm)",
+      "origin": "Author-aligned posterior reference",
+      "origin_short": "Posterior aligned",
+      "position_increases_up": true,
+      "native_space_only": true,
+      "show_full_position_cells": true,
+      "sample": "WT #1 · Segmentoid",
+      "coverage_note": "150 time points · 18 min per column · 44.7 h",
+      "card_context": {
+        "condition": "Temp. unverified",
+        "sample": "WT #1"
+      },
+      "provenance": "data/derived/miao-2023-segmentoid-mesp2/provenance.json",
+      "detail_primary_context": "Author matrix · WT #1 · Movie 8, left specimen · 150 time points · 18 min per column",
+      "comparison_video_id": "movie-9",
+      "detail_title": "Compare HES7 / UNCX and HES7-null",
+      "detail_summary": "Replotted from author-processed numerical matrices. Wild type: 150 frames; HES7-null: 139 frames; both sampled every 18 min.",
+      "detail_figures": [
+        {
+          "id": "wildtype",
+          "label": "Wild type · two reporters",
+          "preview": "figures/miao-2023-segmentoid/wildtype-kymographs.svg",
+          "alt": "Miao 2023 Segmentoid wild-type HES7 / UNCX and MESP2 kymographs",
+          "downloads": {
+            "pdf": "figures/miao-2023-segmentoid/wildtype-kymographs.pdf",
+            "svg": "figures/miao-2023-segmentoid/wildtype-kymographs.svg",
+            "png": "figures/miao-2023-segmentoid/wildtype-kymographs.png"
+          }
+        },
+        {
+          "id": "comparison",
+          "label": "Wild type / HES7-null",
+          "preview": "figures/miao-2023-segmentoid/wildtype-vs-hes7null.svg",
+          "alt": "Miao 2023 wild-type versus HES7-null Segmentoids, both reporter channels",
+          "downloads": {
+            "pdf": "figures/miao-2023-segmentoid/wildtype-vs-hes7null.pdf",
+            "svg": "figures/miao-2023-segmentoid/wildtype-vs-hes7null.svg",
+            "png": "figures/miao-2023-segmentoid/wildtype-vs-hes7null.png"
+          }
+        }
+      ],
+      "detail_facts": [
+        [
+          "Time axis",
+          "0 h is the first recorded frame: WT 0–44.7 h; HES7-null 0–41.4 h. This is not time since differentiation began."
+        ],
+        [
+          "Space axis",
+          "Distance from the aligned posterior reference (0 µm), with A above P. All stored positions are shown, including the 10 positions beyond P. WT: −13.84 to 1360.25 µm. HES7-null: −13.84 to 1364.40 µm."
+        ]
+      ],
+      "detail_steps": [
+        "Read kimoHUf_t and kimoMf_t from the author’s MAT files. HES7 and UNCX share a channel; the knockout uses pseudoHES7 / UNCX. MESP2 is a separate channel.",
+        "The author applied transverse ROI averaging, a 50 px spatial box filter, and 9 h smoothing of the posterior edge for translation alignment. We did not resample a video or add smoothing.",
+        "Convert stored orientation to distance from the posterior. Mask only leading and trailing runs that are zero in both channels at each frame; retain interior zeros. Gray may represent background or alignment padding, not a measured tissue boundary.",
+        "Normalize each complete channel independently by min–max; the common 0–10 h view retains that scale. Compare patterns, not absolute expression between channels or genotypes."
+      ],
+      "detail_limit": "One sample per genotype. Movie 8 shows WT #1 on the left at 72.0–116.7 h of differentiation. Movie 9 shows HES7-null #1 at 72.0–113.1 h and ends one time point before its matrix. Sample temperatures are unverified.",
+      "detail_data": [
+        {
+          "label": "WT reporter matrices",
+          "path": "data/derived/miao-2023-segmentoid/wt-matrices.npz"
+        },
+        {
+          "label": "HES7-null reporter matrices",
+          "path": "data/derived/miao-2023-segmentoid/null-matrices.npz"
+        },
+        {
+          "label": "Processing record",
+          "path": "data/derived/miao-2023-segmentoid/provenance.json"
+        }
+      ],
+      "author_code_url": "https://github.com/desimonea/MiaoSomitogenesis2022",
+      "input": "data/derived/miao-2023-segmentoid-mesp2/kymograph.npz",
+      "input_sha256": "f326544381888bf6f6a36cc51fe7ce06dbc35b84024f9ab96fbd1ca2ecfb6782",
+      "shape_space_time": [
+        994,
+        150
+      ],
+      "time_range_h": [
+        0.0,
+        44.699999999999996
+      ],
+      "spatial_range": [
+        -13.837766031051949,
+        1360.2524008524065
+      ],
+      "missing_values": 40768,
+      "normalization": {
+        "method": "linear min-max of finite values in the complete sample",
+        "min": 4.778972520908004e-05,
+        "max": 9.525448028673836
+      },
+      "spatial_range_um": [
+        -13.837766031051949,
+        1360.2524008524065
+      ],
+      "common_preview": "figures/comparison/miao-2023-segmentoid-mesp2-common.svg",
+      "full_preview": "figures/comparison/miao-2023-segmentoid-mesp2-full.svg",
+      "system_meaning": "Sequentially segmenting tissue"
+    },
+    {
+      "id": "lauschke-2013-embryo",
+      "paper_id": "lauschke-2013",
+      "short": "Lauschke 2013",
+      "reporter": "LuVeLu",
+      "card_title": "LuVeLu",
+      "system_label": "Embryonic PSM",
+      "reporter_note": "LuVeLu / brightfield composite · side view · P→A",
+      "kind": "video",
+      "source_label": "Video extraction",
+      "label": "Fixed-reference inward 30 px strip · unsmoothed",
+      "source_url": "https://www.nature.com/articles/nature11804",
+      "data_url": "https://static-content.springer.com/esm/art%3A10.1038%2Fnature11804/MediaObjects/41586_2013_BFnature11804_MOESM292_ESM.mov",
+      "position_unit": "µm",
+      "axis_label": "Arc length from fixed P reference (µm)",
+      "signal_label": "Relative display intensity",
+      "origin": "Fixed P reference → anteriorward inward-shifted curve",
+      "origin_short": "Arc length from fixed P reference toward A",
+      "sample": "Video 1",
+      "roi": "figures/lauschke-2013/video1-fixed-reference/roi.png",
+      "provenance": "data/derived/lauschke-2013/video1-fixed-reference/provenance.json",
+      "roi_note": "Solid bands show valid 20 px sampling; dashed lines show the reference extension. A/P stay fixed in stabilized reference coordinates, while their source-video markers follow global pose changes.",
+      "card_context": {
+        "condition": "Temp. unverified",
+        "sample": "Video 1 · 0–20.92 h",
+        "source_url": "https://static-content.springer.com/esm/art%3A10.1038%2Fnature11804/MediaObjects/41586_2013_BFnature11804_MOESM292_ESM.mov",
+        "evidence": "The paper specifies routine 37°C culture; this particular movie’s temperature was not independently verified."
+      },
+      "detail_title": "Video 1 fixed-reference sampling",
+      "detail_summary": "Posterior embryo side view: fixed A/P references and a curve shifted 30 px inward, covering the complete 0–20.92 h record.",
+      "detail_figures": [
+        {
+          "id": "sampling",
+          "label": "Sampling ROI",
+          "preview": "figures/lauschke-2013/video1-fixed-reference/roi.png",
+          "alt": "Solid bands show valid 20 px sampling; dashed lines show the reference extension. A/P stay fixed in stabilized reference coordinates, while their source-video markers follow global pose changes.",
+          "downloads": {
+            "png": "figures/lauschke-2013/video1-fixed-reference/roi.png"
+          }
+        }
+      ],
+      "detail_facts": [
+        [
+          "Tissue & view",
+          "Embryonic PSM · side view · P→A · composite display"
+        ],
+        [
+          "Time",
+          "126 / 126 frames · 0–20.92 h; source overlays, not playback rate."
+        ],
+        [
+          "Space",
+          "Arc length from the fixed P reference; the 100 µm scale bar measures 103 source-video pixels."
+        ],
+        [
+          "Strip average",
+          "20 px (about 19.4 µm) wide; mean along local normals."
+        ]
+      ],
+      "detail_steps": [
+        "Estimate translation and rotation from structural features. Fix A/P in reference coordinates and shift the interior curve 30 px inward, tapering the adjustment at both ends.",
+        "Map the curve back into the original movie and sample every 1 µm of arc length. Average across a 20 px normal strip, requiring at least 16 of 21 width samples.",
+        "Retain the supported interval connected toward the checked A reference. Keep unsupported P-side extensions and disconnected intervals missing; do not fill zeros or bridge gaps.",
+        "Use all 126 frames and their original experimental overlay times. Read the original composite display values directly, with strip averaging only and no temporal filtering."
+      ],
+      "detail_limit": "A/P are sampling references in stabilized coordinates, not fixed cells or exact anatomical boundaries. Registration remains sensitive to the structural window. The foreground contour is not anatomical PSM segmentation; the LuVeLu / brightfield composite does not isolate raw fluorescence.",
+      "detail_data": [
+        {
+          "path": "data/derived/lauschke-2013/video1-fixed-reference/kymograph.npz",
+          "label": "Fixed-reference sampling matrix"
+        },
+        {
+          "path": "data/derived/lauschke-2013/video1-fixed-reference/provenance.json",
+          "label": "Processing record"
+        },
+        {
+          "path": "data/derived/lauschke-2013/video1-timestamps.json",
+          "label": "Timestamp audit"
+        }
+      ],
+      "input": "data/derived/lauschke-2013/video1-fixed-reference/kymograph.npz",
+      "input_sha256": "549f18f6bae13f8620f82facf139731cfd9fa1aeb2f6f1eb0cb3f37e60e212a0",
+      "shape_space_time": [
+        596,
+        126
+      ],
+      "time_range_h": [
+        0.0,
+        20.92
+      ],
+      "spatial_range": [
+        0.0,
+        595.0
+      ],
+      "missing_values": 16433,
+      "normalization": {
+        "method": "linear min-max of finite values in the complete sample",
+        "min": 5.992408011649703,
+        "max": 232.48728155595123
+      },
+      "spatial_range_um": [
+        0.0,
+        595.0
+      ],
+      "common_preview": "figures/comparison/lauschke-2013-embryo-common.svg",
+      "full_preview": "figures/comparison/lauschke-2013-embryo-full.svg",
+      "geometry_version": "video1-fixed-reference-inward30-v1"
+    },
+    {
+      "id": "lauschke-2013-mpsm",
+      "paper_id": "lauschke-2013",
+      "short": "Lauschke 2013",
+      "reporter": "LuVeLu",
+      "card_title": "LuVeLu",
+      "system_label": "Spreading mPSM",
+      "reporter_note": "Culture-plane imaging · outward, without a fixed A boundary",
+      "kind": "video",
+      "source_label": "Video extraction",
+      "label": "Wavefront-fitted radius · unsmoothed",
+      "source_url": "https://www.nature.com/articles/nature11804",
+      "data_url": "https://static-content.springer.com/esm/art%3A10.1038%2Fnature11804/MediaObjects/41586_2013_BFnature11804_MOESM293_ESM.mov",
+      "position_unit": "µm",
+      "axis_label": "Distance from fitted center (µm)",
+      "signal_label": "Relative display intensity",
+      "origin": "Early-wavefront curvature-center estimate + BF translation → outward",
+      "origin_short": "Wavefront-fitted start → outward; FOV-limited end",
+      "sample": "Video 2",
+      "roi": "figures/lauschke-2013/video2-review/video2-roi-review.png",
+      "provenance": "data/derived/lauschke-2013/video2-provenance.json",
+      "roi_note": "White cross: early-wavefront fitted center; purple: 20 px radial strip; cyan: saved brightfield tissue mask. Solid segments have valid samples; dashed extensions are missing. Source orientation is preserved.",
+      "card_context": {
+        "condition": "Temp. unverified",
+        "sample": "Video 2",
+        "source_url": "https://static-content.springer.com/esm/art%3A10.1038%2Fnature11804/MediaObjects/41586_2013_BFnature11804_MOESM293_ESM.mov",
+        "evidence": "The paper specifies routine 37°C culture; this particular movie’s temperature was not independently verified."
+      },
+      "detail_title": "Published-line and current ROI comparison",
+      "detail_summary": "Map the starting point and direction drawn in Fig. 1d onto Video 2 and compare with the current wavefront-fit reconstruction. The existing matrix is preserved.",
+      "detail_figures": [
+        {
+          "id": "roi-comparison",
+          "label": "ROI comparison",
+          "preview": "figures/lauschke-2013/video2-author-line-comparison.png",
+          "alt": "Left: illustrated-line reconstruction. Right: current wavefront fit. Shared axes and color limits.",
+          "downloads": {
+            "png": "figures/lauschke-2013/video2-author-line-comparison.png",
+            "svg": "figures/lauschke-2013/video2-author-line-comparison.svg",
+            "pdf": "figures/lauschke-2013/video2-author-line-comparison.pdf"
+          }
+        },
+        {
+          "id": "roi-alignment",
+          "label": "ROI alignment",
+          "preview": "figures/lauschke-2013/video2-author-line-roi.png",
+          "alt": "Two sampling lines on the first, registration and last Video 2 frames: orange for the published drawing, purple for the current reconstruction.",
+          "downloads": {
+            "png": "figures/lauschke-2013/video2-author-line-roi.png",
+            "svg": "figures/lauschke-2013/video2-author-line-roi.svg",
+            "pdf": "figures/lauschke-2013/video2-author-line-roi.pdf"
+          }
+        },
+        {
+          "id": "center-fit",
+          "label": "Center estimate",
+          "preview": "figures/lauschke-2013/video2-wavefront-center.png",
+          "alt": "Video 2 continuous wavefronts, shared fitted center and radial ROI",
+          "downloads": {
+            "png": "figures/lauschke-2013/video2-wavefront-center.png",
+            "svg": "figures/lauschke-2013/video2-wavefront-center.svg",
+            "pdf": "figures/lauschke-2013/video2-wavefront-center.pdf"
+          }
+        },
+        {
+          "id": "sampling",
+          "label": "ROI & kymograph",
+          "preview": "figures/lauschke-2013/video2-sampling.png",
+          "alt": "Lauschke Video 2 · ROI & kymograph",
+          "downloads": {
+            "png": "figures/lauschke-2013/video2-sampling.png",
+            "svg": "figures/lauschke-2013/video2-sampling.svg",
+            "pdf": "figures/lauschke-2013/video2-sampling.pdf"
+          }
+        },
+        {
+          "id": "spatial-filter",
+          "label": "Spatial-filter comparison",
+          "preview": "figures/lauschke-2013/video2-author-line-spatial-comparison.png",
+          "alt": "Both lines use the same spatial smoothing; the time axis is not filtered.",
+          "downloads": {
+            "png": "figures/lauschke-2013/video2-author-line-spatial-comparison.png",
+            "svg": "figures/lauschke-2013/video2-author-line-spatial-comparison.svg",
+            "pdf": "figures/lauschke-2013/video2-author-line-spatial-comparison.pdf"
+          }
+        }
+      ],
+      "detail_facts": [
+        [
+          "Tissue & view",
+          "Spreading mPSM · culture-plane imaging"
+        ],
+        [
+          "Shared controls",
+          "All 160 frames · 0–33.80 h; 20 px strip; identical BF translation, tissue masks and shared color limits."
+        ],
+        [
+          "Drawing alignment",
+          "Fig. 1d “0 min” matches the 18.07 h video overlay; start ≈ (150.7, 407.1) video pixels, direction −71.96°."
+        ],
+        [
+          "Spatial coordinates",
+          "100 µm = 111 video pixels; each line has its own distance origin, not matched cells."
+        ],
+        [
+          "Missing samples",
+          "The new line intersects tissue in 142/160 frames, first at 3.83 h; tissue/FOV gaps stay gray and are not zero-filled."
+        ]
+      ],
+      "detail_steps": [
+        "Register Fig. 1d to Video 2 using image features: 142 reference-frame inliers, median residual 0.31 video pixels, cross-checked against four other time thumbnails. Arrow endpoints are approximate readings of the drawing.",
+        "Sample from the illustrated start along its arrow. The full author ROI trajectory is unavailable, so both versions use the current BF translation rule; early origins outside tissue are not moved onto bright regions.",
+        "Use original video display values, a 20 px strip and common tissue/FOV validity rules. Allow a missing leading segment and retain the longest continuous valid tissue interval. Recomputing the current version with this rule reproduces its matrix exactly.",
+        "The main pair adds no smoothing and shares one min–max color scale over both complete matrices. A separate pair applies the same spatial Gaussian σ=9.66 µm. The current center remains the fit to six early wavefront frames; its audit view is retained."
+      ],
+      "detail_limit": "This reconstructs the illustrated line, not an author-deposited exact ROI or a verified biological source. Continuing both lines by BF translation is a shared assumption, without deformation correction or cell tracking. Video overlay times are retained rather than recalibrated from inset minute labels; early missing samples do not imply absent expression. Video display values are not raw fluorescence counts.",
+      "detail_data": [
+        {
+          "path": "data/derived/lauschke-2013/video2-author-line.npz",
+          "label": "Comparison matrix"
+        },
+        {
+          "path": "data/derived/lauschke-2013/video2-author-line-provenance.json",
+          "label": "ROI record"
+        },
+        {
+          "path": "data/derived/lauschke-2013/video2-author-line-registration.json",
+          "label": "Registration evidence"
+        },
+        {
+          "path": "data/derived/lauschke-2013/video2-kymograph.npz",
+          "label": "Current matrix"
+        }
+      ],
+      "input": "data/derived/lauschke-2013/video2-kymograph.npz",
+      "input_sha256": "72baefe9d665ae6e7f7ead53655d51984759447c8e9cd10e77c0542efd312e68",
+      "shape_space_time": [
+        401,
+        160
+      ],
+      "time_range_h": [
+        0.0,
+        33.8
+      ],
+      "spatial_range": [
+        0.0,
+        400.0
+      ],
+      "missing_values": 20126,
+      "normalization": {
+        "method": "linear min-max of finite values in the complete sample",
+        "min": 5.639722073990641,
+        "max": 247.59655367548882
+      },
+      "spatial_range_um": [
+        0.0,
+        400.0
+      ],
+      "common_preview": "figures/comparison/lauschke-2013-mpsm-common.svg",
+      "full_preview": "figures/lauschke-2013/video2-review/video2-radial-review.svg",
+      "geometry_version": "wavefront-arcs-v1"
+    },
+    {
+      "id": "lauschke-2013-mesp2",
+      "paper_id": "lauschke-2013",
+      "short": "Lauschke 2013",
+      "reporter": "Mesp2-GFP",
+      "card_title": "Mesp2-GFP",
+      "system_label": "Segmenting mPSM · Mesp2",
+      "reporter_note": "Mesp2 segmentation marker · red display channel",
+      "kind": "video",
+      "source_label": "Video extraction",
+      "label": "Paired-channel radial strip · unsmoothed",
+      "input": "data/derived/lauschke-2013/video6-mesp2/video6-mesp2-kymograph.npz",
+      "source_url": "https://www.nature.com/articles/nature11804",
+      "data_url": "https://static-content.springer.com/esm/art%3A10.1038%2Fnature11804/MediaObjects/41586_2013_BFnature11804_MOESM297_ESM.mov",
+      "position_unit": "µm",
+      "axis_label": "Distance from paired center (µm)",
+      "signal_label": "Relative display intensity",
+      "origin": "Reviewed paired LuVeLu wavefront center + BF translation -> peripheral Mesp2 sector",
+      "origin_short": "Paired LuVeLu center → peripheral segmenting region",
+      "sample": "Video 6",
+      "roi": "figures/lauschke-2013/video6-mesp2/video6-mesp2-roi.png",
+      "provenance": "data/derived/lauschke-2013/video6-mesp2/video6-mesp2-provenance.json",
+      "geometry_version": "video6-paired-radial-v1",
+      "roi_note": "Sample Video 6 red Mesp2 display values along the reviewed same-specimen Video 5 center and 45° ray. Reuse the analysis mask without fitting a Mesp2 center.",
+      "card_context": {
+        "condition": "Temp. unverified",
+        "sample": "Video 6",
+        "source_url": "https://static-content.springer.com/esm/art%3A10.1038%2Fnature11804/MediaObjects/41586_2013_BFnature11804_MOESM297_ESM.mov",
+        "evidence": "Video 6 is the same specimen as Videos 4, 5 and 7; the movie temperature has not been independently verified."
+      },
+      "input_sha256": "e0c7521a4a27ed4b7e349b03e7d2d845b3ffb2dd50ceb92124d5c03461afb7fa",
+      "shape_space_time": [
+        401,
+        61
+      ],
+      "time_range_h": [
+        0.0,
+        10.0
+      ],
+      "spatial_range": [
+        0.0,
+        380.9523809523809
+      ],
+      "spatial_range_um": [
+        0.0,
+        380.9523809523809
+      ],
+      "missing_values": 1321,
+      "normalization": {
+        "method": "linear min-max of finite values in the complete sample",
+        "min": 2.1822003902741467,
+        "max": 253.33458143330162
+      },
+      "common_preview": "figures/lauschke-2013/video6-mesp2/video6-mesp2-kymograph.svg",
+      "full_preview": "figures/lauschke-2013/video6-mesp2/video6-mesp2-kymograph.svg"
+    },
+    {
+      "id": "sonnen-2018-embryo",
+      "paper_id": "sonnen-2018",
+      "short": "Sonnen 2018",
+      "reporter": "Axin2T2A",
+      "card_title": "Axin2T2A",
+      "kind": "video",
+      "sample": "Movie S1",
+      "system_label": "Embryonic PSM · Movie S1",
+      "reporter_note": "Axin2T2A fluorescence · Axin2 reporter",
+      "label": "Fixed final-frame reference",
+      "source_label": "Video extraction",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5847172/",
+      "data_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC5847172.1/mmc2.mp4",
+      "input": "data/derived/sonnen-2018/s1-fixed-70um/kymograph.npz",
+      "input_sha256": "506ad6b79aceee032c4648172d0993b8f8c26cba036fd6b1841053351a5e2034",
+      "shape_space_time": [
+        593,
+        88
+      ],
+      "time_range_h": [
+        0.0,
+        14.5
+      ],
+      "position_unit": "µm",
+      "spatial_range": [
+        0.0,
+        592.0
+      ],
+      "spatial_range_um": [
+        0.0,
+        592.0
+      ],
+      "spatial_scale_approximate": true,
+      "missing_values": 12736,
+      "normalization": {
+        "method": "linear display scale from finite values in the complete unsmoothed strip",
+        "min": 55.161095920188394,
+        "max": 187.82076818427083
+      },
+      "origin": "Arc length from the fixed final-frame P reference toward A, following the tracked image-right half",
+      "origin_short": "Fixed final P reference → anteriorward",
+      "axis_label": "Distance from fixed P reference (approx. µm)",
+      "signal_label": "Relative display intensity",
+      "roi": "figures/sonnen-2018/s1-fixed-70um/roi.png",
+      "roi_note": "The solid orange band shows the 70 µm-wide sample on the image-right half. Dashed extensions connect it to the registered final-frame references where coverage is missing.",
+      "provenance": "data/derived/sonnen-2018/s1-fixed-70um/provenance.json",
+      "full_preview": "figures/sonnen-2018/s1-fixed-70um/kymograph.svg",
+      "common_preview": "figures/sonnen-2018/s1-fixed-70um/kymograph-common.svg",
+      "native_space_only": true,
+      "geometry_version": "sonnen-s1-fixed-70um-v2",
+      "card_context": {
+        "sample": "Movie S1",
+        "source_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC5847172.1/mmc2.mp4"
+      },
+      "position_increases_up": true
+    },
+    {
+      "id": "sonnen-2018-microfluidic",
+      "paper_id": "sonnen-2018",
+      "short": "Sonnen 2018",
+      "reporter": "LuVeLu",
+      "card_title": "LuVeLu",
+      "kind": "video",
+      "sample": "Movie S3",
+      "system_label": "Microfluidic mPSM · Movie S3",
+      "reporter_note": "LuVeLu fluorescence export · dye inset excluded",
+      "label": "Independent display-video reconstruction",
+      "source_label": "Video extraction",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5847172/",
+      "data_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC5847172.1/mmc4.mp4",
+      "input": "data/derived/sonnen-2018/s3-moving-center-review/kymograph.npz",
+      "input_sha256": "c35c96335582599c82b972750c0de5f9a1e2453b6a12bbf3d5cd4a4fa80a6901",
+      "shape_space_time": [
+        301,
+        111
+      ],
+      "time_range_h": [
+        0,
+        18.333333333333332
+      ],
+      "position_unit": "µm",
+      "spatial_range": [
+        0,
+        300
+      ],
+      "spatial_range_um": [
+        0,
+        300
+      ],
+      "spatial_scale_approximate": true,
+      "missing_values": 7010,
+      "normalization": {
+        "method": "linear min-max of finite values in the complete sample",
+        "min": 15.682176016053434,
+        "max": 233.1307219136409
+      },
+      "origin": "Per-frame geometric center of the visible outer envelope. The radial strip samples upward to the supported full-width extent.",
+      "origin_short": "Tracked geometric center → upper periphery",
+      "axis_label": "Distance from tracked center (approx. µm)",
+      "signal_label": "Relative display intensity",
+      "roi": "figures/sonnen-2018/s3-moving-center/roi-with-extent.png",
+      "roi_note": "The orange point marks the tracked center. The solid band ends at E, the last sampled position in that frame. The dashed line extends to 300 µm and shows the unsampled range.",
+      "provenance": "data/derived/sonnen-2018/s3-moving-center-review/provenance.json",
+      "full_preview": "figures/sonnen-2018/s3-moving-center/kymograph.svg",
+      "common_preview": "figures/sonnen-2018/s3-moving-center/kymograph-common.svg",
+      "native_space_only": true,
+      "geometry_version": "sonnen-s3-moving-geometric-center-v1",
+      "card_context": {
+        "sample": "Movie S3",
+        "source_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC5847172.1/mmc4.mp4"
+      },
+      "position_increases_up": true
+    },
+    {
+      "id": "eck-2026-fig4c",
+      "paper_id": "eck-2026",
+      "short": "Eck 2026",
+      "reporter": "her1-MS2",
+      "sample": "Dorado dataset 1 · Figure 4C",
+      "system_label": "Embryonic PSM",
+      "reporter_note": "Summed nascent transcription spots",
+      "kind": "spots",
+      "source_label": "Binned spots",
+      "label": "Binned transcription spots",
+      "origin_short": "Author AP spline · anterior at smaller coordinates",
+      "origin": "Distance along the author AP spline",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13522979/#F4",
+      "data_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC10802376.2/media-8.zip",
+      "input": "data/derived/eck-2026-fig4c/kymograph.npz",
+      "input_sha256": "6da54984d0271c12c30be0f97bb377d263f72142c3786714fb175fa8f7cc9d4a",
+      "provenance": "data/derived/eck-2026-fig4c/provenance.json",
+      "shape_space_time": [
+        71,
+        158
+      ],
+      "time_range_h": [
+        0.0,
+        2.6166666666666667
+      ],
+      "spatial_range": [
+        57.88888888888889,
+        426.2727272727273
+      ],
+      "spatial_range_um": [
+        57.88888888888889,
+        426.2727272727273
+      ],
+      "position_unit": "µm",
+      "axis_label": "AP position (µm)",
+      "signal_label": "Summed MS2 (1 = 25% of peak)",
+      "missing_values": 1278,
+      "normalization": {
+        "method": "Linear from zero to 25% of the full notebook peak; colors saturate above the upper limit.",
+        "min": 0,
+        "max": 133787.75
+      },
+      "full_preview": "figures/eck-2026-fig4c/full.svg",
+      "common_preview": "figures/eck-2026-fig4c/common.svg"
+    },
+    {
+      "id": "rohde-2024-axial",
+      "paper_id": "rohde-2024",
+      "short": "Rohde 2024",
+      "reporter": "Her1–YFP",
+      "kind": "video",
+      "source_label": "Video extraction",
+      "card_title": "Her1–YFP · Axial strip",
+      "system_label": "Embryonic PSM",
+      "sample": "Position 2 · axial strip",
+      "label": "Frame-specific axial strip",
+      "origin": "Arc length from fixed P reference (µm)",
+      "origin_short": "Final-frame P → A · fixed arc length",
+      "source_url": "https://elifesciences.org/articles/93764",
+      "data_url": "https://sv-open.epfl.ch/upoates-public/Rohde_Bercowsky_eLife2024_Data/in_vivo_data/20191213_Tg_her1YFP_h2bmCherry/Position%202_Single%20plane_max/",
+      "input": "data/derived/rohde-2024-axial/kymograph.npz",
+      "input_sha256": "e9400dbc7e38c0ea44fbc7a2c22877ee09024f4f3771d3b1a3767704efc90043",
+      "roi": "figures/rohde-2024-axial/roi.png",
+      "reporter_note": "Fixed-contrast projection movie",
+      "time_range_h": [
+        0,
+        7.475
+      ],
+      "position_unit": "µm",
+      "spatial_range": [
+        0,
+        518.8416129075547
+      ],
+      "shape_space_time": [
+        520,
+        300
+      ],
+      "missing_values": 31576,
+      "common_preview": "figures/rohde-2024-axial/plot.svg",
+      "full_preview": "figures/rohde-2024-axial/plot.svg",
+      "provenance": "data/derived/rohde-2024-axial/audit.json",
+      "position_increases_up": true,
+      "normalization": {
+        "method": "linear sample-wide finite min/max",
+        "min": 3.4766085950401546,
+        "max": 255.0
+      }
+    },
+    {
+      "id": "aulehla-2008",
+      "short": "Aulehla 2008",
+      "reporter": "LuVeLu",
+      "kind": "video",
+      "system_label": "Control embryo",
+      "sample": "Movie 1",
+      "origin": "Arc length from final-frame P tip",
+      "origin_short": "Arc length from final-frame P tip",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7391962/",
+      "data_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fncb1679/MediaObjects/41556_2008_BFncb1679_MOESM15_ESM.mov",
+      "input": "data/derived/aulehla-2008/kymograph.npz",
+      "input_sha256": "8913d51bc9a142be069fcc73a647936cd744eb31e70acd1036f5a53db85a952e",
+      "roi": "figures/aulehla-2008/roi.png",
+      "reporter_note": "Green excess in the LuVeLu composite",
+      "time_range_h": [
+        0,
+        11.98
+      ],
+      "position_unit": "µm",
+      "spatial_range": [
+        0,
+        1029.2682926829268
+      ],
+      "spatial_scale_approximate": true,
+      "shape_space_time": [
+        423,
+        75
+      ],
+      "missing_values": 8955,
+      "common_preview": "figures/aulehla-2008/plot.svg",
+      "full_preview": "figures/aulehla-2008/plot.svg",
+      "provenance": "data/derived/aulehla-2008/audit.json",
+      "position_increases_up": true,
+      "normalization": {
+        "method": "linear sample-wide finite min/max",
+        "min": 0.0,
+        "max": 123.212158203125
+      },
+      "paper_id": "aulehla-2008",
+      "card_context": {
+        "sample": "Movie 1"
+      }
+    },
+    {
+      "id": "aulehla-2008-mutant",
+      "short": "Aulehla 2008",
+      "reporter": "LuVeLu",
+      "kind": "video",
+      "system_label": "Stabilized β-catenin mutant embryo",
+      "sample": "Movie 2",
+      "origin": "Arc length from final-frame P tip",
+      "origin_short": "Arc length from final-frame P tip",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7391962/",
+      "data_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fncb1679/MediaObjects/41556_2008_BFncb1679_MOESM16_ESM.mov",
+      "input": "data/derived/aulehla-2008-mutant/kymograph.npz",
+      "input_sha256": "65de0cb517e4de2af3971a950cfce6dd373831161d9ce8160775dc7715bd5183",
+      "roi": "figures/aulehla-2008-mutant/roi.png",
+      "reporter_note": "Green excess in the LuVeLu composite",
+      "time_range_h": [
+        0.0,
+        11.99
+      ],
+      "position_unit": "µm",
+      "spatial_range": [
+        0,
+        904.8780487804878
+      ],
+      "spatial_scale_approximate": true,
+      "shape_space_time": [
+        372,
+        75
+      ],
+      "missing_values": 4456,
+      "common_preview": "figures/aulehla-2008-mutant/plot.svg",
+      "full_preview": "figures/aulehla-2008-mutant/plot.svg",
+      "provenance": "data/derived/aulehla-2008-mutant/audit.json",
+      "position_increases_up": true,
+      "normalization": {
+        "method": "linear sample-wide finite min/max",
+        "min": 0.0,
+        "max": 122.29866790771484
+      },
+      "paper_id": "aulehla-2008",
+      "card_context": {
+        "sample": "Movie 2"
+      }
+    },
+    {
+      "id": "isomura-2026-s1",
+      "short": "Isomura 2026",
+      "reporter": "pHes7–Achilles",
+      "kind": "video",
+      "system_label": "Wild-type miPSM organoid",
+      "sample": "Movie S1",
+      "origin": "Distance from anterior ROI reference",
+      "origin_short": "Anterior reference → posteriorward",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12758139/",
+      "data_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC12758139.1/Supplemental_s1.mp4",
+      "input": "data/derived/isomura-2026-s1/kymograph.npz",
+      "input_sha256": "4aeb31ae2628523c070abd409dae795165f575d6455c0f3cbeaf39db95b87679",
+      "roi": "figures/isomura-2026-s1/roi.png",
+      "reporter_note": "Grayscale Achilles fluorescence display",
+      "time_range_h": [
+        0.0,
+        22.2
+      ],
+      "position_unit": "µm",
+      "spatial_range": [
+        0,
+        606.3636363636364
+      ],
+      "spatial_scale_approximate": true,
+      "shape_space_time": [
+        233,
+        223
+      ],
+      "missing_values": 15768,
+      "common_preview": "figures/isomura-2026-s1/plot.svg",
+      "full_preview": "figures/isomura-2026-s1/plot.svg",
+      "provenance": "data/derived/isomura-2026-s1/audit.json",
+      "position_increases_up": false,
+      "normalization": {
+        "method": "linear sample-wide finite min/max",
+        "min": 5.107443809509277,
+        "max": 254.56246948242188
+      },
+      "paper_id": "isomura-2026",
+      "card_context": {
+        "sample": "Movie S1"
+      },
+      "roi_note": "The orange band follows the published axis and stops inside the visible tissue edge in each frame. The dashed segment extends to the maximum sampled posteriorward distance. Only the solid band enters the matrix."
+    },
+    {
+      "id": "yabe-2023-movie1",
+      "short": "Yabe 2023",
+      "reporter": "Her7–3×Achilles",
+      "kind": "video",
+      "system_label": "WT embryo · heterozygous reporter knock-in",
+      "sample": "Supplementary Movie 1",
+      "origin": "Fixed final-frame posterior cap → fixed anterior reference",
+      "origin_short": "Fixed final-frame posterior cap → fixed anterior reference",
+      "source_url": "https://www.nature.com/articles/s41467-023-37745-w",
+      "data_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC10102234.1/41467_2023_37745_MOESM4_ESM.avi",
+      "input": "data/derived/yabe-2023-movie1/fixed-ap-smooth5/kymograph.npz",
+      "input_sha256": "07b98f0b32b073c875366b0ea72e14765c2bf8964870332bba3ddcf03af555f2",
+      "roi": "figures/yabe-2023-movie1/fixed-ap/roi.png",
+      "reporter_note": "Mean grayscale intensity from the released Her7–3×Achilles fluorescence movie",
+      "time_range_h": [
+        0.0,
+        3.433333333333333
+      ],
+      "position_unit": "µm",
+      "spatial_range": [
+        0,
+        875.0610678247917
+      ],
+      "spatial_scale_approximate": true,
+      "shape_space_time": [
+        439,
+        207
+      ],
+      "missing_values": 27975,
+      "common_preview": "figures/yabe-2023-movie1/fixed-ap-smooth5/plot.svg",
+      "full_preview": "figures/yabe-2023-movie1/fixed-ap-smooth5/plot.svg",
+      "provenance": "data/derived/yabe-2023-movie1/fixed-ap-smooth5/audit.json",
+      "position_increases_up": true,
+      "normalization": {
+        "method": "Use the 1st and 99th percentiles of the unsmoothed transverse means for both displays.",
+        "min": 67.47640197753907,
+        "max": 206.66004730224606
+      },
+      "paper_id": "yabe-2023",
+      "card_context": {
+        "sample": "Supplementary Movie 1"
+      },
+      "roi_note": "P marks the final-frame posterior cap on the left. A marks the anterior limit reached by the first-frame strip on the right. Both references are fixed in yolk-registered coordinates. Solid orange marks the supported 24 px strip. Dashed extensions correspond to missing matrix bins."
+    },
+    {
+      "id": "rohde-2024-oct-p2-mespba",
+      "paper_id": "rohde-2024",
+      "short": "Rohde 2024",
+      "reporter": "Mesp-ba–mKate2",
+      "kind": "video",
+      "system_label": "Intact zebrafish embryo",
+      "sample": "October 2019 · Position 2",
+      "origin": "Registered arc length from fixed P",
+      "origin_short": "Registered arc length from fixed P",
+      "source_url": "https://doi.org/10.7554/eLife.93764",
+      "data_url": "https://sv-open.epfl.ch/upoates-public/Rohde_Bercowsky_eLife2024_Data/in_vivo_data/20191031_140601_11_Tg_mespbamKate2a_h2agfp/Position%202_Stack%201_max/",
+      "input": "data/derived/rohde-2024-oct-p2-mespba/fixed-ap/kymograph.npz",
+      "input_sha256": "b42eaf0552e9684604f60b3907b058b5f508bf2406c297c636bb084b686f9426",
+      "roi": "figures/rohde-2024-oct-p2-mespba/fixed-ap/roi.png",
+      "roi_note": "P and A are fixed positions along the registered flank. The solid band marks the measured strip. Dashed lines reach the reference ends across unsupported intervals. The thin rectangle outlines the recorded field.",
+      "reporter_note": "Mesp-ba–mKate2 · channel 2 · hatched values held after A leaves the field",
+      "time_range_h": [
+        0,
+        5.9750000000000005
+      ],
+      "position_unit": "µm",
+      "spatial_range": [
+        0.0,
+        944.0
+      ],
+      "shape_space_time": [
+        473,
+        240
+      ],
+      "missing_values": 46675,
+      "common_preview": "figures/rohde-2024-oct-p2-mespba/fixed-ap/plot.svg",
+      "full_preview": "figures/rohde-2024-oct-p2-mespba/fixed-ap/plot.svg",
+      "provenance": "data/derived/rohde-2024-oct-p2-mespba/fixed-ap/audit.json",
+      "position_increases_up": true,
+      "normalization": {
+        "method": "Linear 1st to 99.25th percentile of measured intensities across all 240 frames.",
+        "min": 114.91076965332032,
+        "max": 399.29540374755857
+      },
+      "card_context": {
+        "sample": "October 2019 · Position 2",
+        "coordinate": "Registered arc length from fixed P",
+        "signal": "Mesp-ba–mKate2 · channel 2 · hatched values held after A leaves the field"
+      }
+    },
+    {
+      "id": "keseroglu-2023-wt-her1-her7-venus",
+      "paper_id": "keseroglu-2023",
+      "short": "Keseroğlu 2023",
+      "reporter": "Her1 / Her7–Venus",
+      "kind": "video",
+      "system_label": "WT-background zebrafish embryo",
+      "sample": "WT background · specimen 1.nd2",
+      "origin": "A tracked on an anterior somite · common projected P zero",
+      "origin_short": "A tracked on an anterior somite · common projected P zero",
+      "source_url": "https://doi.org/10.1038/s41467-023-42220-7",
+      "data_url": "https://www.ebi.ac.uk/biostudies/studies/S-BSST1156",
+      "input": "data/derived/keseroglu-2023-wt-her1-her7-venus/kymograph.npz",
+      "input_sha256": "49e20f4b3193e4e9b4bf5d7c34b638e846e5ebde5d8d3d38547d93b3f2b6783b",
+      "roi": "figures/keseroglu-2023-wt-her1-her7-venus/roi.png",
+      "roi_note": "Solid orange bounds enclose the measured tissue. A follows one brightfield somite landmark. P is a common projected-distance zero. It coincides with the sampled caudal bud in the final frame. Earlier dashed lines extend along the local tail tangent by the measured arc-length deficit. Gray cells lack measurements.",
+      "reporter_note": "The YFP detector records Her1–Venus and Her7–Venus together. Brightfield supplies the structural landmarks.",
+      "time_range_h": [
+        5.001808289727105,
+        12.001638271145291
+      ],
+      "position_unit": "µm",
+      "spatial_range": [
+        0.0,
+        1021.0785038051204
+      ],
+      "shape_space_time": [
+        397,
+        85
+      ],
+      "missing_values": 4052,
+      "full_preview": "figures/keseroglu-2023-wt-her1-her7-venus/plot.svg",
+      "common_preview": "figures/keseroglu-2023-wt-her1-her7-venus/plot.svg",
+      "provenance": "data/derived/keseroglu-2023-wt-her1-her7-venus/audit.json",
+      "position_increases_up": true,
+      "normalization": {
+        "method": "Global 1st and 99.5th percentiles of measured raw detector means after masking one stationary spot.",
+        "min": 3646.0957867104016,
+        "max": 4865.606470793561
+      },
+      "card_context": {
+        "sample": "WT background · specimen 1.nd2"
+      },
+      "card_title": "Her1–Venus + Her7–Venus"
+    },
+    {
+      "id": "mok-2021-tcf15-enh2",
+      "card_title": "TCF15 Enh-2 · Citrine",
+      "paper_id": "mok-2021",
+      "short": "Mok 2021",
+      "reporter": "TCF15 Enh-2 · Citrine",
+      "kind": "video",
+      "system_label": "Chick embryo",
+      "sample": "Movie 1",
+      "origin": "Arc length from fixed A to the final-frame posterior flank reference",
+      "origin_short": "Arc length from fixed A to the final-frame posterior flank reference",
+      "source_url": "https://doi.org/10.1038/s41467-021-21426-7",
+      "data_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC7895974.1/41467_2021_21426_MOESM2_ESM.mov",
+      "input": "data/derived/mok-2021-tcf15-enh2/kymograph.npz",
+      "input_sha256": "f459e160ba6271195fedfcab35cc2da9b10a5da5bfb444ac50a77abd688d4ed8",
+      "roi": "figures/mok-2021-tcf15-enh2/roi.png",
+      "roi_note": "A and P are fixed on the straightened axis of the upper somite row. The solid strip shows the sampled tissue. The dashed line extends to the final-frame P reference. These positions are gray in the kymograph.",
+      "reporter_note": "TCF15 Enh-2 Citrine enhancer reporter · released fluorescence display",
+      "time_range_h": [
+        0,
+        13.700000000000001
+      ],
+      "position_unit": "µm",
+      "spatial_range": [
+        0,
+        1642.9597586054251
+      ],
+      "shape_space_time": [
+        333,
+        138
+      ],
+      "missing_values": 8265,
+      "full_preview": "figures/mok-2021-tcf15-enh2/plot.svg",
+      "common_preview": "figures/mok-2021-tcf15-enh2/plot.svg",
+      "provenance": "data/derived/mok-2021-tcf15-enh2/audit.json",
+      "position_increases_up": false,
+      "normalization": {
+        "method": "Global 1st and 99th percentiles of the movie-display strip means.",
+        "min": 117.21732604980468,
+        "max": 252.60320434570312
+      },
+      "card_context": {
+        "sample": "Movie 1 · TCF15 enhancer activity"
+      }
+    },
+    {
+      "id": "mok-2021-movie2-meox1",
+      "short": "Mok 2021",
+      "reporter": "MEOX1 enhancer–Citrine",
+      "kind": "video",
+      "system_label": "Enhancer reporter · unilateral somite row",
+      "sample": "Supplementary Movie 2",
+      "origin": "Arc length from fixed A to the Movie 2 final-frame posterior reference",
+      "origin_short": "Arc length from fixed A to the Movie 2 final-frame posterior reference",
+      "source_url": "https://www.nature.com/articles/s41467-021-21426-7",
+      "data_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC7895974.1/41467_2021_21426_MOESM3_ESM.mov",
+      "input": "data/derived/mok-2021-movie2-meox1/kymograph.npz",
+      "input_sha256": "089c75c005e806a86c8041eafd8ebc6d98ebb19b812c94af174adcf0437aab85",
+      "roi": "figures/mok-2021-movie2-meox1/roi.png",
+      "reporter_note": "MEOX1 cis-regulatory enhancer driving Citrine in electroporated chick paraxial mesoderm.",
+      "time_range_h": [
+        11.200000000000001,
+        25.6
+      ],
+      "position_unit": "video px",
+      "spatial_range": [
+        0,
+        627.6746659143697
+      ],
+      "spatial_scale_approximate": false,
+      "shape_space_time": [
+        315,
+        145
+      ],
+      "missing_values": 10707,
+      "common_preview": "figures/mok-2021-movie2-meox1/plot.svg",
+      "full_preview": "figures/mok-2021-movie2-meox1/plot.svg",
+      "provenance": "data/derived/mok-2021-movie2-meox1/audit.json",
+      "position_increases_up": false,
+      "normalization": {
+        "method": "1st–99th percentiles of all measured source display values",
+        "min": 33.19047546386719,
+        "max": 237.2857208251953
+      },
+      "paper_id": "mok-2021",
+      "card_context": {
+        "sample": "Supplementary Movie 2"
+      },
+      "roi_note": "A and P are fixed on the straightened flank of Movie 2 using its final frame. Both panels show the solid measured strip and a dashed extension to P where the flank has not yet been sampled. Those bins are gray in the kymograph."
+    },
+    {
+      "id": "schmitz-elbers-2021-s2-cortex",
+      "paper_id": "schmitz-elbers-2021",
+      "short": "Schmitz-Elbers 2021",
+      "card_title": "F-actin · high-magnification somites",
+      "reporter": "SiR-actin",
+      "kind": "video",
+      "system_label": "Chick embryo",
+      "sample": "Movie S2",
+      "origin": "Distance from the anterior edge of the tracked strip (approx. µm)",
+      "origin_short": "Anterior edge of the sampled strip",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8303455/",
+      "data_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC8303455.1/cells-10-01578-s001.zip",
+      "input": "data/derived/schmitz-elbers-2021-s2-cortex/matrix.npz",
+      "input_sha256": "b9f3e7915e95644b3cf0a9194934a4fd43f2b870b1d0c7acad933ae3a56a534d",
+      "roi": "figures/schmitz-elbers-2021-s2-cortex/sampling.png",
+      "roi_note": "The orange band follows one somite row between annotated keyframes. A is at image left.",
+      "reporter_note": "Fluorogenic F-actin stain · 240 nM",
+      "time_range_h": [
+        0.0,
+        10.0
+      ],
+      "position_unit": "µm",
+      "spatial_scale_approximate": true,
+      "spatial_range": [
+        0,
+        527.3469387755102
+      ],
+      "shape_space_time": [
+        1293,
+        121
+      ],
+      "missing_values": 933,
+      "full_preview": "figures/schmitz-elbers-2021-s2-cortex/plot.svg",
+      "common_preview": "figures/schmitz-elbers-2021-s2-cortex/plot.svg",
+      "provenance": "data/derived/schmitz-elbers-2021-s2-cortex/audit.json",
+      "position_increases_up": false,
+      "normalization": {
+        "method": "Global 1st and 99th percentiles of the strip means.",
+        "min": 40.950248908996585,
+        "max": 156.04396209716796
+      },
+      "card_context": {
+        "sample": "Movie S2"
+      }
+    },
+    {
+      "id": "liu-2024-hes7-video5",
+      "paper_id": "liu-2024",
+      "short": "Liu 2024",
+      "reporter": "HES7–Achilles",
+      "card_title": "HES7–Achilles · microfluidic PSM",
+      "kind": "video",
+      "system_label": "Human microfluidic PSM",
+      "sample": "Supplementary Video 5",
+      "origin": "Distance from the caudal field edge (approx. µm)",
+      "origin_short": "Distance from the caudal field edge (approx. µm)",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11890119/#F4",
+      "data_url": "https://www.biorxiv.org/content/biorxiv/early/2023/11/01/2023.10.29.564399/DC6/embed/media-6.mp4?download=true",
+      "input": "data/derived/liu-2024-hes7-video5/matrix.npz",
+      "input_sha256": "11fd2ad45c9de85ba2c5f6f5064591af47349c73c93788c3e9be9f0394267a72",
+      "roi": "figures/liu-2024-hes7-video5/sampling.png",
+      "roi_note": "The orange band spans the microtrench. A marks the left rostral end and P the right caudal end.",
+      "reporter_note": "Grayscale HES7 reporter intensity from the movie export.",
+      "time_range_h": [
+        48,
+        96
+      ],
+      "position_unit": "µm",
+      "spatial_scale_approximate": true,
+      "spatial_range": [
+        0,
+        4361.538461538462
+      ],
+      "shape_space_time": [
+        1702,
+        97
+      ],
+      "missing_values": 0,
+      "full_preview": "figures/liu-2024-hes7-video5/plot.svg",
+      "common_preview": "figures/liu-2024-hes7-video5/plot.svg",
+      "provenance": "data/derived/liu-2024-hes7-video5/audit.json",
+      "position_increases_up": true,
+      "normalization": {
+        "method": "Global linear 1st–99th percentile display scale after spatial smoothing.",
+        "min": 17.868988914489748,
+        "max": 86.08321784973165
+      },
+      "card_context": {
+        "sample": "Video 5"
+      }
+    },
+    {
+      "id": "makwana-2025-hes7-video2",
+      "paper_id": "makwana-2025",
+      "reporter": "HES7–Achilles",
+      "kind": "video_lut",
+      "short": "Makwana 2025",
+      "system_label": "Human trunk-like structure · iPSC-derived",
+      "sample": "Supplementary Video 2",
+      "origin": "Arc length from the tracked anterior landmark. The P reference uses the final-frame extent.",
+      "origin_short": "Anterior somite reference",
+      "source_url": "https://www.nature.com/articles/s41556-025-01813-8",
+      "data_url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41556-025-01813-8/MediaObjects/41556_2025_1813_MOESM5_ESM.avi",
+      "input": "data/derived/makwana-2025-hes7-video2/matrix.npz",
+      "input_sha256": "2914730725871e38294b9c12feb506e9510d10a39b8a723d9aec87fee3b02da1",
+      "roi": "figures/makwana-2025-hes7-video2/sampling.png",
+      "roi_note": "The solid band follows the visible tissue. The dashed line extends to the posterior reference where the first frames end sooner.",
+      "reporter_note": "Achilles pseudocolor in a brightfield overlay",
+      "time_range_h": [
+        100.0,
+        115.75
+      ],
+      "position_unit": "µm",
+      "spatial_range": [
+        0.0,
+        645.9459459459459
+      ],
+      "spatial_scale_approximate": true,
+      "shape_space_time": [
+        240,
+        64
+      ],
+      "missing_values": 879,
+      "common_preview": "figures/makwana-2025-hes7-video2/plot.svg",
+      "full_preview": "figures/makwana-2025-hes7-video2/plot.svg",
+      "position_increases_up": false,
+      "provenance": "data/derived/makwana-2025-hes7-video2/audit.json",
+      "card_context": {
+        "sample": "Single hTLS · Video 2"
+      },
+      "normalization": {
+        "method": "Display preview 0 to 99.5th percentile after 4 µm spatial smoothing",
+        "min": 0,
+        "max": 0.7800248265266418
+      }
+    },
+    {
+      "id": "shimojo-2016-s1-dll1",
+      "paper_id": "shimojo-2016",
+      "card_title": "pDll1–Ub-Fluc",
+      "reporter": "pDll1–Ub-Fluc",
+      "kind": "video",
+      "short": "Shimojo 2016",
+      "system_label": "Mouse tail explant",
+      "sample": "Movie S1",
+      "origin": "Distance from the fixed posterior-side strip reference in video pixels.",
+      "origin_short": "Fixed posterior-side strip reference",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4701973/",
+      "data_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC4701973.1/supp_30.1.102_movie1.avi",
+      "input": "data/derived/shimojo-2016-s1/kymograph.npz",
+      "input_sha256": "bb27a815dde730439d2c73dc932f9d3f98437cc503ae029740a9fb1abdd36af6",
+      "roi": "figures/shimojo-2016-s1/sampling.png",
+      "roi_note": "The orange band samples the left grayscale pane. A and P mark fixed image-side references. The dashed posterior guide marks rows outside the reviewed strip support.",
+      "reporter_note": "Dll1 promoter-activity reporter · bioluminescence",
+      "time_range_h": [
+        0,
+        13.166666666666666
+      ],
+      "position_unit": "px",
+      "spatial_range": [
+        0,
+        233
+      ],
+      "shape_space_time": [
+        234,
+        80
+      ],
+      "missing_values": 1341,
+      "normalization": {
+        "method": "Global 1st and 99th percentiles of finite display strip means. Clipping affects display only; the matrix retains the original means.",
+        "min": 16.09677505493164,
+        "max": 254.81355407714847
+      },
+      "full_preview": "figures/shimojo-2016-s1/kymograph.svg",
+      "common_preview": "figures/shimojo-2016-s1/kymograph.svg",
+      "provenance": "data/derived/shimojo-2016-s1/processing.json",
+      "position_increases_up": true,
+      "temperature_label": "37°C",
+      "card_context": {
+        "sample": "Movie S1 · Dll1 promoter activity"
+      }
+    },
+    {
+      "id": "julich-2015-s5-fn1a",
+      "paper_id": "julich-2015",
+      "reporter": "Fn1a–EmeraldGFP",
+      "kind": "video",
+      "short": "Jülich 2015",
+      "system_label": "Intact zebrafish embryo",
+      "sample": "Movie S5 · parasagittal pass",
+      "origin": "Distance from the posterior side of the sampled field toward the anterior.",
+      "origin_short": "Posterior edge of sampled field",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4496283/",
+      "data_url": "https://ars.els-cdn.com/content/image/1-s2.0-S1534580715003214-mmc6.mp4",
+      "input": "data/derived/julich-2015-s5-fn1a/matrix.npz",
+      "input_sha256": "8e05b5855e381c0b48a9af4e49d52121c047cb13123ecd1be9c56f194d62eb0b",
+      "roi": "figures/julich-2015-s5-fn1a/sampling.png",
+      "roi_note": "The orange rectangle is the sampled band. A is at image left and P at image right, as shown by the author’s orientation key.",
+      "reporter_note": "Fn1a protein deposition at forming somite boundaries.",
+      "time_range_h": [
+        0.0,
+        3.25
+      ],
+      "position_unit": "px",
+      "spatial_range": [
+        0.0,
+        427.0
+      ],
+      "shape_space_time": [
+        428,
+        31
+      ],
+      "missing_values": 0,
+      "common_preview": "figures/julich-2015-s5-fn1a/plot.svg",
+      "full_preview": "figures/julich-2015-s5-fn1a/plot.svg",
+      "provenance": "data/derived/julich-2015-s5-fn1a/audit.json",
+      "position_increases_up": true,
+      "normalization": {
+        "method": "Preview scales the measured minimum to the 99.7th percentile",
+        "min": 7.804347991943359,
+        "max": 85.78250238800055
+      },
+      "card_context": {
+        "sample": "Movie S5 · Fn1a deposition"
+      }
+    },
+    {
+      "id": "venzin-2023-dual-tbx6",
+      "paper_id": "venzin-2023",
+      "short": "Venzin 2023",
+      "reporter": "Tbx6–mNeonGreen",
+      "kind": "video_lut",
+      "card_title": "Tbx6–mNeonGreen",
+      "system_label": "Zebrafish embryonic PSM",
+      "sample": "Oates Lab dual-color timelapse",
+      "origin": "Aligned distance from final P (video px)",
+      "origin_short": "Aligned distance from final P (video px)",
+      "source_url": "https://x.com/OatesLab/status/1724075364924764493",
+      "data_url": "https://x.com/OatesLab/status/1724075364924764493",
+      "input": "data/derived/venzin-2023-aligned/tbx6/matrix.npz",
+      "input_sha256": "1070d7697fd4b2dad00efb2ebbd8bcd65de5ae5d55f40fac691f2e7d791b5913",
+      "roi": "figures/venzin-2023-aligned/sampling.png",
+      "roi_note": "The shared orange strip follows the same lower flank in both channels. P is the final-frame reference mapped to the source image by the saved axial offset. Dashed segments connect P to the first supported sample, up to the visible field edge.",
+      "reporter_note": "Relative yellow contrast for Tbx6–mNeonGreen in the source video.",
+      "time_range_h": [
+        4.6,
+        8.266666666666667
+      ],
+      "position_unit": "px",
+      "spatial_range": [
+        0,
+        724
+      ],
+      "spatial_scale_approximate": false,
+      "shape_space_time": [
+        725,
+        111
+      ],
+      "missing_values": 8999,
+      "full_preview": "figures/venzin-2023-aligned/tbx6/plot.svg",
+      "common_preview": "figures/venzin-2023-aligned/tbx6/plot.svg",
+      "provenance": "data/derived/venzin-2023-aligned/audit.json",
+      "position_increases_up": true,
+      "normalization": {
+        "method": "Spatially smoothed display contrast, scaled to the channel's 99.5th percentile",
+        "min": 0,
+        "max": 207.7708713793168
+      },
+      "card_context": {
+        "sample": "Oates Lab dual-color timelapse"
+      }
+    },
+    {
+      "id": "venzin-2023-dual-mespba",
+      "paper_id": "venzin-2023",
+      "short": "Venzin 2023",
+      "reporter": "Mesp-ba–mKate2",
+      "kind": "video_lut",
+      "card_title": "Mesp-ba–mKate2",
+      "system_label": "Zebrafish embryonic PSM",
+      "sample": "Oates Lab dual-color timelapse",
+      "origin": "Aligned distance from final P (video px)",
+      "origin_short": "Aligned distance from final P (video px)",
+      "source_url": "https://x.com/OatesLab/status/1724075364924764493",
+      "data_url": "https://x.com/OatesLab/status/1724075364924764493",
+      "input": "data/derived/venzin-2023-aligned/mespba/matrix.npz",
+      "input_sha256": "506bcc2027f81f7dd3add4e91f458b338c9e5cc47dcd145ceef2c2e21c6191a4",
+      "roi": "figures/venzin-2023-aligned/sampling.png",
+      "roi_note": "The shared orange strip follows the same lower flank in both channels. P is the final-frame reference mapped to the source image by the saved axial offset. Dashed segments connect P to the first supported sample, up to the visible field edge.",
+      "reporter_note": "Relative magenta contrast for Mesp-ba–mKate2 in the source video.",
+      "time_range_h": [
+        4.6,
+        8.266666666666667
+      ],
+      "position_unit": "px",
+      "spatial_range": [
+        0,
+        724
+      ],
+      "spatial_scale_approximate": false,
+      "shape_space_time": [
+        725,
+        111
+      ],
+      "missing_values": 8999,
+      "full_preview": "figures/venzin-2023-aligned/mespba/plot.svg",
+      "common_preview": "figures/venzin-2023-aligned/mespba/plot.svg",
+      "provenance": "data/derived/venzin-2023-aligned/audit.json",
+      "position_increases_up": true,
+      "normalization": {
+        "method": "Spatially smoothed display contrast, scaled to the channel's 99.5th percentile",
+        "min": 0,
+        "max": 65.99270306504468
+      },
+      "card_context": {
+        "sample": "Oates Lab dual-color timelapse"
+      }
+    }
+  ],
+  "normalization": "per-sample whole-record finite-value min-max; no percentile clipping",
+  "common_window_h": [
+    0,
+    10
+  ],
+  "common_space_um": [
+    0,
+    400
+  ],
+  "full_view": "full native position and time ranges",
+  "source_spatial_origins_are_not_equivalent": true,
+  "script_sha256": "15f99222ea0ee80b4db558eb84eef4f698765659d4d95dfb3447154ca81c187b",
+  "exports": {
+    "common": {
+      "pdf": "figures/comparison/all-paper-common.pdf",
+      "svg": "figures/comparison/all-paper-common.svg",
+      "png": "figures/comparison/all-paper-common.png"
+    },
+    "full": {
+      "pdf": "figures/comparison/all-paper-full.pdf",
+      "svg": "figures/comparison/all-paper-full.svg",
+      "png": "figures/comparison/all-paper-full.png"
+    }
+  },
+  "figure_table_trace": [
+    {
+      "artifact_id": "all-paper-common",
+      "source_data": [
+        {
+          "file": "data/samples/chhabra-2026/Kymo_20200815_P1.tif",
+          "sha256": "5d615be397563026e89acf6c030eef61980256ba5686a41a52633bfd4108ea1b"
+        },
+        {
+          "file": "data/derived/lauschke-2013/video5-wavefront-comparison.npz",
+          "sha256": "0b065769a0541758cacdbc82f37e67250c42c9b4aeb2c8074d30da0e16b83958"
+        },
+        {
+          "file": "data/derived/sonnen-2018/s2-final-reference/kymograph.npz",
+          "sha256": "264c632185cf0bb8267de20e1130a4dda5f9a503afc65d560dd8dd7f3032dff2"
+        },
+        {
+          "file": "data/derived/delaune-2012/movie-s1-kymograph.npz",
+          "sha256": "7df839b8670fe4b0643064497005541b50f2a1d9bf4432dc3a28895c7a7fae18"
+        },
+        {
+          "file": "data/derived/yaman-2023/kymograph.npz",
+          "sha256": "9e76a9d7f4cd35983373560f44df7d07d8c3ece21bd0d06ccf4ed12c8508b4e6"
+        },
+        {
+          "file": "data/derived/rohde-2024/psm4_cohort.npz",
+          "sha256": "c91153649cab01f2627235f7d87cafdd960136e5281596ddedefe46f4f5d7617"
+        },
+        {
+          "file": "data/derived/sanaki-2022-whole/kymograph.npz",
+          "sha256": "cfa0bf52ddd19eff2326ef227bb775fd28d9d03be0ba4732e8397501170ec4af"
+        },
+        {
+          "file": "data/derived/miao-2023-radius/kymograph.npz",
+          "sha256": "f1448fc0eb9a80cc13d95a293d57619fe359397eaa2032451db87f38dcd3cc9e"
+        },
+        {
+          "file": "data/derived/miao-2023-segmentoid/kymograph.npz",
+          "sha256": "c8b87dbfe3dea87ca314ac68d034d1cefb226f76042d70abdbe9bc85ca2ecc90"
+        },
+        {
+          "file": "data/derived/lauschke-2013/video1-fixed-reference/kymograph.npz",
+          "sha256": "549f18f6bae13f8620f82facf139731cfd9fa1aeb2f6f1eb0cb3f37e60e212a0"
+        },
+        {
+          "file": "data/derived/lauschke-2013/video2-kymograph.npz",
+          "sha256": "72baefe9d665ae6e7f7ead53655d51984759447c8e9cd10e77c0542efd312e68"
+        },
+        {
+          "file": "data/derived/lauschke-2013/video6-mesp2/video6-mesp2-kymograph.npz",
+          "sha256": "e0c7521a4a27ed4b7e349b03e7d2d845b3ffb2dd50ceb92124d5c03461afb7fa"
+        },
+        {
+          "file": "data/derived/sonnen-2018/s1-final-reference/kymograph.npz",
+          "sha256": "4e0335a078114cb30d11cd3f1a46a6cc5da9e3e17ea6535874cd347fca3b35e2"
+        },
+        {
+          "file": "data/derived/sonnen-2018/s3-moving-center-review/kymograph.npz",
+          "sha256": "c35c96335582599c82b972750c0de5f9a1e2453b6a12bbf3d5cd4a4fa80a6901"
+        }
+      ],
+      "transformation": {
+        "script": "render_comparison.py",
+        "hash": "15f99222ea0ee80b4db558eb84eef4f698765659d4d95dfb3447154ca81c187b"
+      },
+      "caption_claim": "Single-sample experimental records with explicit native calibration and independent display normalization.",
+      "supported_manuscript_claims": [],
+      "limitations": [
+        "Compressed display values are not raw fluorescence",
+        "Sample registration and local origins differ",
+        "No shared molecular concentration scale",
+        "Single samples do not establish reproducibility"
+      ]
+    },
+    {
+      "artifact_id": "all-paper-full",
+      "source_data": [
+        {
+          "file": "data/samples/chhabra-2026/Kymo_20200815_P1.tif",
+          "sha256": "5d615be397563026e89acf6c030eef61980256ba5686a41a52633bfd4108ea1b"
+        },
+        {
+          "file": "data/derived/lauschke-2013/video5-wavefront-comparison.npz",
+          "sha256": "0b065769a0541758cacdbc82f37e67250c42c9b4aeb2c8074d30da0e16b83958"
+        },
+        {
+          "file": "data/derived/sonnen-2018/s2-final-reference/kymograph.npz",
+          "sha256": "264c632185cf0bb8267de20e1130a4dda5f9a503afc65d560dd8dd7f3032dff2"
+        },
+        {
+          "file": "data/derived/delaune-2012/movie-s1-kymograph.npz",
+          "sha256": "7df839b8670fe4b0643064497005541b50f2a1d9bf4432dc3a28895c7a7fae18"
+        },
+        {
+          "file": "data/derived/yaman-2023/kymograph.npz",
+          "sha256": "9e76a9d7f4cd35983373560f44df7d07d8c3ece21bd0d06ccf4ed12c8508b4e6"
+        },
+        {
+          "file": "data/derived/rohde-2024/psm4_cohort.npz",
+          "sha256": "c91153649cab01f2627235f7d87cafdd960136e5281596ddedefe46f4f5d7617"
+        },
+        {
+          "file": "data/derived/sanaki-2022-whole/kymograph.npz",
+          "sha256": "cfa0bf52ddd19eff2326ef227bb775fd28d9d03be0ba4732e8397501170ec4af"
+        },
+        {
+          "file": "data/derived/miao-2023-radius/kymograph.npz",
+          "sha256": "f1448fc0eb9a80cc13d95a293d57619fe359397eaa2032451db87f38dcd3cc9e"
+        },
+        {
+          "file": "data/derived/miao-2023-segmentoid/kymograph.npz",
+          "sha256": "c8b87dbfe3dea87ca314ac68d034d1cefb226f76042d70abdbe9bc85ca2ecc90"
+        },
+        {
+          "file": "data/derived/lauschke-2013/video1-fixed-reference/kymograph.npz",
+          "sha256": "549f18f6bae13f8620f82facf139731cfd9fa1aeb2f6f1eb0cb3f37e60e212a0"
+        },
+        {
+          "file": "data/derived/lauschke-2013/video2-kymograph.npz",
+          "sha256": "72baefe9d665ae6e7f7ead53655d51984759447c8e9cd10e77c0542efd312e68"
+        },
+        {
+          "file": "data/derived/lauschke-2013/video6-mesp2/video6-mesp2-kymograph.npz",
+          "sha256": "e0c7521a4a27ed4b7e349b03e7d2d845b3ffb2dd50ceb92124d5c03461afb7fa"
+        },
+        {
+          "file": "data/derived/sonnen-2018/s1-final-reference/kymograph.npz",
+          "sha256": "4e0335a078114cb30d11cd3f1a46a6cc5da9e3e17ea6535874cd347fca3b35e2"
+        },
+        {
+          "file": "data/derived/sonnen-2018/s3-moving-center-review/kymograph.npz",
+          "sha256": "c35c96335582599c82b972750c0de5f9a1e2453b6a12bbf3d5cd4a4fa80a6901"
+        }
+      ],
+      "transformation": {
+        "script": "render_comparison.py",
+        "hash": "15f99222ea0ee80b4db558eb84eef4f698765659d4d95dfb3447154ca81c187b"
+      },
+      "caption_claim": "Single-sample experimental records with explicit native calibration and independent display normalization.",
+      "supported_manuscript_claims": [],
+      "limitations": [
+        "Compressed display values are not raw fluorescence",
+        "Sample registration and local origins differ",
+        "No shared molecular concentration scale",
+        "Single samples do not establish reproducibility"
+      ]
+    }
+  ]
+}

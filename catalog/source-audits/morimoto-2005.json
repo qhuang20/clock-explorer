@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "paper_id": "morimoto-2005",
+  "doi": "10.1038/nature03591",
+  "article_url": "https://www.nature.com/articles/nature03591",
+  "scope": "Supplementary Movie 1",
+  "signals": [
+    {
+      "reporter": "Mesp2–Venus",
+      "target_gene": "Mesp2",
+      "movie": "Movie 1",
+      "source_url": "https://static-content.springer.com/esm/art%3A10.1038%2Fnature03591/MediaObjects/41586_2005_BFnature03591_MOESM1_ESM.mov",
+      "source_sha256": "d05e1374b0b820c9ea67e0539f0afdf5c9b42b6abc218f03e31a0900b24928f0",
+      "experiment": "Tail explant · E10.5 · heterozygous knock-in",
+      "panel_relationship": "Green reporter texture in Fig. S2 panels 1/30, 10/30, 20/30 and 30/30 matches MOV frames 0, 9, 19 and 29, respectively.",
+      "route": "axial",
+      "source_class": "Publisher display export",
+      "frame_count": 36,
+      "frame_range": [
+        0,
+        35
+      ],
+      "time_note": "The authors report 10-min intervals over 5 h. The MOV contains 36 distinct images; the plot uses the decoded frame index."
+    }
+  ],
+  "supplemental_files": [
+    {
+      "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fnature03591/MediaObjects/41586_2005_BFnature03591_MOESM2_ESM.jpg",
+      "sha256": "ddbcd833b3842fb111f2731f8588a13c654533b915e7933583262bebc7ef598d"
+    },
+    {
+      "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fnature03591/MediaObjects/41586_2005_BFnature03591_MOESM5_ESM.doc",
+      "sha256": "7df9c2eb6330498c6267e9a00f51ba058968ae3dbd38b046d2a743fade11c324"
+    }
+  ]
+}

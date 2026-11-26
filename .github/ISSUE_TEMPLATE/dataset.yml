@@ -1,0 +1,20 @@
+name: Dataset or provenance correction
+description: Suggest a paper, dataset or evidence correction
+body:
+  - type: input
+    id: source
+    attributes:
+      label: Paper DOI or original source URL
+    validations:
+      required: true
+  - type: textarea
+    id: change
+    attributes:
+      label: Proposed change and supporting evidence
+    validations:
+      required: true
+  - type: textarea
+    id: rights
+    attributes:
+      label: File availability, license and calibration
+      description: State unknowns explicitly. Do not upload restricted data.

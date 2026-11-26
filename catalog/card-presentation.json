@@ -1,0 +1,3351 @@
+{
+  "masamizu-2006": {
+    "target_genes": [
+      "Hes1"
+    ],
+    "conditions": [
+      "37°C"
+    ],
+    "experimental_facts": [
+      {
+        "label": "Tissue",
+        "value": "PSM · E10.5",
+        "evidence_ids": [
+          "M3",
+          "M7"
+        ]
+      },
+      {
+        "label": "Preparation",
+        "value": "Caudal embryo explant",
+        "evidence_ids": [
+          "M7"
+        ]
+      },
+      {
+        "label": "View",
+        "value": "Embryo imaging · angle unverified",
+        "unverified": true,
+        "evidence_ids": [
+          "M9"
+        ]
+      },
+      {
+        "label": "Temperature",
+        "value": "37°C",
+        "evidence_ids": [
+          "M7"
+        ]
+      }
+    ],
+    "detail_layout": "combined_sources",
+    "asset_evidence": {
+      "figure": [
+        "M3"
+      ],
+      "movie": [
+        "M6",
+        "M8"
+      ],
+      "document": [
+        "M6"
+      ],
+      "matrix": [
+        "M5"
+      ],
+      "raw": [
+        "M6"
+      ],
+      "derived": [
+        "M8"
+      ]
+    },
+    "plot_layout": "compact",
+    "axis_polarity": {
+      "top": "A",
+      "bottom": "P",
+      "status": "supported",
+      "evidence_ids": [
+        "M3",
+        "M8"
+      ],
+      "note": "Confirmed by reviewer: A (anterior) is above and P (posterior) below; the lower growth zone corresponds to tail elongation. The vertical axis remains image y in pixels.",
+      "review": {
+        "source": "user_confirmation",
+        "date": "2026-11-15",
+        "basis": "The reviewer identifies the lower pale triangular region as the posterior growth zone during tail elongation, confirming anterior above and posterior below in Movie 2."
+      }
+    }
+  },
+  "chhabra-2026": {
+    "detail_layout": "combined_sources",
+    "dataset_switch_label": "Temperature",
+    "overview_summary": "Her7–mVenus intensity in medaka tail explant 20200815 P1, batch 1 at constant 27°C.",
+    "detail_asset_paths": [
+      "data/samples/chhabra-2026/phase_Kymo_20200815_P1.tif"
+    ],
+    "plot_layout": "compact",
+    "axis_polarity": {
+      "top": "A",
+      "bottom": "P",
+      "status": "supported",
+      "evidence_ids": [
+        "C2",
+        "C13"
+      ],
+      "note": "A is the anterior side and P the posterior tail-bud side. Position increases downward from the first stored TIFF row. The zero marks the image coordinate origin in this center-of-mass-registered sample."
+    },
+    "target_genes": [
+      "her7"
+    ],
+    "conditions": [
+      "27°C"
+    ],
+    "experimental_facts": [
+      {
+        "label": "Preparation",
+        "value": "Tail explant",
+        "evidence_ids": [
+          "C1"
+        ]
+      },
+      {
+        "label": "Temperature",
+        "value": "27°C",
+        "evidence_ids": [
+          "C7"
+        ]
+      }
+    ]
+  },
+  "lauschke-2013": {
+    "target_genes": [
+      "Lfng"
+    ],
+    "conditions": [
+      "Segmenting mPSM",
+      "Temp. unverified"
+    ],
+    "experimental_facts": [
+      {
+        "label": "Tissue",
+        "value": "PSM · E10.5",
+        "evidence_ids": [
+          "L2",
+          "L3"
+        ]
+      },
+      {
+        "label": "Preparation",
+        "value": "mPSM culture · Segmentation stage",
+        "evidence_ids": [
+          "L3",
+          "L6"
+        ]
+      },
+      {
+        "label": "View",
+        "value": "Culture-plane imaging",
+        "evidence_ids": [
+          "L3",
+          "L6",
+          "L13"
+        ]
+      },
+      {
+        "label": "Temperature",
+        "value": "Unverified",
+        "unverified": true
+      }
+    ],
+    "detail_asset_paths": [
+      "data/derived/lauschke-2013/extraction-provenance.json",
+      "data/derived/lauschke-2013/video5-intensity.csv",
+      "data/derived/lauschke-2013/video5-geometry.npz",
+      "data/derived/lauschke-2013/video5-centers-xy.csv",
+      "data/derived/lauschke-2013/video5-angle-sensitivity.npz",
+      "data/derived/lauschke-2013/video5-roi-review.json",
+      "data/derived/lauschke-2013/video5-wavefront-comparison.npz",
+      "data/derived/lauschke-2013/video5-wavefront-center.json",
+      "data/derived/lauschke-2013/video5-wavefront-origins.csv",
+      "data/derived/lauschke-2013/video5-kymograph.npz",
+      "data/derived/lauschke-2013/video5-spatial-review/video5-wavefront-spatial-comparison.npz",
+      "data/derived/lauschke-2013/video5-spatial-review/video5-wavefront-spatial-comparison.json"
+    ],
+    "asset_evidence": {
+      "figure": [
+        "L2",
+        "L5",
+        "R8"
+      ],
+      "movie": [
+        "L6",
+        "R1",
+        "R8"
+      ],
+      "supplement": [
+        "L3",
+        "L6"
+      ],
+      "matrix": [
+        "L6",
+        "R1",
+        "R5",
+        "R8"
+      ],
+      "raw": [
+        "L6"
+      ]
+    },
+    "detail_layout": "combined_sources",
+    "overview_summary": "Video 5 LuVeLu in segmentation-stage mPSM. The gallery retains the unsmoothed wavefront-fit primary; details add a per-frame spatial control at the same ROI, with the centroid comparison retained in a foldout.",
+    "method_figure": {
+      "title": "Sampling & kymograph",
+      "context": "LuVeLu · Video 5 · Same wavefront-fit ROI · 61 frames · 0–10 h · 0–380.95 µm",
+      "roi": "figures/lauschke-2013/video5-wavefront-roi.png",
+      "roi_alt": "Current Video 5 sampling at 0, 5 and 10 h: purple ring is the shared fitted wavefront center, orange is the radial strip, and cyan is the analysis mask.",
+      "roi_note": "Violet ring: the primary wavefront-fit center; orange: the 20 px-wide radial strip at 45°; cyan: the analysis mask. The central side is P and the peripheral segmenting side is A. ROI frames retain their source orientation.",
+      "alt": "Video 5 unsmoothed and per-frame spatial-filter comparison at the current wavefront-fit ROI, sharing the original primary scale and missing mask; A above P.",
+      "steps": [
+        "Keep the current wavefront-fit origins and brightfield translation on the same 45°, 20 px-wide strip. The unsmoothed matrix and gallery primary stay unchanged.",
+        "Filter only x/y in each source frame’s green display channel, then sample the original ROI. Gaussian σ=9.66 µm corresponds to 10.143 source pixels.",
+        "Normalize the convolution by the saved tissue-mask weights, excluding outside-mask pixels. Retain bilinear sampling, width averaging and validity; missing samples are not zero-filled.",
+        "Both retain the same 61 frames, spatial grid and 1,321 missing samples, sharing the complete unsmoothed primary’s scale. No temporal baseline or phase processing is added."
+      ],
+      "axes": [
+        [
+          "Horizontal axis",
+          "Time (h)"
+        ],
+        [
+          "Vertical axis",
+          "Radial distance from fitted wavefront center (µm)"
+        ]
+      ],
+      "limit": "σ=9.66 µm is this explicit working spatial-control parameter, not a universal optimum; it can blur narrow fronts. Existing center, analysis-mask and translation limitations remain. Green display values are not raw fluorescence counts and do not prove a biological oscillator source.",
+      "downloads": {
+        "svg": "figures/lauschke-2013/video5-spatial-review/video5-wavefront-spatial-comparison.svg",
+        "png": "figures/lauschke-2013/video5-spatial-review/video5-wavefront-spatial-comparison.png",
+        "pdf": "figures/lauschke-2013/video5-spatial-review/video5-wavefront-spatial-comparison.pdf"
+      },
+      "source_url": "https://static-content.springer.com/esm/art%3A10.1038%2Fnature11804/MediaObjects/41586_2013_BFnature11804_MOESM296_ESM.mov",
+      "data_path": "data/derived/lauschke-2013/video5-spatial-review/video5-wavefront-spatial-comparison.npz",
+      "provenance_path": "data/derived/lauschke-2013/video5-spatial-review/video5-wavefront-spatial-comparison.json",
+      "review_preview": "figures/lauschke-2013/video5-center-fronts.png",
+      "coordinate_reference": "Fitted wavefront center → periphery; centroid retained as reference",
+      "data_label": "Unsmoothed / spatial-filter matrices",
+      "review_label": "Wavefront-fit review",
+      "reference_comparison": {
+        "label": "Centroid reference comparison",
+        "note": "Left: the original centroid reference. Right: the current primary wavefront-fit version. Both use the same 61 frames, scale, strip width and tissue masks. The primary is normalized over its complete fitted matrix; this pair uses shared display limits, and equal distances do not identify the same cells.",
+        "roi": "figures/lauschke-2013/video5-center-rois.png",
+        "roi_alt": "ROI comparison: original centroid reference above and current wavefront-fit primary below, at 0, 5 and 10 h.",
+        "preview": "figures/lauschke-2013/video5-center-kymographs.svg",
+        "alt": "Shared-scale kymograph comparison of the centroid reference and current wavefront-fit primary.",
+        "flip_y": true,
+        "plot_axes": [
+          "axes_1",
+          "axes_2"
+        ],
+        "axis_polarity": {
+          "top": "A",
+          "bottom": "P",
+          "status": "supported"
+        }
+      },
+      "result_preview": "figures/lauschke-2013/video5-spatial-review/video5-wavefront-spatial-comparison.svg",
+      "comparison": true,
+      "flip_y": false,
+      "plot_axes": [
+        "axes_1",
+        "axes_2"
+      ],
+      "axis_polarity": {
+        "top": "A",
+        "bottom": "P",
+        "status": "supported"
+      },
+      "color_note": "Both panels share the full min–max scale of the unsmoothed gallery primary. The spatial control is not independently rescaled; gray marks the same missing samples."
+    },
+    "primary_matrix_label": "Wavefront-fit matrix (includes centroid reference)",
+    "plot_layout": "compact",
+    "flip_y": true,
+    "axis_polarity": {
+      "top": "A",
+      "bottom": "P",
+      "status": "supported",
+      "evidence_ids": [
+        "L9",
+        "L6",
+        "R5"
+      ],
+      "note": "In segmenting mPSM, the central side corresponds to P and the peripheral segmenting side to A (Fig. 2; matched Videos 5–7). A is shown above P; distance zero at the fitted center is at the bottom. Letters indicate regional polarity, not exact anatomical landmarks or boundaries."
+    }
+  },
+  "lauschke-2013-embryo": {
+    "target_genes": [
+      "Lfng"
+    ],
+    "conditions": [
+      "Embryonic PSM",
+      "Side view",
+      "Temp. unverified"
+    ],
+    "signal_note": "LuVeLu / brightfield composite",
+    "experimental_facts": [
+      {
+        "label": "Tissue",
+        "value": "PSM · E10.5",
+        "evidence_ids": [
+          "L2",
+          "L3"
+        ]
+      },
+      {
+        "label": "Preparation",
+        "value": "Posterior embryo explant",
+        "evidence_ids": [
+          "L3",
+          "L6"
+        ]
+      },
+      {
+        "label": "View",
+        "value": "Side view",
+        "evidence_ids": [
+          "L2",
+          "R2",
+          "L13"
+        ]
+      },
+      {
+        "label": "Temperature",
+        "value": "Unverified",
+        "unverified": true
+      }
+    ],
+    "detail_asset_paths": [
+      "data/derived/lauschke-2013/video1-fixed-reference/provenance.json",
+      "data/derived/lauschke-2013/video1-timestamps.json",
+      "figures/lauschke-2013/video1-fixed-reference/all126.png",
+      "figures/lauschke-2013/video1-fixed-reference/keyframes.png"
+    ],
+    "asset_evidence": {
+      "figure": [
+        "L2",
+        "L5",
+        "R7",
+        "R12"
+      ],
+      "movie": [
+        "L6",
+        "R2",
+        "R7"
+      ],
+      "supplement": [
+        "L3",
+        "L6"
+      ],
+      "matrix": [
+        "L6",
+        "R2",
+        "R7",
+        "R12"
+      ],
+      "raw": [
+        "L6"
+      ]
+    },
+    "overview_summary": "Posterior embryo side view: fixed A/P references and a curve shifted 30 px inward, covering the complete 0–20.92 h record.",
+    "method_figure": {
+      "title": "Sampling & kymograph",
+      "context": "LuVeLu · Video 1 · 126 / 126 frames · 0–20.92 h · fixed A/P references",
+      "roi": "figures/lauschke-2013/video1-fixed-reference/roi.png",
+      "roi_alt": "Solid bands show valid 20 px sampling; dashed lines show the reference extension. A/P stay fixed in stabilized reference coordinates, while their source-video markers follow global pose changes.",
+      "roi_note": "Solid bands show valid 20 px sampling; dashed lines show the reference extension. A/P stay fixed in stabilized reference coordinates, while their source-video markers follow global pose changes.",
+      "steps": [
+        "Estimate translation and rotation from structural features. Fix A/P in reference coordinates and shift the interior curve 30 px inward, tapering the adjustment at both ends.",
+        "Map the curve back into the original movie and sample every 1 µm of arc length. Average across a 20 px normal strip, requiring at least 16 of 21 width samples.",
+        "Retain the supported interval connected toward the checked A reference. Keep unsupported P-side extensions and disconnected intervals missing; do not fill zeros or bridge gaps.",
+        "Use all 126 frames and their original experimental overlay times. Read the original composite display values directly, with strip averaging only and no temporal filtering."
+      ],
+      "axes": [
+        [
+          "Horizontal axis",
+          "Time (h)"
+        ],
+        [
+          "Vertical axis",
+          "Arc length from fixed P reference (µm)"
+        ]
+      ],
+      "limit": "A/P are sampling references in stabilized coordinates, not fixed cells or exact anatomical boundaries. Registration remains sensitive to the structural window. The foreground contour is not anatomical PSM segmentation; the LuVeLu / brightfield composite does not isolate raw fluorescence.",
+      "downloads": {
+        "svg": "figures/lauschke-2013/video1-fixed-reference/kymograph.svg",
+        "png": "figures/lauschke-2013/video1-fixed-reference/kymograph.png",
+        "pdf": "figures/lauschke-2013/video1-fixed-reference/kymograph.pdf"
+      },
+      "source_url": "https://static-content.springer.com/esm/art%3A10.1038%2Fnature11804/MediaObjects/41586_2013_BFnature11804_MOESM292_ESM.mov",
+      "data_path": "data/derived/lauschke-2013/video1-fixed-reference/kymograph.npz",
+      "provenance_path": "data/derived/lauschke-2013/video1-fixed-reference/provenance.json",
+      "coordinate_reference": "Arc length from fixed P reference toward A",
+      "color_note": "Light = low, dark = high. Normalize against the complete sample; gray means no retained measurement, not zero expression.",
+      "comparison": false,
+      "alt": "Lauschke 2013 Video 1: unsmoothed display-intensity kymograph with fixed A/P references and the path shifted 30 px inward.",
+      "review_preview": "figures/lauschke-2013/video1-fixed-reference/all126.png",
+      "review_label": "All-frame ROI (126 frames)"
+    },
+    "plot_layout": "compact",
+    "axis_polarity": {
+      "top": "A",
+      "bottom": "P",
+      "status": "supported",
+      "evidence_ids": [
+        "L2",
+        "R2",
+        "R12"
+      ],
+      "note": "Sampling runs from the fixed P reference toward A in stabilized coordinates, displayed A above P. Letters indicate regional direction. Fixed endpoints do not identify fixed cells, and the physical path length still changes with shape."
+    },
+    "flip_y": true,
+    "primary_matrix_label": "Video 1 complete curved-strip matrix (0–20.92 h)"
+  },
+  "lauschke-2013-mpsm": {
+    "hidden": true,
+    "target_genes": [
+      "Lfng"
+    ],
+    "conditions": [
+      "Spreading mPSM",
+      "Temp. unverified"
+    ],
+    "experimental_facts": [
+      {
+        "label": "Tissue",
+        "value": "PSM · E10.5",
+        "evidence_ids": [
+          "L2",
+          "L3"
+        ]
+      },
+      {
+        "label": "Preparation",
+        "value": "mPSM culture · Spreading stage",
+        "evidence_ids": [
+          "L3",
+          "L6"
+        ]
+      },
+      {
+        "label": "View",
+        "value": "Culture-plane imaging",
+        "evidence_ids": [
+          "L2",
+          "L6",
+          "L13"
+        ]
+      },
+      {
+        "label": "Temperature",
+        "value": "Unverified",
+        "unverified": true
+      }
+    ],
+    "detail_asset_paths": [
+      "data/derived/lauschke-2013/video2-provenance.json",
+      "data/derived/lauschke-2013/video2-author-line.npz",
+      "data/derived/lauschke-2013/video2-author-line-provenance.json",
+      "data/derived/lauschke-2013/video2-author-line-registration.json",
+      "data/derived/lauschke-2013/video2-center-fit.json",
+      "data/derived/lauschke-2013/video2-review/video2-review.json",
+      "data/derived/lauschke-2013/video2-review/video2-review.npz",
+      "figures/lauschke-2013/video2-review/video2-calibration-review.png",
+      "data/derived/lauschke-2013/ap-review/video2-ap-review.json",
+      "figures/lauschke-2013/ap-review/video2-ap-scope.png",
+      "data/derived/lauschke-2013/ap-review/video2-contacts.zip"
+    ],
+    "asset_evidence": {
+      "figure": [
+        "L2",
+        "L5",
+        "R6",
+        "L10",
+        "R9"
+      ],
+      "movie": [
+        "L6",
+        "R3",
+        "R4",
+        "R6",
+        "R9"
+      ],
+      "supplement": [
+        "L3",
+        "L6",
+        "L11"
+      ],
+      "matrix": [
+        "L6",
+        "R3",
+        "R4",
+        "R6",
+        "R9"
+      ],
+      "raw": [
+        "L6"
+      ]
+    },
+    "overview_summary": "Video 2 center-to-outward sampling, reviewed against consecutive signal frames, matched brightfield and Supplementary Fig. 6. Early identity differs from later regional orientation, and late ROI coverage is FOV-limited; the full-series plot therefore retains neutral coordinates.",
+    "plot_layout": "compact",
+    "flip_y": false,
+    "coordinate_note": "Zero is the geometric fitted start, with distance increasing outward. The immature culture is not uniformly P→A across this series. In98/160 frames, the measured end is near the top exclusion edge, not a confirmed biological rim or A boundary. Same-specimen anterior-marker onset remains unavailable.",
+    "primary_matrix_label": "Video 2 wavefront-fit matrix (preserved baseline)",
+    "method_figure": {
+      "title": "Sampling & kymograph",
+      "context": "LuVeLu · Video 2 · Spreading stage · 160 frames · 0–33.8 h",
+      "roi": "figures/lauschke-2013/video2-review/video2-roi-review.png",
+      "roi_alt": "White cross: early-wavefront fitted center; purple: 20 px radial strip; cyan: saved brightfield tissue mask. Solid segments have valid samples; dashed extensions are missing. Source orientation is preserved.",
+      "roi_note": "White cross: fitted origin; purple: radial strip; cyan: brightfield tissue mask. Wavefront support is limited to 1.28–5.10 h; matched brightfield translation continues the origin elsewhere.",
+      "alt": "Video 2 center-to-periphery kymograph from the preserved matrix; zero below and missing samples retained.",
+      "steps": [
+        "Fit a shared curvature center from fronts at six early times; neither a tissue centroid nor a verified oscillator source.",
+        "Continue the strip with translation from the matched Video 3 brightfield channel; 100 µm spans 111 source-movie pixels.",
+        "Bilinearly sample a 20 px-wide strip using the saved tissue-mask width criterion; retain missing values without additional intensity smoothing.",
+        "Reproduce the original primary matrix exactly and normalize over that complete matrix; the foldout uses a shared scale across both strips."
+      ],
+      "axes": [
+        [
+          "Horizontal axis",
+          "Movie-overlay time (h)"
+        ],
+        [
+          "Vertical axis",
+          "Distance from fitted center (µm) · zero below"
+        ]
+      ],
+      "limit": "Supplementary Fig. 6 stains at 6 h and 21 h support stage-dependent identity, not this specimen’s marker clock. Consecutive-frame review did not establish an anterior segment boundary along this ray; from frame 64 (13.60 h), its measured end remains near the top exclusion edge. Thus the full center→outward series is not assigned fixed P→A labels, nor an artificial 20 h switch.",
+      "downloads": {
+        "svg": "figures/lauschke-2013/video2-review/video2-radial-review.svg",
+        "png": "figures/lauschke-2013/video2-review/video2-radial-review.png",
+        "pdf": "figures/lauschke-2013/video2-review/video2-radial-review.pdf"
+      },
+      "source_url": "https://static-content.springer.com/esm/art%3A10.1038%2Fnature11804/MediaObjects/41586_2013_BFnature11804_MOESM293_ESM.mov",
+      "data_path": "data/derived/lauschke-2013/video2-kymograph.npz",
+      "provenance_path": "data/derived/lauschke-2013/video2-review/video2-review.json",
+      "review_preview": "figures/lauschke-2013/ap-review/video2-ap-scope.png",
+      "review_label": "AP-stage & FOV review",
+      "coordinate_reference": "Wavefront-fitted start → outward; FOV-limited end",
+      "reference_comparison": {
+        "label": "Illustrated author-line comparison",
+        "note": "Left: independent wavefront-fit primary; right: mapped Fig. 1d illustrated line. Both retain the same time, scale and tissue masks with a shared color scale. The illustrated line is not a deposited exact ROI. Figure 0 min maps to movie 18.07 h; the movie clock is unchanged.",
+        "roi": "figures/lauschke-2013/video2-review/video2-roi-comparison-review.png",
+        "roi_alt": "Independent-fit and illustrated-line ROIs at three Video 2 times.",
+        "preview": "figures/lauschke-2013/video2-review/video2-kymograph-comparison-review.svg",
+        "alt": "Shared-scale comparison of independent-fit primary and illustrated author line.",
+        "flip_y": false
+      },
+      "audit_path": "data/derived/lauschke-2013/ap-review/video2-ap-review.json"
+    },
+    "signal_note": "Center → outward · Stage-dependent AP"
+  },
+  "sonnen-2018": {
+    "target_genes": [
+      "Axin2"
+    ],
+    "conditions": [
+      "Ex vivo mPSM",
+      "Temp. unverified"
+    ],
+    "detail_layout": "combined_sources",
+    "plot_layout": "compact",
+    "flip_y": false,
+    "experimental_facts": [
+      {
+        "label": "Tissue",
+        "value": "PSM",
+        "evidence_ids": [
+          "M9"
+        ]
+      },
+      {
+        "label": "Preparation",
+        "value": "Ex vivo mPSM culture",
+        "evidence_ids": [
+          "M9"
+        ]
+      },
+      {
+        "label": "View",
+        "value": "Culture-plane imaging",
+        "evidence_ids": [
+          "M9",
+          "R2",
+          "M11"
+        ]
+      },
+      {
+        "label": "Temperature",
+        "value": "Unverified",
+        "unverified": true,
+        "evidence_ids": [
+          "M9",
+          "R2"
+        ]
+      }
+    ],
+    "asset_evidence": {
+      "figure": [
+        "M9",
+        "R2",
+        "R3",
+        "M10"
+      ],
+      "movie": [
+        "M9",
+        "R2",
+        "R3"
+      ],
+      "matrix": [
+        "R1",
+        "R2",
+        "R3"
+      ],
+      "raw": [
+        "M6",
+        "M7"
+      ],
+      "supplement": [
+        "M8",
+        "M9"
+      ]
+    },
+    "overview_summary": "A fixed final-frame inner reference with variable outer tissue coverage. This radial movie displays spreading at the outer end of the coordinate.",
+    "primary_matrix_label": "Movie S2 · Axin2T2A · 5 µm spatial smoothing",
+    "method_figure": {
+      "title": "Sampling & kymograph",
+      "context": "Movie S2 · Axin2T2A · 40 px radial strip · 5 µm spatial smoothing · 155 frames · 0–25.69 h",
+      "roi": "figures/sonnen-2018/s2-final-reference/roi.png",
+      "roi_alt": "P is the last-frame inner reference, fixed in registered coordinates. Its source-movie marker follows the saved specimen translations. E marks the last full-width supported position along the outward ray.",
+      "roi_note": "P is the last-frame inner reference, fixed in registered coordinates. Its source-movie marker follows the saved specimen translations. E marks the last full-width supported position along the outward ray.",
+      "alt": "The inner reference stays within tissue throughout this movie. Spreading changes the outer supported extent. Full-width envelope validity now applies to the entire ray. Inner-center identity, envelope anatomy and spatial scale remain approximate.",
+      "steps": [
+        "Express the saved translations in final-frame coordinates. Fix the P-side origin once at its last-frame position and inverse-map it into every original source frame.",
+        "Apply a masked Gaussian (σ = 5 µm) within each source frame. Sample the same outward ray across a 40 px band at 41 transverse positions.",
+        "Apply the three-threshold outer-envelope check to the whole ray. Retain contiguous full-width support from P outward and keep other positions missing.",
+        "Apply a Gaussian (σ = 5 µm) along the supported radial profile. Keep all 155 original timestamps, 0–25.69 h, and use the unsmoothed recording’s color limits. The approximate scale is 100 µm per 139 px."
+      ],
+      "axes": [
+        [
+          "Horizontal axis",
+          "Movie-overlay time (h) · not culture-start time"
+        ],
+        [
+          "Vertical axis",
+          "Distance from fixed P reference (approx. µm) · zero below"
+        ]
+      ],
+      "limit": "The inner reference stays within tissue throughout this movie. Spreading changes the outer supported extent. Full-width envelope validity now applies to the entire ray. Inner-center identity, envelope anatomy and spatial scale remain approximate.",
+      "downloads": {
+        "svg": "figures/sonnen-2018/s2-smoothed/kymograph.svg",
+        "png": "figures/sonnen-2018/s2-smoothed/kymograph.png",
+        "pdf": "figures/sonnen-2018/s2-smoothed/kymograph.pdf"
+      },
+      "source_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC5847172.1/mmc3.mp4",
+      "data_path": "data/derived/sonnen-2018/s2-smoothed/kymograph.npz",
+      "provenance_path": "data/derived/sonnen-2018/s2-smoothed/provenance.json",
+      "audit_path": "data/derived/sonnen-2018/ap-review/sonnen-ap-review.json",
+      "review_preview": "figures/sonnen-2018/s2-final-reference/all-frames.pdf",
+      "review_label": "Review every-frame fixed-reference ROI",
+      "coordinate_reference": "Fixed final P-side reference → periphery",
+      "review_comparisons": [
+        {
+          "label": "Full recording · Unsmoothed and spatially smoothed",
+          "note": "Both panels use the same 40 px radial strip, 155 frames, tissue mask and color limits. The right panel shows the card image.",
+          "preview": "figures/sonnen-2018/s2-smoothed/smoothing-comparison.svg",
+          "alt": "Movie S2 Axin2T2A before and after 5 µm spatial smoothing."
+        },
+        {
+          "label": "Earlier ROI · Moving and fixed references",
+          "note": "The earlier translated ray and explicit final-frame P-reference ray use the same sampling geometry. The new version applies full-width envelope validity to the entire ray. The outer boundary varies through time while P remains fixed after registration. Shared intensity limits.",
+          "roi": "figures/sonnen-2018/s2-final-reference/reference-review.jpg",
+          "roi_alt": "Original movie frames above and final-frame registered views below. P-reference coordinates stay fixed after registration.",
+          "preview": "figures/sonnen-2018/s2-final-reference/reference-comparison.svg",
+          "alt": "The earlier translated ray and explicit final-frame P-reference ray use the same sampling geometry. The new version applies full-width envelope validity to the entire ray. The outer boundary varies through time while P remains fixed after registration. Shared intensity limits."
+        },
+        {
+          "label": "Earlier ROI · Outer extension · previous vs extended ray",
+          "note": "Historical comparison using the previous reference convention. The previous and extended rays share origin, direction, width, timestamps and physical grid. Every original matrix value is preserved exactly. New outer rows use full-width contiguous envelope support and remain missing elsewhere. One intensity scale is used for both plots.",
+          "roi": "figures/sonnen-2018/s2-extended-ray-review/roi-comparison.jpg",
+          "roi_alt": "The orange ray retains the previous origin, direction, 40 px width and saved translations. Its outer extent now follows full-width envelope support. O and E mark the sampling origin and last retained position.",
+          "preview": "figures/sonnen-2018/s2-extended-ray-review/kymograph-comparison.svg",
+          "alt": "The previous and extended rays share origin, direction, width, timestamps and physical grid. Every original matrix value is preserved exactly. New outer rows use full-width contiguous envelope support and remain missing elsewhere. One intensity scale is used for both plots."
+        },
+        {
+          "label": "Earlier ROI · ROI review · current vs candidate",
+          "note": "Historical comparison using the previous primary geometry. The retained strip is compared with a nearby diagnostic origin. Direction, width, spatial extent, original times and retained translations are held fixed. All values are unfiltered display intensities, shown with one color scale. Sector-dependent estimates prevent validating a unique wavefront center; the earlier primary was retained at that review. This control does not solve late peripheral coverage.",
+          "roi": "figures/sonnen-2018/s2-candidate-review/roi-comparison.jpg",
+          "roi_alt": "Movie S2: cyan is current ROI, orange is candidate; source orientation retained.",
+          "preview": "figures/sonnen-2018/s2-candidate-review/kymograph-comparison.svg",
+          "alt": "Movie S2 current and review-only candidate kymographs with a shared intensity scale. The current primary is retained."
+        },
+        {
+          "label": "Earlier ROI · Spatial filter · same ROI",
+          "note": "Historical comparison using the previous primary geometry. Per-frame spatial Gaussian σ=10 µm using the same saved 40 px strip, clock and retained support. Both complete arrays share one color scale. This is a spatial-only method control on the compressed display movie, not reproduction of Figure 2A: raw z-stacks and the exact author ROI are unavailable, and no time-axis or post-kymograph filter is inferred. The panel uses the earlier primary.",
+          "preview": "figures/sonnen-2018/paper-comparison/s2-spatial-control.svg",
+          "alt": "Movie S2 unchanged primary beside a per-frame 10 micrometre spatial filter control, with the same ROI and shared intensity scale."
+        }
+      ],
+      "public_sampling_note": "P is the fixed final-frame inner reference in registered coordinates. E is the last position supported across the full sampling width."
+    },
+    "detail_asset_paths": [
+      "data/derived/sonnen-2018/s2-review/movie-s2-reviewed-baseline.npz",
+      "data/derived/sonnen-2018/s2-review/review-provenance.json",
+      "data/derived/sonnen-2018/s2-review/trajectory.json",
+      "figures/sonnen-2018/s2-review/movie-s2-calibration-review.png",
+      "figures/sonnen-2018/s2-review/movie-s2-origin-review.jpg",
+      "data/derived/sonnen-2018/extraction-provenance.json",
+      "data/derived/sonnen-2018/movie-s2-intensity.csv",
+      "data/derived/sonnen-2018/ap-review/sonnen-ap-review.json",
+      "data/derived/sonnen-2018/ap-review/sonnen-fig1d-registration.json",
+      "figures/sonnen-2018/ap-review/sonnen-s2-published-direction.png",
+      "data/derived/sonnen-2018/ap-review/sonnen-s2-contacts.zip",
+      "data/derived/sonnen-2018/source-audit.json",
+      "data/derived/sonnen-2018/s2-candidate-review/candidate-kymograph.npz",
+      "data/derived/sonnen-2018/s2-candidate-review/review-provenance.json",
+      "data/derived/sonnen-2018/s2-candidate-review/video-roi.json",
+      "data/derived/sonnen-2018/independent-review/s2-final-review.json",
+      "figures/sonnen-2018/s2-candidate-review/center-sensitivity.svg",
+      "figures/sonnen-2018/s2-candidate-review/all-frame-roi-contacts.zip",
+      "data/derived/sonnen-2018/independent-review/source-and-baseline-review.json",
+      "figures/sonnen-2018/independent-review/source-clock-evidence.jpg",
+      "data/derived/sonnen-2018/paper-comparison/all-frame-baseline-review.json",
+      "data/derived/sonnen-2018/paper-comparison/figure-frame-search.json",
+      "data/derived/sonnen-2018/paper-comparison/provenance.json",
+      "data/derived/sonnen-2018/paper-comparison/s2-spatial-control.npz",
+      "figures/sonnen-2018/paper-comparison/s2-spatial-control.svg",
+      "figures/sonnen-2018/paper-comparison/s2-spatial-control.png",
+      "figures/sonnen-2018/paper-comparison/s2-spatial-control.pdf",
+      "data/derived/sonnen-2018/s2-extended-ray-review/kymograph.npz",
+      "data/derived/sonnen-2018/s2-extended-ray-review/provenance.json",
+      "figures/sonnen-2018/s2-extended-ray-review/all-frames.pdf",
+      "figures/sonnen-2018/s2-extended-ray-review/roi-comparison.jpg",
+      "figures/sonnen-2018/s2-extended-ray-review/kymograph-comparison.svg",
+      "data/derived/sonnen-2018/movie-s2-kymograph.npz",
+      "data/derived/sonnen-2018/s2-final-reference/kymograph.npz",
+      "data/derived/sonnen-2018/s2-final-reference/provenance.json",
+      "figures/sonnen-2018/s2-final-reference/reference-review.jpg",
+      "figures/sonnen-2018/s2-final-reference/reference-comparison.svg",
+      "figures/sonnen-2018/s2-final-reference/all-frames.pdf",
+      "data/derived/sonnen-2018/s2-smoothed/kymograph.npz",
+      "data/derived/sonnen-2018/s2-smoothed/provenance.json"
+    ],
+    "signal_note": "Inner → outward · Regional P→A",
+    "axis_polarity": {
+      "top": "A",
+      "bottom": "P",
+      "status": "supported",
+      "scope": "regional_direction",
+      "evidence_ids": [
+        "M10",
+        "R3"
+      ],
+      "note": "A above P indicates the supported posterior-to-anterior direction. P is a fixed final-frame reference after specimen registration. The finite-width retained band can begin farther from P when coverage is missing. Anatomical endpoints remain approximate."
+    }
+  },
+  "delaune-2012": {
+    "plot_layout": "compact",
+    "axis_polarity": {
+      "top": "A",
+      "bottom": "P",
+      "status": "supported",
+      "note": "Movie S1 is a dorsal view with anterior up. The vertical axis is native image y. Posterior tissue leaves the optical section during elongation.",
+      "evidence_ids": [
+        "D4",
+        "D5"
+      ]
+    },
+    "experimental_facts": [
+      {
+        "label": "Tissue",
+        "value": "Embryonic PSM",
+        "evidence_ids": [
+          "D4"
+        ]
+      },
+      {
+        "label": "Preparation",
+        "value": "Live transgenic embryo",
+        "evidence_ids": [
+          "D4"
+        ]
+      },
+      {
+        "label": "View",
+        "value": "Dorsal · anterior up",
+        "evidence_ids": [
+          "D4"
+        ]
+      },
+      {
+        "label": "Temperature",
+        "value": "23°C (methods set point)",
+        "evidence_ids": [
+          "S1"
+        ]
+      }
+    ],
+    "target_genes": [
+      "her1"
+    ],
+    "conditions": [
+      "23°C (Methods)"
+    ],
+    "method_figure": {
+      "title": "Sampling & kymograph",
+      "roi": "figures/delaune-2012/roi-overlay.jpg",
+      "data_path": "data/derived/delaune-2012/movie-s1-kymograph.npz",
+      "provenance_path": "data/derived/delaune-2012/provenance.json",
+      "downloads": {
+        "svg": "figures/comparison/delaune-2012-full.svg",
+        "png": "figures/comparison/delaune-2012-full.png"
+      },
+      "context": "Her1–Venus · Movie S1 · 24 frames",
+      "roi_alt": "Fixed orange sampling strip on the image-left side of the dorsal embryo.",
+      "roi_note": "The box stays in native image coordinates while the embryo elongates. By the last frame, only anterior PSM remains in the optical section.",
+      "steps": [
+        "Keep the strip at x = 330–449 and y = 180–850 in the native dorsal movie.",
+        "Average the 120 display pixels in each row. Preserve all 24 frames.",
+        "Use the 4 min sampling interval checked against Fig. 1F. Movie time zero precedes the first published panel by 12 min."
+      ],
+      "axes": [
+        [
+          "Horizontal axis",
+          "Time from movie start (h)"
+        ],
+        [
+          "Vertical axis",
+          "Native image y (video px) · anterior up"
+        ]
+      ],
+      "limit": "Late low intensities may reflect tissue leaving the optical section. Spatial calibration for these movie pixels remains unresolved.",
+      "alt": "Fixed image-strip display intensity versus movie time",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/3500528/bin/NIHMS417414-supplement-04.mov",
+      "public_sampling_note": "The strip stays fixed in native image coordinates while the embryo elongates. By the last frame, only anterior PSM remains in the optical section."
+    }
+  },
+  "rohde-2024": {
+    "hidden": true,
+    "plot_layout": "compact",
+    "flip_y": true,
+    "axis_polarity": {
+      "top": "A",
+      "bottom": "P",
+      "status": "supported",
+      "note": "A is anteriorward from the posterior notochord reference. The vertical axis shows 20 µm bin centers. PSM4 cells occupy projected distances of 67.16–309.39 µm.",
+      "evidence_ids": [
+        "S4",
+        "S13"
+      ]
+    },
+    "experimental_facts": [
+      {
+        "label": "Tissue",
+        "value": "Embryonic PSM",
+        "evidence_ids": [
+          "S16"
+        ]
+      },
+      {
+        "label": "Preparation",
+        "value": "PSM4 tracked cell cohort · Position 2",
+        "evidence_ids": [
+          "S13",
+          "S14"
+        ]
+      },
+      {
+        "label": "Position",
+        "value": "Distance to posterior reference · 20 µm bins",
+        "evidence_ids": [
+          "S13"
+        ]
+      },
+      {
+        "label": "Temperature",
+        "value": "28.5°C",
+        "evidence_ids": [
+          "S16"
+        ]
+      }
+    ],
+    "target_genes": [
+      "her1"
+    ],
+    "conditions": [
+      "28.5°C"
+    ],
+    "method_figure": {
+      "title": "Sampling & kymograph",
+      "roi": "figures/rohde-2024-axial/psm4-video-frames.png",
+      "data_path": "data/derived/rohde-2024/psm4_cohort.npz",
+      "provenance_path": "data/derived/rohde-2024/provenance.json",
+      "downloads": {
+        "svg": "figures/comparison/rohde-2024-full.svg",
+        "png": "figures/comparison/rohde-2024-full.png"
+      },
+      "context": "Her1–YFP · Position 2 · PSM4 cohort",
+      "roi_alt": "Position 2 movie at playback seconds 10 and 20, with PSM4 cells and the axial reference.",
+      "roi_note": "Position 2, shown at 10 s and 20 s of playback. Magenta circles mark PSM4 measurements. The cyan line shows the posterior-to-anterior reference.",
+      "steps": [
+        "Transform each tracked spot back to its image position and project it onto the contemporaneous notochord line.",
+        "Measure the straight-line distance in the image plane from the projected point to the posterior reference. Group spots into 20 µm bins.",
+        "Average the author CSV’s Her1 channel within occupied bins. Keep empty bins missing."
+      ],
+      "axes": [
+        [
+          "Horizontal axis",
+          "Acquisition time (h)"
+        ],
+        [
+          "Vertical axis",
+          "Projected distance from posterior reference (µm)"
+        ]
+      ],
+      "limit": "The 101 PSM4 cell tracks span 0.25–5.50 h with a gap at 5.20 h. Gray bins contain no measured cells. The sloping edge follows cohort coverage. Figure 2D of the paper instead locates the final Her1 peak of cells that enter one somite.",
+      "alt": "PSM4 tracked-cell intensity binned by projected position and acquisition time",
+      "review_preview": "figures/rohde-2024/roi-overlay.png",
+      "review_label": "Author RGB projections with both cohorts",
+      "public_sampling_note": "PSM4 cell measurements are grouped by distance from the posterior reference along the P–A axis."
+    }
+  },
+  "sanaki-2022": {
+    "target_genes": [
+      "HES7"
+    ],
+    "conditions": [
+      "Day 4",
+      "Temp. not reported"
+    ],
+    "plot_layout": "compact",
+    "axis_polarity": {
+      "top": "A",
+      "bottom": "P",
+      "status": "supported",
+      "evidence_ids": [
+        "S1",
+        "S7"
+      ],
+      "note": "Positive projections point anteriorly toward the forming somites. Negative projections point posteriorly toward the HES7-active PSM. Zero is the tissue centroid in each frame."
+    },
+    "detail_layout": "combined_sources",
+    "experimental_facts": [
+      {
+        "label": "Tissue",
+        "value": "Human somitoid"
+      },
+      {
+        "label": "Preparation",
+        "value": "Stem cell-derived somitoid · day 4 onward"
+      },
+      {
+        "label": "View",
+        "value": "Brightfield and luminescence imaging"
+      },
+      {
+        "label": "Temperature",
+        "value": "Unverified",
+        "unverified": true
+      }
+    ],
+    "method_figure": {
+      "title": "Sampling & kymograph",
+      "context": "HES7 promoter–luciferase · Movie 4 · All 362 frames · 0–59 h 58 min",
+      "roi": "figures/sanaki-2022/whole-roi.png",
+      "data_path": "data/derived/sanaki-2022-whole/kymograph.npz",
+      "provenance_path": "data/derived/sanaki-2022-whole/provenance.json",
+      "roi_alt": "Whole-tissue outlines on structural images and HES7 reporter images before and after both repositioning events and in the final frame.",
+      "roi_note": "The orange contour shows the whole somitoid on the structural and reporter panels. Each frame uses its own tissue outline and centroid.",
+      "steps": [
+        "Trace the whole tissue independently in each frame. Use the aligned merged panel above the printed clock to recover the late anterior silhouette.",
+        "Project every tissue pixel onto the longitudinal axis through that frame’s centroid. Average the accepted HES7 display-color indices across the full tissue width in 2 px bins.",
+        "Use the source clock and normalize the complete matrix once. Gray bins contain fewer than three accepted pixels."
+      ],
+      "axes": [
+        [
+          "Horizontal axis",
+          "Elapsed experiment time (h)"
+        ],
+        [
+          "Vertical axis",
+          "Signed projection from the tissue centroid (video px). Positive is anteriorward (A), and negative is posteriorward (P)."
+        ]
+      ],
+      "downloads": {
+        "svg": "figures/comparison/sanaki-2022-full.svg",
+        "png": "figures/comparison/sanaki-2022-full.png",
+        "pdf": "figures/comparison/sanaki-2022-full.pdf"
+      },
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9050736/",
+      "limit": "No physical length calibration. 11.4% of tissue pixels failed the display-color match. Tissue curvature and centroid motion affect the apparent band slopes.",
+      "alt": "Whole-somitoid HES7 waves over all 362 frames."
+    }
+  },
+  "miao-2023": {
+    "experimental_facts": [
+      {
+        "label": "Preparation",
+        "value": "Somitoid",
+        "evidence_ids": [
+          "S7"
+        ]
+      },
+      {
+        "label": "View",
+        "value": "Confocal imaging",
+        "evidence_ids": [
+          "S7"
+        ]
+      },
+      {
+        "label": "Sampling",
+        "value": "Center (O) → edge (E)"
+      },
+      {
+        "label": "Temperature",
+        "value": "Not reported"
+      }
+    ],
+    "detail_layout": "combined_sources",
+    "overview_summary": "Somitoid · Movie 2. The kymograph samples the HES7-dominant signal along the rightward radius over the first 52 frames.",
+    "target_genes": [
+      "HES7"
+    ],
+    "conditions": [
+      "Somitoid",
+      "Temp. not reported"
+    ],
+    "signal_note": "May include MESP2 signal",
+    "plot_layout": "compact",
+    "coordinate_note": "Radius from the geometric center toward the image-right edge. Anatomical A/P direction is unresolved for this early Movie 2 sampling path.",
+    "method_figure": {
+      "title": "Sampling & kymograph",
+      "context": "Somitoid · Movie 2 · 52 of 195 frames · 50.50–63.91 h after differentiation starts",
+      "alt": "Movie 2 somitoid HES7-dominant signal along the rightward radius over the first 52 frames.",
+      "roi": "figures/miao-2023/right-radius-roi.png",
+      "roi_alt": "One rightward radial sampling band on Movie 2 frames 0, 26 and 51.",
+      "roi_note": "O is the sampling origin at the geometric center. E is the tissue edge on the right of the image. The 40 px-wide band samples from O to E in each measured frame.",
+      "coordinate_reference": "Geometric center O → tissue edge E",
+      "steps": [
+        "Find the geometric centroid of the visible tissue outline in each frame. Follow a single horizontal radius toward the image-right edge.",
+        "Average the accepted Green Fire Blue display-color indices across the tissue-supported 40 px band. Keep bins with at least 20 accepted pixels.",
+        "Stack all 52 profiles at 15.78 min intervals and scale once across the complete unsmoothed matrix."
+      ],
+      "axes": [
+        [
+          "Horizontal axis",
+          "Time from the first sampled frame (50.50 h after differentiation starts)"
+        ],
+        [
+          "Vertical axis",
+          "Radius increases from center (O) to edge (E), in approximate µm. The authors report HES7 waves traveling from edge to center (Fig. 1b). A/P identity is unresolved along this radius."
+        ]
+      ],
+      "limit": "The early display-color estimate may include MESP2. Color rejection can preferentially remove bright pixels, and the geometric center has no verified wave-source identity.",
+      "downloads": {
+        "svg": "figures/comparison/miao-2023-full.svg",
+        "png": "figures/comparison/miao-2023-full.png",
+        "pdf": "figures/comparison/miao-2023-full.pdf"
+      },
+      "data_path": "data/derived/miao-2023-radius/kymograph.npz",
+      "provenance_path": "data/derived/miao-2023-radius/provenance.json",
+      "source_url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-022-05655-4/MediaObjects/41586_2022_5655_MOESM7_ESM.mp4",
+      "color_note": "Light = lower, dark = higher relative display-color index. Gray = insufficient valid pixels or outside the tissue.",
+      "review_comparisons": [
+        {
+          "label": "Compare frame-level spatial smoothing",
+          "note": "Each frame is filtered in two dimensions before sampling (Gaussian σ = 3 px, about 5.2 µm). Both panels use the same O→E strip, time points, accepted pixels and unsmoothed color limits.",
+          "preview": "figures/miao-2023/right-radius-frame-comparison.png",
+          "alt": "Original radial extraction and extraction after two-dimensional per-frame spatial smoothing."
+        }
+      ]
+    }
+  },
+  "miao-2023-segmentoid": {
+    "experimental_facts": [
+      {
+        "label": "Preparation",
+        "value": "Segmentoid · Wild type (WT #1)",
+        "evidence_ids": [
+          "S11"
+        ]
+      },
+      {
+        "label": "Temperature",
+        "value": "Unverified",
+        "unverified": true
+      }
+    ],
+    "matrix_method": {
+      "sampling": "WT #1 is the left specimen in Movie 8. The plotted input is the author’s posterior-aligned HES7 / UNCX intensity matrix. Each column gives the shared-channel profile along the tissue at one time point.",
+      "steps": [
+        "Read the WT shared-channel matrix from the author’s MAT file. The author averaged across the sampling region and applied a 50 px spatial filter.",
+        "Use the author’s posterior alignment and retain all 994 positions. Mask edge runs that are zero in both reporter channels, keeping interior zeros.",
+        "Scale finite values over all 150 time points to 0–1 and display A above P."
+      ],
+      "reading": "Time starts at the first recorded frame. P is the 0 µm reference. The full matrix includes ten positions beyond it. Gray marks masked edges, which can include alignment padding."
+    },
+    "detail_layout": "combined_sources",
+    "detail_asset_paths": [
+      "data/derived/miao-2023-segmentoid/wt-matrices.npz",
+      "data/derived/miao-2023-segmentoid/null-matrices.npz",
+      "data/derived/miao-2023-segmentoid/provenance.json"
+    ],
+    "plot_layout": "compact",
+    "target_genes": [
+      "HES7",
+      "UNCX"
+    ],
+    "conditions": [
+      "Segmentoid",
+      "Wild type",
+      "Temp. unverified"
+    ],
+    "signal_note": "Shared HES7 / UNCX channel",
+    "axis_polarity": {
+      "top": "A",
+      "bottom": "P",
+      "status": "supported",
+      "note": "Distance increases toward A. P is the aligned posterior reference at 0 µm."
+    }
+  },
+  "yaman-2023": {
+    "hidden": true,
+    "target_genes": [],
+    "conditions": [
+      "37°C (Methods)"
+    ]
+  },
+  "lauschke-2013-mesp2": {
+    "target_genes": [
+      "Mesp2"
+    ],
+    "conditions": [
+      "Segmenting mPSM",
+      "Temp. unverified"
+    ],
+    "experimental_facts": [
+      {
+        "label": "Tissue",
+        "value": "PSM · E10.5",
+        "evidence_ids": [
+          "L12",
+          "R10"
+        ]
+      },
+      {
+        "label": "Preparation",
+        "value": "mPSM culture · Segmentation stage",
+        "evidence_ids": [
+          "L12",
+          "R10"
+        ]
+      },
+      {
+        "label": "View",
+        "value": "Culture-plane imaging",
+        "evidence_ids": [
+          "L12",
+          "R10",
+          "L13"
+        ]
+      },
+      {
+        "label": "Temperature",
+        "value": "Unverified",
+        "unverified": true
+      }
+    ],
+    "detail_asset_paths": [
+      "data/derived/lauschke-2013/video6-mesp2/video6-mesp2-intensity.csv",
+      "data/derived/lauschke-2013/video6-mesp2/video6-mesp2-provenance.json",
+      "data/derived/lauschke-2013/video6-mesp2/video6-registration-review.json",
+      "figures/lauschke-2013/video6-mesp2/video6-all-frames-roi.jpg",
+      "figures/lauschke-2013/video6-mesp2/video6-channel-review.jpg",
+      "data/derived/lauschke-2013/video6-mesp2-spatial/video6-mesp2-spatial-comparison.npz",
+      "data/derived/lauschke-2013/video6-mesp2-spatial/video6-mesp2-spatial-comparison.json"
+    ],
+    "asset_evidence": {
+      "figure": [
+        "L12",
+        "R10",
+        "R11"
+      ],
+      "movie": [
+        "L12",
+        "R10",
+        "R11"
+      ],
+      "matrix": [
+        "L12",
+        "R10",
+        "R11"
+      ],
+      "supplement": [
+        "L12",
+        "R10"
+      ],
+      "raw": [
+        "L12",
+        "R10"
+      ]
+    },
+    "detail_layout": "combined_sources",
+    "overview_summary": "Mesp2-GFP segmentation marker. The card keeps the unsmoothed extraction; details add a per-frame spatial control at the same ROI, preserving paired origins, times and missing measurements.",
+    "method_figure": {
+      "title": "Sampling & kymograph",
+      "context": "Mesp2-GFP · Video 6 · same paired ROI · 61 frames · 0–10 h · unsmoothed / spatial filter",
+      "roi": "figures/lauschke-2013/video6-mesp2/video6-mesp2-roi.png",
+      "roi_alt": "Video 6 at 0, 5 and 10 h: white cross is the paired LuVeLu fitted center, orange the radial strip, cyan the existing analysis mask.",
+      "roi_note": "The source movie displays Mesp2-GFP in red pseudo-color. The center and 45°, 20 px-wide strip come from the reviewed same-specimen LuVeLu geometry; source-frame orientation is unchanged.",
+      "alt": "Mesp2 unsmoothed and per-frame spatial control; same paired origins, strip, missing measurements and original color scale, with A above P.",
+      "steps": [
+        "Retain the original red-channel extraction from Video 6. Reproduce the gallery matrix value by value; preserve paired origins, the 45° strip and times.",
+        "Apply x/y Gaussian smoothing to the red channel within each source frame, then extract along the same 20 px-wide strip. Use σ=9.66 µm, about 10.143 source pixels, matching the physical scale of the LuVeLu control.",
+        "Use normalized masked filtering; excluded pixels are not zero-intensity observations. Retain original width averaging, the first-exit rule and all 1321 missing measurements.",
+        "Both panels use the full unsmoothed Mesp2 matrix min/max. Do not independently stretch the smoothed panel, mix time frames, subtract a temporal baseline or infer phase."
+      ],
+      "axes": [
+        [
+          "Horizontal axis",
+          "Movie-overlay time (h) · 0–10 h"
+        ],
+        [
+          "Vertical axis",
+          "Distance from paired center (µm) · zero below"
+        ]
+      ],
+      "limit": "σ=9.66 µm matches the LuVeLu spatial control; it is not an optimized Mesp2 bandwidth and may blur narrow stripes. Mesp2 remains a segmentation marker. Red pseudo-colored display levels are not raw GFP counts or absolute intensities comparable with LuVeLu. Existing mask, paired-center and brightfield-translation limitations remain.",
+      "downloads": {
+        "svg": "figures/lauschke-2013/video6-mesp2-spatial/video6-mesp2-spatial-comparison.svg",
+        "png": "figures/lauschke-2013/video6-mesp2-spatial/video6-mesp2-spatial-comparison.png",
+        "pdf": "figures/lauschke-2013/video6-mesp2-spatial/video6-mesp2-spatial-comparison.pdf"
+      },
+      "source_url": "https://static-content.springer.com/esm/art%3A10.1038%2Fnature11804/MediaObjects/41586_2013_BFnature11804_MOESM297_ESM.mov",
+      "data_path": "data/derived/lauschke-2013/video6-mesp2-spatial/video6-mesp2-spatial-comparison.npz",
+      "provenance_path": "data/derived/lauschke-2013/video6-mesp2-spatial/video6-mesp2-spatial-comparison.json",
+      "audit_path": "data/derived/lauschke-2013/video6-mesp2/video6-registration-review.json",
+      "review_preview": "figures/lauschke-2013/video6-mesp2/video6-channel-review.jpg",
+      "review_label": "Paired-channel review",
+      "coordinate_reference": "Paired LuVeLu center → peripheral segmenting region",
+      "color_note": "Both panels share the full min–max scale of the unsmoothed gallery primary. The spatial control is not independently rescaled; gray marks the same missing samples.",
+      "result_preview": "figures/lauschke-2013/video6-mesp2-spatial/video6-mesp2-spatial-comparison.svg",
+      "comparison": true,
+      "flip_y": false,
+      "plot_axes": [
+        "axes_1",
+        "axes_2"
+      ],
+      "axis_polarity": {
+        "top": "A",
+        "bottom": "P",
+        "status": "supported"
+      },
+      "data_label": "Unsmoothed / spatial-filter matrices"
+    },
+    "primary_matrix_label": "Video 6 · Mesp2 red display-channel matrix",
+    "plot_layout": "compact",
+    "flip_y": true,
+    "axis_polarity": {
+      "top": "A",
+      "bottom": "P",
+      "status": "supported",
+      "scope": "regional_direction",
+      "evidence_ids": [
+        "L9",
+        "L12",
+        "R10"
+      ],
+      "note": "Mesp2 and LuVeLu are paired channels of the same specimen. Central side is posteriorward, peripheral segmenting side anteriorward; display A above P. The fitted center and strip endpoint are not exact anatomical boundaries."
+    },
+    "signal_note": "Segmentation marker · paired LuVeLu specimen"
+  },
+  "sonnen-2018-embryo": {
+    "target_genes": [
+      "Axin2"
+    ],
+    "conditions": [
+      "Embryonic PSM · Movie S1"
+    ],
+    "signal_note": "Movie S1 · Axin2T2A fluorescence",
+    "detail_layout": "combined_sources",
+    "plot_layout": "compact",
+    "flip_y": false,
+    "experimental_facts": [
+      {
+        "label": "Tissue",
+        "value": "PSM · E10.5",
+        "evidence_ids": [
+          "A-S1"
+        ]
+      },
+      {
+        "label": "Preparation",
+        "value": "Embryonic PSM culture",
+        "evidence_ids": [
+          "A-S1"
+        ]
+      },
+      {
+        "label": "View",
+        "value": "Dorsal view",
+        "evidence_ids": [
+          "A-S1",
+          "M11"
+        ]
+      },
+      {
+        "label": "Temperature",
+        "value": "Unverified",
+        "unverified": true,
+        "evidence_ids": [
+          "A-S1"
+        ]
+      }
+    ],
+    "asset_evidence": {
+      "movie": [
+        "A-S1"
+      ],
+      "figure": [
+        "A-S1"
+      ],
+      "matrix": [
+        "A-S1"
+      ],
+      "supplement": [
+        "A-S1"
+      ]
+    },
+    "detail_asset_paths": [
+      "data/derived/sonnen-2018/movie-s1/provenance.json",
+      "data/derived/sonnen-2018/movie-s1/frame-times.csv",
+      "data/derived/sonnen-2018/movie-s1/video-roi.json",
+      "figures/sonnen-2018/movie-s1/roi-review.jpg",
+      "data/derived/sonnen-2018/source-audit.json",
+      "data/derived/sonnen-2018/s1-candidate-review/s1-rigid-candidate.npz",
+      "data/derived/sonnen-2018/s1-candidate-review/s1-review-provenance.json",
+      "data/derived/sonnen-2018/s1-candidate-review/s1-candidate-video-roi.json",
+      "data/derived/sonnen-2018/independent-review/s1-final-review.json",
+      "figures/sonnen-2018/s1-candidate-review/s1-registration-diagnostics.png",
+      "figures/sonnen-2018/s1-candidate-review/s1-all-frame-rois.pdf",
+      "data/derived/sonnen-2018/independent-review/source-and-baseline-review.json",
+      "figures/sonnen-2018/independent-review/source-clock-evidence.jpg",
+      "data/derived/sonnen-2018/paper-comparison/all-frame-baseline-review.json",
+      "data/derived/sonnen-2018/paper-comparison/figure-frame-search.json",
+      "data/derived/sonnen-2018/paper-comparison/provenance.json",
+      "data/derived/sonnen-2018/s1-dorsal-right-review/kymograph.npz",
+      "data/derived/sonnen-2018/s1-dorsal-right-review/provenance.json",
+      "figures/sonnen-2018/s1-dorsal-right-review/all-frames.pdf",
+      "data/derived/sonnen-2018/s1-midline-half-review/kymograph.npz",
+      "data/derived/sonnen-2018/s1-midline-half-review/provenance.json",
+      "figures/sonnen-2018/s1-midline-half-review/all-frames.pdf",
+      "figures/sonnen-2018/s1-midline-half-review/roi-comparison.jpg",
+      "figures/sonnen-2018/s1-midline-half-review/kymograph-comparison.svg",
+      "figures/sonnen-2018/s1-midline-half-review/roi-review.mp4",
+      "data/derived/sonnen-2018/movie-s1/kymograph.npz",
+      "data/derived/sonnen-2018/s1-final-reference/kymograph.npz",
+      "data/derived/sonnen-2018/s1-final-reference/provenance.json",
+      "figures/sonnen-2018/s1-final-reference/reference-review.jpg",
+      "figures/sonnen-2018/s1-final-reference/reference-comparison.svg",
+      "figures/sonnen-2018/s1-final-reference/all-frames.pdf",
+      "data/derived/sonnen-2018/s1-fixed-70um/kymograph.npz",
+      "data/derived/sonnen-2018/s1-fixed-70um/anterior-zoom.npz",
+      "data/derived/sonnen-2018/s1-fixed-70um/provenance.json",
+      "figures/sonnen-2018/s1-fixed-70um/all-frames.pdf",
+      "data/derived/sonnen-2018/s1-fixed-70um/full-spatial-filter.npz"
+    ],
+    "overview_summary": "Movie S1 shows Axin2T2A fluorescence in the embryonic PSM. Fig. 1A marks an Axin2 stripe in the posterior half of a newly forming somite. Fig. 1B measures oscillations in the red circular ROI. The Mesp2-GFP panel in Fig. 1C comes from dual-reporter imaging.",
+    "primary_matrix_label": "Movie S1 · Axin2T2A · 5 µm spatial smoothing",
+    "method_figure": {
+      "title": "Sampling & kymograph",
+      "context": "Movie S1 · Axin2T2A · 70 µm strip · 5 µm spatial smoothing · 88 frames · 0–14.50 h",
+      "roi": "figures/sonnen-2018/s1-fixed-70um/roi.png",
+      "roi_alt": "The solid orange band shows the 70 µm-wide sample on the image-right half. Dashed extensions connect it to the registered final-frame references where coverage is missing.",
+      "roi_note": "The solid orange band shows the 70 µm-wide sample on the image-right half. Dashed extensions connect it to the registered final-frame references where coverage is missing.",
+      "alt": "The early missing P-side interval is retained at its physical distances. Maximum P-reference disagreement between two anterior registration windows is 32.4 px. Anatomical endpoint placement and the display-derived coverage envelope remain approximate.",
+      "coordinate_reference": "Fixed final P reference → anteriorward",
+      "steps": [
+        "Follow the tracked midline on the dorsal image-right half. Place a 70 µm-wide curved strip along the reviewed path, centered 85 export pixels from the seam.",
+        "Estimate translation and rotation from anterior texture. Fix P at the approved last-frame posterior endpoint and A at the anterior end of the final-frame corridor, then map both into each original source frame.",
+        "Apply a masked Gaussian (σ = 5 µm) within each source frame. Using the 100 µm scale bar (164 pixels), average 116 samples across the 70 µm band at each 1 µm arc-length step.",
+        "Smooth along the supported arc length (Gaussian σ = 5 µm). Preserve all 88 timestamps and the original coverage mask. Both versions share the unsmoothed recording’s intensity scale."
+      ],
+      "axes": [
+        [
+          "Horizontal axis",
+          "Video experimental time (h)"
+        ],
+        [
+          "Vertical axis",
+          "Distance from fixed P reference (approx. µm) · zero below"
+        ]
+      ],
+      "limit": "Movie S1 shows Axin2T2A fluorescence in the embryonic PSM. Fig. 1A marks an Axin2 stripe in the posterior half of a newly forming somite. Fig. 1B measures oscillations in the red circular ROI. The Mesp2-GFP panel in Fig. 1C comes from dual-reporter imaging. The strip width follows the Fig. 1C method. The registered path and tissue coverage are estimates.",
+      "downloads": {
+        "svg": "figures/sonnen-2018/s1-fixed-70um/kymograph.svg",
+        "png": "figures/sonnen-2018/s1-fixed-70um/kymograph.png",
+        "pdf": "figures/sonnen-2018/s1-fixed-70um/kymograph.pdf"
+      },
+      "source_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC5847172.1/mmc2.mp4",
+      "data_path": "data/derived/sonnen-2018/s1-fixed-70um/kymograph.npz",
+      "provenance_path": "data/derived/sonnen-2018/s1-fixed-70um/provenance.json",
+      "review_preview": "figures/sonnen-2018/s1-fixed-70um/all-frames.pdf",
+      "review_label": "Review every-frame fixed-reference ROI",
+      "reference_comparison": {
+        "label": "Spatial-filter comparison · earlier ROI",
+        "note": "Historical processing control on the earlier 70 µm-wide ROI. Left: unsmoothed primary; right: per-frame 5 µm Gaussian. Shared ROI and full-primary color limits; no temporal smoothing. Not the author raw data or complete processing pipeline.",
+        "roi": "figures/sonnen-2018/movie-s1/roi.png",
+        "roi_alt": "Orange: 70 µm-wide strip. P/A denote posterior/anteriorward direction. Interpolated landmarks follow specimen displacement; no cell tracking or exact author ROI is claimed.",
+        "preview": "figures/sonnen-2018/movie-s1/spatial-comparison.svg",
+        "alt": "Independent single-reporter reconstruction of Movie S1, not the Figure 1C Axin2/Mesp2 dual-channel specimen. The manual P-side reference is approximate; scale is approximate, full tissue segmentation is absent, and slopes are not direct wave-speed measurements.",
+        "flip_y": false
+      },
+      "review_comparisons": [
+        {
+          "label": "Full recording · Unsmoothed and spatially smoothed",
+          "note": "Left shows the unsmoothed strip mean. Right shows the spatially smoothed card image. Both cover the same 88 frames and 0–592 µm with the same mask and color limits.",
+          "preview": "figures/sonnen-2018/s1-fixed-70um/full-filter-comparison.svg",
+          "alt": "Full Movie S1 Axin2T2A kymographs before and after 5 µm spatial smoothing."
+        },
+        {
+          "label": "Anterior zoom · Full recording",
+          "note": "275–540 µm from P across all 88 frames. Compare the unsmoothed strip mean with 5 µm spatial smoothing at the full-recording intensity scale.",
+          "preview": "figures/sonnen-2018/s1-fixed-70um/anterior-zoom.svg",
+          "alt": "Anterior Axin2T2A intensity before and after spatial smoothing, over the same 0–14.5 h."
+        },
+        {
+          "label": "Earlier 36.6 µm strip · Moving vs fixed P",
+          "note": "Previous moving P-side origin beside the fixed final-frame P/A reconstruction. Both use the selected half and 60 px width. Each panel uses its own reference distance, with shared intensity limits. The right panel retains unsupported P-side intervals as missing.",
+          "roi": "figures/sonnen-2018/s1-final-reference/reference-review.jpg",
+          "roi_alt": "Original movie frames above and final-frame registered views below. P-reference coordinates stay fixed after registration.",
+          "preview": "figures/sonnen-2018/s1-final-reference/reference-comparison.svg",
+          "alt": "Previous moving P-side origin beside the fixed final-frame P/A reconstruction. Both use the selected half and 60 px width. Each panel uses its own reference distance, with shared intensity limits. The right panel retains unsupported P-side intervals as missing."
+        },
+        {
+          "label": "Earlier ROI · Midline split · previous vs tracked half",
+          "note": "Historical comparison using the previous reference convention. Previous 70 µm-wide ROI beside the tracked image-right half-strip, approximately 37 µm wide. Shared physical axes and intensity limits. Geometry, width and coverage change together. Each curve has its own approximate P-side reference.",
+          "roi": "figures/sonnen-2018/s1-midline-half-review/roi-comparison.jpg",
+          "roi_alt": "Red marks the reviewed midline. The orange strip follows the image-right half using keyframe-constrained optical flow. Width 60 px (approximately 37 µm), offset 85 px from the seam. All transverse samples must remain on this side and inside the reviewed outer-envelope proxy.",
+          "preview": "figures/sonnen-2018/s1-midline-half-review/kymograph-comparison.svg",
+          "alt": "Previous 70 µm-wide ROI beside the tracked image-right half-strip, approximately 37 µm wide. Shared physical axes and intensity limits. Geometry, width and coverage change together. Each curve has its own approximate P-side reference."
+        },
+        {
+          "label": "Earlier ROI · Right-side dorsal ROI",
+          "note": "Historical comparison using the previous primary geometry. The orange strip follows the reviewer-selected image-right corridor toward the anterior region across all 88 frames. Both plots use an approximate 70 µm width, 300 µm distance, the same timestamps and one color scale. Each distance axis starts at its own strip origin. This is a candidate for review.",
+          "roi": "figures/sonnen-2018/s1-dorsal-right-review/roi-comparison.jpg",
+          "roi_alt": "Six Movie S1 frames showing the current strip in cyan and the right-side dorsal strip in orange.",
+          "preview": "figures/sonnen-2018/s1-dorsal-right-review/kymograph-comparison.svg",
+          "alt": "Current and right-side dorsal ROI kymographs side by side. The right-side ROI shows clearer anterior bands later in the movie."
+        },
+        {
+          "label": "Earlier ROI · ROI review · current vs candidate",
+          "note": "Historical comparison using the previous primary geometry. Current manually moving ROI versus a fixed frame-0 strip mapped by rigid alignment. Original display intensities share one color scale; 70 µm is a method-guided width from the separate Fig.1C experiment. Review only: exact posterior registration remains unconfirmed; the earlier primary was retained at that review.",
+          "roi": "figures/sonnen-2018/s1-candidate-review/s1-roi-board.jpg",
+          "roi_alt": "All 88 S1 frames reviewed. Cyan marks the current manual strip; orange the rigid-reference candidate. P/A are regional directions, not exact anatomical boundaries.",
+          "preview": "figures/sonnen-2018/s1-candidate-review/s1-current-vs-candidate.svg",
+          "alt": "Movie S1 current and review-only candidate kymographs with a shared intensity scale. The current primary is retained."
+        }
+      ],
+      "public_sampling_note": "A 70 µm-wide strip follows the image-right half. Registered final-frame references define the sampled extent and its missing positions."
+    },
+    "axis_polarity": {
+      "top": "A",
+      "bottom": "P",
+      "status": "supported",
+      "scope": "regional_direction",
+      "evidence_ids": [
+        "A-S1"
+      ],
+      "note": "A above P indicates the supported posterior-to-anterior direction. P is a fixed final-frame reference after specimen registration. The finite-width retained band can begin farther from P when coverage is missing. Anatomical endpoints remain approximate."
+    }
+  },
+  "sonnen-2018-microfluidic": {
+    "target_genes": [
+      "Lfng"
+    ],
+    "conditions": [
+      "Microfluidic mPSM · Movie S3"
+    ],
+    "signal_note": "Microfluidic mPSM · Movie S3",
+    "detail_layout": "combined_sources",
+    "plot_layout": "compact",
+    "flip_y": false,
+    "experimental_facts": [
+      {
+        "label": "Tissue",
+        "value": "PSM",
+        "evidence_ids": [
+          "A-S3"
+        ]
+      },
+      {
+        "label": "Preparation",
+        "value": "mPSM culture on a microfluidic chip",
+        "evidence_ids": [
+          "A-S3"
+        ]
+      },
+      {
+        "label": "View",
+        "value": "Culture-plane imaging",
+        "evidence_ids": [
+          "A-S3",
+          "M11"
+        ]
+      },
+      {
+        "label": "Temperature",
+        "value": "37°C",
+        "unverified": false,
+        "evidence_ids": [
+          "A-S3"
+        ]
+      }
+    ],
+    "asset_evidence": {
+      "movie": [
+        "A-S3"
+      ],
+      "figure": [
+        "A-S3"
+      ],
+      "matrix": [
+        "A-S3"
+      ],
+      "supplement": [
+        "A-S3"
+      ]
+    },
+    "detail_asset_paths": [
+      "data/derived/sonnen-2018/movie-s3/provenance.json",
+      "data/derived/sonnen-2018/movie-s3/frame-times.csv",
+      "data/derived/sonnen-2018/movie-s3/video-roi.json",
+      "figures/sonnen-2018/movie-s3/roi-review.jpg",
+      "data/derived/sonnen-2018/source-audit.json",
+      "data/derived/sonnen-2018/s3-candidate-review/s3-sector-candidate.npz",
+      "data/derived/sonnen-2018/s3-candidate-review/s3-review-provenance.json",
+      "data/derived/sonnen-2018/s3-candidate-review/s3-candidate-video-roi.json",
+      "data/derived/sonnen-2018/independent-review/s3-final-review.json",
+      "figures/sonnen-2018/s3-candidate-review/s3-geometry-diagnostics.png",
+      "figures/sonnen-2018/s3-candidate-review/s3-all-frame-rois.pdf",
+      "data/derived/sonnen-2018/independent-review/s3-source-review.json",
+      "figures/sonnen-2018/independent-review/s3-source-clock-evidence.jpg",
+      "data/derived/sonnen-2018/paper-comparison/all-frame-baseline-review.json",
+      "data/derived/sonnen-2018/paper-comparison/figure-frame-search.json",
+      "data/derived/sonnen-2018/paper-comparison/provenance.json",
+      "data/derived/sonnen-2018/s3-moving-center-review/kymograph.npz",
+      "data/derived/sonnen-2018/s3-moving-center-review/provenance.json",
+      "data/derived/sonnen-2018/s3-moving-center-review/center-trajectory.csv",
+      "data/derived/sonnen-2018/s3-moving-center-review/roi-review.mp4",
+      "data/derived/sonnen-2018/sonnen-2018-microfluidic-video-roi-with-extent.json",
+      "data/derived/sonnen-2018/movie-s3/kymograph.npz"
+    ],
+    "overview_summary": "Movie S3 shows LuVeLu oscillations in microfluidic mPSM culture. The radial strip follows the geometric center of the visible culture envelope over 111 frames.",
+    "primary_matrix_label": "Movie S3 tracked-center matrix",
+    "method_figure": {
+      "title": "Sampling & kymograph",
+      "context": "LuVeLu · Movie S3 · 111 frames · 0–18.33 h",
+      "roi": "figures/sonnen-2018/s3-moving-center/roi-with-extent.png",
+      "roi_alt": "The orange point marks the tracked center. The solid band ends at E, the last sampled position in that frame. The dashed line extends to 300 µm and shows the unsampled range.",
+      "roi_note": "The orange point marks the tracked center. The solid band ends at E, the last sampled position in that frame. The dashed line extends to 300 µm and shows the unsampled range.",
+      "alt": "LuVeLu kymograph from all Movie S3 frames. The radial origin follows the geometric center and gray indicates unsampled extent.",
+      "coordinate_reference": "Tracked geometric center → upper periphery",
+      "steps": [
+        "Fit the center of the visible outer envelope in each frame and stabilize its trajectory across frames.",
+        "Sample upward through a roughly 70 µm-wide band. Retain contiguous positions with full-width support inside the reviewed envelope.",
+        "Average native LuVeLu display values across the band. Retain dim pixels and use gray for unsampled positions. Spatial filtering is used to estimate the geometry.",
+        "Use all 111 frames from 0 to 18.33 h. The video scale bar gives 100 µm ≈ 72 pixels. The Cascade Blue inset is excluded."
+      ],
+      "axes": [
+        [
+          "Horizontal axis",
+          "Video experimental time (h)"
+        ],
+        [
+          "Vertical axis",
+          "Distance from tracked center (approx. µm)"
+        ]
+      ],
+      "limit": "The center follows the visible outer envelope. Its relationship to the wave source remains unverified. The envelope can bridge dark inner gaps, especially early in the movie. Pulse identity is unresolved.",
+      "downloads": {
+        "svg": "figures/sonnen-2018/s3-moving-center/kymograph.svg",
+        "png": "figures/sonnen-2018/s3-moving-center/kymograph.png",
+        "pdf": "figures/sonnen-2018/s3-moving-center/kymograph.pdf"
+      },
+      "source_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC5847172.1/mmc4.mp4",
+      "data_path": "data/derived/sonnen-2018/s3-moving-center-review/kymograph.npz",
+      "provenance_path": "data/derived/sonnen-2018/s3-moving-center-review/provenance.json",
+      "review_preview": "figures/sonnen-2018/s3-moving-center-review/roi-comparison.jpg",
+      "review_label": "Center trajectory & ROI review",
+      "reference_comparison": {
+        "label": "Spatial-filter comparison · earlier fixed origin",
+        "note": "The earlier fixed-origin extraction is shown with and without a per-frame 10 µm Gaussian filter. Both panels share the fixed strip and its complete-sample color scale.",
+        "roi": "figures/sonnen-2018/movie-s3/roi.png",
+        "roi_alt": "Orange: fixed 70 µm-wide inner-to-outward strip; gray dots: missing extension. O is a manual ROI origin, not COM or a validated wavefront center. The upper-left dye inset is excluded.",
+        "preview": "figures/sonnen-2018/movie-s3/spatial-comparison.svg",
+        "alt": "Microfluidic Movie S3 associated with Figure 3, not the Figure 2B reference culture. Exact drug/control pulse identity is unspecified; O is not a validated center, outer coverage is conservative, and fixed AP identity is not assigned.",
+        "flip_y": false
+      },
+      "review_comparisons": [
+        {
+          "label": "Fixed origin vs tracked center",
+          "note": "Cyan marks the earlier fixed ROI. Orange marks the tracked ROI used for the main plot. The first two plots compare the origins on common coverage and the third shows the full tracked extent. All three use one intensity scale.",
+          "roi": "figures/sonnen-2018/s3-moving-center-review/roi-comparison.jpg",
+          "roi_alt": "Six Movie S3 frames and the geometric center trajectory. Cyan marks the fixed ROI, orange the moving ROI and gray the fitted outer envelope.",
+          "preview": "figures/sonnen-2018/s3-moving-center-review/kymograph-comparison.svg",
+          "alt": "Movie S3 fixed and moving origins shown on common support, followed by the moving origin at its full reviewed radial extent."
+        },
+        {
+          "label": "Earlier fixed origin · sector comparison",
+          "note": "Earlier image-up strip versus a 15° left control. Both use the same fixed inner origin, about 70 µm width and a shared intensity scale. Each uses its own conservative outer extent.",
+          "roi": "figures/sonnen-2018/s3-candidate-review/s3-roi-board.jpg",
+          "roi_alt": "Movie S3 fixed-origin overlays. Cyan marks the image-up strip and orange the left-sector control.",
+          "preview": "figures/sonnen-2018/s3-candidate-review/s3-current-vs-candidate.svg",
+          "alt": "Movie S3 fixed-origin image-up and left-sector kymographs."
+        },
+        {
+          "label": "Direction control · matched coverage",
+          "note": "The current, left and right rays use their common retained support and one intensity scale. This isolates direction dependence from the coverage changes in the candidate comparison. O is a manual image reference, not a validated center or posterior landmark.",
+          "preview": "figures/sonnen-2018/s3-candidate-review/s3-matched-support-controls.svg",
+          "alt": "Movie S3 current and ±15° sensitivity controls on common support, with neutral outward distance from O."
+        }
+      ],
+      "public_sampling_note": "The radial strip begins at the tracked center. E is the last supported position in each frame. Missing positions extend to the 300 µm display limit."
+    },
+    "coordinate_note": "Distance increases outward from the tracked geometric center. Its relationship to the wave source remains unverified."
+  },
+  "chhabra-2026-22c": {
+    "axis_polarity": {
+      "top": "A",
+      "bottom": "P",
+      "status": "supported",
+      "evidence_ids": [
+        "C2",
+        "C13"
+      ],
+      "note": "A is the anterior side and P the posterior tail-bud side. Position increases downward from the first stored TIFF row. The zero marks the image coordinate origin in this center-of-mass-registered sample."
+    },
+    "target_genes": [
+      "her7"
+    ],
+    "conditions": [
+      "22°C"
+    ],
+    "plot_layout": "compact",
+    "experimental_facts": [
+      {
+        "label": "Preparation",
+        "value": "Tail explant",
+        "evidence_ids": [
+          "C1"
+        ]
+      },
+      {
+        "label": "Temperature",
+        "value": "22°C",
+        "evidence_ids": [
+          "M22"
+        ]
+      }
+    ],
+    "calibration_short": "10 min · 1.38 µm/px (22°C)",
+    "sample_asset": {
+      "level": "matrix",
+      "level_label": "Author intensity matrix",
+      "label": "Intensity · 22°C / 20210301 P1",
+      "local_path": "data/samples/chhabra-2026-22c/Kymo_20210301_P1.tif",
+      "url": "https://github.com/victoria-mochulska/cycles_upon_cycles/blob/c8942dd1aeeea790e2cb141662b9ef235756d2c4/2026_PNAS_CyclesUponCycles_intensityPhaseKymographs/batch1_chronic_22C/intensityKymo/Kymo_20210301_P1.tif",
+      "format": "TIFF",
+      "bytes": 83405,
+      "status": "verified_content",
+      "evidence": "Complete intensity matrix from batch 1, 321 positions by 127 time points.",
+      "license": "Author data. Redistribution terms are unconfirmed."
+    },
+    "overview_summary": "Her7–mVenus intensity in medaka tail explant 20210301 P1, batch 1 at constant 22°C."
+  },
+  "chhabra-2026-32c": {
+    "axis_polarity": {
+      "top": "A",
+      "bottom": "P",
+      "status": "supported",
+      "evidence_ids": [
+        "C2",
+        "C13"
+      ],
+      "note": "A is the anterior side and P the posterior tail-bud side. Position increases downward from the first stored TIFF row. The zero marks the image coordinate origin in this center-of-mass-registered sample."
+    },
+    "target_genes": [
+      "her7"
+    ],
+    "conditions": [
+      "32°C"
+    ],
+    "plot_layout": "compact",
+    "experimental_facts": [
+      {
+        "label": "Preparation",
+        "value": "Tail explant",
+        "evidence_ids": [
+          "C1"
+        ]
+      },
+      {
+        "label": "Temperature",
+        "value": "32°C",
+        "evidence_ids": [
+          "M32"
+        ]
+      }
+    ],
+    "calibration_short": "5 min · 1.38 µm/px (32°C)",
+    "sample_asset": {
+      "level": "matrix",
+      "level_label": "Author intensity matrix",
+      "label": "Intensity · 32°C / 20220428 P1",
+      "local_path": "data/samples/chhabra-2026-32c/Kymo_20220428_P1.tif",
+      "url": "https://github.com/victoria-mochulska/cycles_upon_cycles/blob/c8942dd1aeeea790e2cb141662b9ef235756d2c4/2026_PNAS_CyclesUponCycles_intensityPhaseKymographs/batch1_chronic_32C/intensityKymo/Kymo_20220428_P1.tif",
+      "format": "TIFF",
+      "bytes": 91735,
+      "status": "verified_content",
+      "evidence": "Complete intensity matrix from batch 1, 239 positions by 188 time points.",
+      "license": "Author data. Redistribution terms are unconfirmed."
+    },
+    "overview_summary": "Her7–mVenus intensity in medaka tail explant 20220428 P1, batch 1 at constant 32°C."
+  },
+  "miao-2023-segmentoid-mesp2": {
+    "matrix_method": {
+      "sampling": "Each column gives the posterior-aligned MESP2 profile in WT #1 (Movie 8, left specimen).",
+      "steps": [
+        "Read kimoMf_t from the author MAT file for WT #1. The authors averaged across the sampling region and applied a 50 px spatial filter.",
+        "Retain all 994 positions in posterior-aligned coordinates. Mask shared edge zeros and keep interior zeros.",
+        "Scale finite values across all 150 time points to 0–1 and display A above P."
+      ],
+      "reading": "Time starts at the first recorded frame. P is the 0 µm reference. The full matrix includes ten positions beyond it. Gray marks masked edges, which can include alignment padding."
+    },
+    "detail_layout": "combined_sources",
+    "detail_asset_paths": [
+      "data/derived/miao-2023-segmentoid/wt-matrices.npz",
+      "data/derived/miao-2023-segmentoid/null-matrices.npz",
+      "data/derived/miao-2023-segmentoid/provenance.json"
+    ],
+    "plot_layout": "compact",
+    "target_genes": [
+      "MESP2"
+    ],
+    "conditions": [
+      "Segmentoid",
+      "Wild type",
+      "Temp. unverified"
+    ],
+    "signal_note": "Wild type · MESP2 channel",
+    "axis_polarity": {
+      "top": "A",
+      "bottom": "P",
+      "status": "supported",
+      "note": "Distance increases toward A. P is the aligned posterior reference at 0 µm."
+    },
+    "primary_matrix_label": "WT #1 · MESP2 matrix",
+    "experimental_facts": [
+      {
+        "label": "Preparation",
+        "value": "Segmentoid · Wild type (WT #1)",
+        "evidence_ids": [
+          "S11"
+        ]
+      },
+      {
+        "label": "Temperature",
+        "value": "Unverified",
+        "unverified": true
+      }
+    ]
+  },
+  "eck-2026-fig4c": {
+    "target_genes": [
+      "her1"
+    ],
+    "conditions": [
+      "Embryonic PSM"
+    ],
+    "experimental_facts": [
+      {
+        "label": "Tissue",
+        "value": "Embryonic PSM"
+      },
+      {
+        "label": "Preparation",
+        "value": "Intact zebrafish embryo"
+      },
+      {
+        "label": "View",
+        "value": "3D light-sheet imaging"
+      },
+      {
+        "label": "Temperature",
+        "value": "Unverified",
+        "unverified": true
+      }
+    ],
+    "plot_layout": "compact",
+    "detail_layout": "combined_sources",
+    "detail_asset_paths": [
+      "data/derived/eck-2026-fig4c/kymograph.npz",
+      "data/derived/eck-2026-fig4c/provenance.json"
+    ],
+    "axis_polarity": {
+      "top": "A",
+      "bottom": "P",
+      "status": "supported",
+      "evidence_ids": [
+        "E1"
+      ],
+      "note": "Figure 4 places anterior to the right, at smaller AP coordinates. The card places that direction at the top."
+    },
+    "method_figure": {
+      "title": "Sampling & kymograph",
+      "context": "Dorado dataset 1 · Measured her1-MS2 · Figure 4C",
+      "roi": "figures/eck-2026-fig4c/sampling.png",
+      "roi_alt": "XY projections of the author AP spline and measured spots at three acquisitions.",
+      "roi_note": "Orange shows the part of the AP spline displayed in Figure 4C. Purple dots are measured spots assigned to the displayed bins. Positions are projected into the original XY imaging plane.",
+      "steps": [
+        "Read the Dorado spot table, non-blank scan numbers and AP spline from Supplemental Data Files 1, 3 and 6.",
+        "Run the author AP mapping with 1 µm z spacing and 0.485 µm in-plane spacing. Sum gauss3d_dog spot intensity per AP bin and acquisition.",
+        "Keep the Figure 4C window of 140 acquisitions and 71 spatial bins. Place each acquisition at its recorded minute."
+      ],
+      "axes": [
+        [
+          "Time",
+          "Elapsed from the first scan (h). Gray columns mark unacquired scans."
+        ],
+        [
+          "Space",
+          "Distance along the author AP spline (µm). Smaller coordinates are anteriorward."
+        ]
+      ],
+      "limit": "The figure caption reports 6.5 µm bins. The public notebook uses a 0–521 µm grid with 100 points (5.26 µm spacing). A measured bin with no detected spots has a sum of zero.",
+      "alt": "Measured her1-MS2 summed spot intensities in the zebrafish PSM.",
+      "downloads": {
+        "svg": "figures/eck-2026-fig4c/full.svg",
+        "png": "figures/eck-2026-fig4c/full.png",
+        "pdf": "figures/eck-2026-fig4c/full.pdf"
+      },
+      "data_path": "data/derived/eck-2026-fig4c/kymograph.npz",
+      "provenance_path": "data/derived/eck-2026-fig4c/provenance.json",
+      "source_url": "https://github.com/GarciaLab/zebrafish-ms2-paper/blob/fa35f5c1b9d93ccf18d14dea558f40a6f7284f4c/notebooks/Fig4.ipynb",
+      "source_label": "Figure 4 notebook",
+      "review_comparisons": [
+        {
+          "label": "Compare with published Figure 4C",
+          "note": "Both panels use the paper orientation, recorded-frame spacing and magma palette. The card plots elapsed time horizontally. All three use the same 25%-of-peak color limit.",
+          "preview": "figures/eck-2026-fig4c/comparison.png",
+          "alt": "Published and recomputed measured her1-MS2 signals in Figure 4C."
+        },
+        {
+          "label": "Compare display scales",
+          "note": "The same measurements are shown with the previous and updated color limits.",
+          "preview": "figures/eck-2026-fig4c/scale-comparison.png",
+          "alt": "Previous full-range scale on the left and updated 25%-of-peak scale on the right."
+        }
+      ],
+      "color_note": "The darkest red begins at 25% of the full matrix peak. Gray columns mark missing scans.",
+      "sampling_video_id": "movie-7"
+    }
+  },
+  "rohde-2024-axial": {
+    "plot_layout": "compact",
+    "detail_layout": "combined_sources",
+    "target_genes": [
+      "her1"
+    ],
+    "conditions": [
+      "28.5°C"
+    ],
+    "axis_polarity": {
+      "top": "A",
+      "bottom": "P",
+      "status": "supported",
+      "note": "A and P are fixed in the final-frame axial coordinate system. Distance increases from P toward A."
+    },
+    "experimental_facts": [
+      {
+        "label": "Tissue",
+        "value": "Embryonic PSM"
+      },
+      {
+        "label": "Preparation",
+        "value": "Intact embryo · Position 2"
+      },
+      {
+        "label": "View",
+        "value": "Maximum-intensity projection"
+      },
+      {
+        "label": "Temperature",
+        "value": "28.5°C"
+      }
+    ],
+    "method_figure": {
+      "title": "Sampling & kymograph",
+      "context": "Position 2 · 300 frames · fixed final-frame A/P references",
+      "roi": "figures/rohde-2024-axial/roi.png",
+      "roi_alt": "Curved axial strip on the embryo at four acquisition times.",
+      "roi_note": "A and P mark the ends of a fixed 518.8 µm final-frame reference curve. Solid bands show the sampled portion in this frame. Dashed segments complete the reference path outside the sampled interval. The bars show coverage in the common P-to-A coordinate.",
+      "steps": [
+        "Use the final-frame posterior vertex and anterior reference to define one fixed-length curve. Align each frame at an interior station using the author’s registration and notochord trace.",
+        "Sample approximately every 1 µm along the curve. Average 13 equally spaced points across an 11.1 µm strip.",
+        "Plot one column every 90 s and normalize over all 300 frames."
+      ],
+      "limit": "Maximum projection and video contrast affect the intensity. Gray bins have no supported sample. Registration uses a representative depth in a projected movie. A reference endpoint can project outside the camera view. Changes in supported length also depend on pose, bending and the traced interval.",
+      "axes": [
+        [
+          "Horizontal axis",
+          "Experiment time (h)"
+        ],
+        [
+          "Vertical axis",
+          "Arc length from fixed P reference (µm)"
+        ]
+      ],
+      "source_url": "https://sv-open.epfl.ch/upoates-public/Rohde_Bercowsky_eLife2024_Data/in_vivo_data/20191213_Tg_her1YFP_h2bmCherry/Position%202_Single%20plane_max/",
+      "downloads": {
+        "svg": "figures/rohde-2024-axial/plot.svg",
+        "png": "figures/rohde-2024-axial/plot.png"
+      },
+      "audit_path": "data/derived/rohde-2024-axial/review.json",
+      "data_path": "data/derived/rohde-2024-axial/kymograph.npz",
+      "provenance_path": "data/derived/rohde-2024-axial/audit.json",
+      "alt": "Her1–YFP axial kymograph of the Position 2 embryo.",
+      "public_sampling_note": "A and P mark the ends of a fixed 518.8 µm final-frame reference curve. Unsupported positions stay blank in the shared P-to-A coordinate."
+    }
+  },
+  "aulehla-2008": {
+    "target_genes": [
+      "Lfng"
+    ],
+    "conditions": [
+      "Control embryo"
+    ],
+    "method_figure": {
+      "title": "Sampling & kymograph",
+      "context": "LuVeLu · Movie 1 · 75 frames",
+      "roi": "figures/aulehla-2008/roi.png",
+      "roi_alt": "Control embryo with the sampled band in early, middle and final frames.",
+      "roi_note": "P marks the visible tail tip in the final frame. The solid band shows tissue sampled in the current frame. The dashed P-side segment is blank in the kymograph, as are distances beyond the traced A end.",
+      "steps": [
+        "P marks the visible tail tip in the final frame. The solid band shows tissue sampled in the current frame. The dashed P-side segment is blank in the kymograph, as are distances beyond the traced A end.",
+        "Register anterior structural features using translation and rotation. Trace the posterior outline and join it to the medial PSM curve. Sample to the traced anterior endpoint in each frame. The shared axis covers the longest observed distance from the fixed P reference.",
+        "Average green excess across 13 transverse pixels. Leave the 8 px rim margin and unsupported intervals missing. Use the embedded timestamps and 200 µm scale bar."
+      ],
+      "limit": "P is the visible tail outline in projection. A marks the anterior end of the traced corridor in each frame. Bending, registration uncertainty and the rim margin affect coverage. The arrow shows sampling from P toward A.",
+      "axes": [
+        [
+          "Horizontal axis",
+          "Experiment time (h)"
+        ],
+        [
+          "Vertical axis",
+          "Arc length from final-frame P tip (approx. µm)"
+        ]
+      ],
+      "source_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fncb1679/MediaObjects/41556_2008_BFncb1679_MOESM15_ESM.mov",
+      "downloads": {
+        "svg": "figures/aulehla-2008/plot.svg",
+        "png": "figures/aulehla-2008/plot.png"
+      },
+      "audit_path": "data/derived/aulehla-2008/review.json",
+      "data_path": "data/derived/aulehla-2008/kymograph.npz",
+      "provenance_path": "data/derived/aulehla-2008/audit.json",
+      "alt": "LuVeLu space–time profile",
+      "public_sampling_note": "P is the final-frame tail tip. Earlier unsupported positions and positions beyond each frame’s traced A end are blank in the kymograph."
+    },
+    "plot_layout": "compact",
+    "detail_layout": "combined_sources",
+    "experimental_facts": [
+      {
+        "label": "Tissue",
+        "value": "Mouse PSM",
+        "evidence_ids": [
+          "article"
+        ]
+      },
+      {
+        "label": "Preparation",
+        "value": "Control embryo",
+        "evidence_ids": [
+          "article"
+        ]
+      },
+      {
+        "label": "View",
+        "value": "Embryo imaging",
+        "evidence_ids": [
+          "movie"
+        ]
+      },
+      {
+        "label": "Temperature",
+        "value": "Unverified",
+        "unverified": true
+      }
+    ],
+    "axis_polarity": {
+      "top": "A",
+      "bottom": "P",
+      "status": "supported",
+      "note": "Regional P-to-A sampling on the curved posterior embryo.",
+      "evidence_ids": [
+        "article",
+        "movie"
+      ]
+    }
+  },
+  "aulehla-2008-mutant": {
+    "target_genes": [
+      "Lfng"
+    ],
+    "conditions": [
+      "Stabilized β-catenin mutant embryo"
+    ],
+    "method_figure": {
+      "title": "Sampling & kymograph",
+      "context": "LuVeLu · Movie 2 · 75 frames",
+      "roi": "figures/aulehla-2008-mutant/roi.png",
+      "roi_alt": "Stabilized β-catenin mutant embryo with the sampled band in early, middle and final frames.",
+      "roi_note": "P marks the visible tail tip in the final frame. The solid band shows tissue sampled in the current frame. The dashed P-side segment is blank in the kymograph, as are distances beyond the traced A end.",
+      "steps": [
+        "P marks the visible tail tip in the final frame. The solid band shows tissue sampled in the current frame. The dashed P-side segment is blank in the kymograph, as are distances beyond the traced A end.",
+        "Register anterior structural features using translation and rotation. Trace the posterior outline and join it to the medial PSM curve. Sample to the traced anterior endpoint in each frame. The shared axis covers the longest observed distance from the fixed P reference.",
+        "Average green excess across 13 transverse pixels. Leave the 8 px rim margin and unsupported intervals missing. Use the embedded timestamps and 200 µm scale bar."
+      ],
+      "limit": "P is the visible tail outline in projection. A marks the anterior end of the traced corridor in each frame. Bending, registration uncertainty and the rim margin affect coverage. The arrow shows sampling from P toward A.",
+      "axes": [
+        [
+          "Horizontal axis",
+          "Experiment time (h)"
+        ],
+        [
+          "Vertical axis",
+          "Arc length from final-frame P tip (approx. µm)"
+        ]
+      ],
+      "source_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fncb1679/MediaObjects/41556_2008_BFncb1679_MOESM16_ESM.mov",
+      "downloads": {
+        "svg": "figures/aulehla-2008-mutant/plot.svg",
+        "png": "figures/aulehla-2008-mutant/plot.png"
+      },
+      "audit_path": "data/derived/aulehla-2008-mutant/review.json",
+      "data_path": "data/derived/aulehla-2008-mutant/kymograph.npz",
+      "provenance_path": "data/derived/aulehla-2008-mutant/audit.json",
+      "alt": "LuVeLu space–time profile",
+      "public_sampling_note": "P is the final-frame tail tip. Earlier unsupported positions and positions beyond each frame’s traced A end are blank in the kymograph."
+    },
+    "plot_layout": "compact",
+    "detail_layout": "combined_sources",
+    "experimental_facts": [
+      {
+        "label": "Tissue",
+        "value": "Mouse PSM",
+        "evidence_ids": [
+          "article"
+        ]
+      },
+      {
+        "label": "Preparation",
+        "value": "Stabilized β-catenin mutant embryo",
+        "evidence_ids": [
+          "article"
+        ]
+      },
+      {
+        "label": "View",
+        "value": "Embryo imaging",
+        "evidence_ids": [
+          "movie-2"
+        ]
+      },
+      {
+        "label": "Temperature",
+        "value": "Unverified",
+        "unverified": true
+      }
+    ],
+    "axis_polarity": {
+      "top": "A",
+      "bottom": "P",
+      "status": "supported",
+      "note": "Regional P-to-A sampling on the curved posterior embryo.",
+      "evidence_ids": [
+        "article",
+        "movie-2"
+      ]
+    }
+  },
+  "isomura-2026-s1": {
+    "target_genes": [
+      "Hes7"
+    ],
+    "conditions": [
+      "Wild-type miPSM organoid"
+    ],
+    "method_figure": {
+      "title": "Sampling & kymograph",
+      "context": "pHes7–Achilles · Movie S1 · 223 frames",
+      "roi": "figures/isomura-2026-s1/roi.png",
+      "roi_alt": "Wild-type miPSM organoid with the sampled band in early, middle and final frames.",
+      "roi_note": "The orange band follows the published axis and stops inside the visible tissue edge in each frame. The dashed segment extends to the maximum sampled posteriorward distance. Only the solid band enters the matrix.",
+      "steps": [
+        "The orange band follows the published axis and stops inside the visible tissue edge in each frame. The dashed segment extends to the maximum sampled posteriorward distance. Only the solid band enters the matrix.",
+        "Transfer the purple line from the 18 h fluorescence panel of Fig. 1A onto Movie S1. Keep its origin and direction fixed. Locate the posterior edge using the reviewed image boundaries and a conservative inward margin.",
+        "Average nine transverse grayscale display pixels with bilinear interpolation at each axial position. Leave the posteriorward extension empty. Calibrate the line with the 200 µm scale bar in Fig. 1A.",
+        "Use all 223 time points at 6 min intervals. Compare the shared 0–20 h interval with Fig. 1B."
+      ],
+      "limit": "The sampled line matches the published direction. Band width and edge tracking were chosen for this redraw. Weak reporter contrast limits posterior-edge localization to several video pixels. Movie S1 records a wild-type stem-cell-derived organoid.",
+      "axes": [
+        [
+          "Horizontal axis",
+          "Experiment time (h)"
+        ],
+        [
+          "Vertical axis",
+          "Distance from anterior ROI reference (approx. µm)"
+        ]
+      ],
+      "source_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC12758139.1/Supplemental_s1.mp4",
+      "downloads": {
+        "svg": "figures/isomura-2026-s1/plot.svg",
+        "png": "figures/isomura-2026-s1/plot.png"
+      },
+      "audit_path": "data/derived/isomura-2026-s1/review.json",
+      "data_path": "data/derived/isomura-2026-s1/kymograph.npz",
+      "provenance_path": "data/derived/isomura-2026-s1/audit.json",
+      "alt": "pHes7–Achilles space–time profile",
+      "review_comparisons": [
+        {
+          "label": "Compare with published Fig. 1B",
+          "note": "The shared interval covers 0–20 h. Left is our Movie S1 extraction. The right-hand panel retains the authors’ original axes and dashed trajectory. Ten local peaks match within one 6 min interval along a nearby trajectory.",
+          "preview": "figures/isomura-2026-s1/published-check.png",
+          "alt": "Redraw from Movie S1 for the published interval next to Fig. 1B.",
+          "reuse_license": {
+            "label": "CC BY-NC 4.0 · Noncommercial",
+            "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+            "credit": "© 2026 Isomura et al., Figure 1B. Cropped and shown beside the Clock Explorer redraw."
+          }
+        }
+      ]
+    },
+    "plot_layout": "compact",
+    "detail_layout": "combined_sources",
+    "experimental_facts": [
+      {
+        "label": "Tissue",
+        "value": "Mouse iPSM",
+        "evidence_ids": [
+          "article"
+        ]
+      },
+      {
+        "label": "Preparation",
+        "value": "Wild-type miPSM organoid",
+        "evidence_ids": [
+          "article"
+        ]
+      },
+      {
+        "label": "View",
+        "value": "Widefield fluorescence",
+        "evidence_ids": [
+          "movie-s1"
+        ]
+      },
+      {
+        "label": "Temperature",
+        "value": "37°C",
+        "unverified": false
+      }
+    ],
+    "axis_polarity": {
+      "top": "A",
+      "bottom": "P",
+      "status": "supported",
+      "note": "Figure 1B labels anterior and posterior. Movie S1 elongates toward the image right.",
+      "evidence_ids": [
+        "article",
+        "movie-s1"
+      ]
+    },
+    "detail_asset_paths": [
+      "data/derived/isomura-2026-s1/kymograph.npz",
+      "data/derived/isomura-2026-s1/audit.json",
+      "data/derived/isomura-2026-s1/review.json"
+    ]
+  },
+  "yabe-2023-movie1": {
+    "target_genes": [
+      "her7"
+    ],
+    "conditions": [
+      "WT embryo · heterozygous reporter knock-in"
+    ],
+    "method_figure": {
+      "title": "Sampling & kymograph",
+      "context": "Her7–3×Achilles · 207 / 207 frames · 0–206 min · fixed P and A references · 5 µm spatial smoothing",
+      "roi": "figures/yabe-2023-movie1/fixed-ap/roi.png",
+      "roi_alt": "Registered A and P landmarks, sampled band and dashed reference extensions at 0, 103 and 206 min.",
+      "roi_note": "P marks the final-frame posterior cap on the left. A marks the anterior limit reached by the first-frame strip on the right. Both references are fixed in yolk-registered coordinates. Solid orange marks the supported 24 px strip. Dashed extensions correspond to missing matrix bins.",
+      "steps": [
+        "Fit source-frame translations to the upper yolk outline, away from the oscillatory strip. Fix P at the visible final-frame posterior cap. Fix A at the first-frame anterior sampling limit to preserve early anterior measurements.",
+        "Use one calibrated posterior-to-anterior reference arc for all 207 frames. Follow tissue bending across the reference arc using the previously reviewed five landmark frames. Positions are measured along the common reference arc.",
+        "Locate the posterior cap locally across all 25 transects. Retain the supported band through the reviewed anterior PSM limit. Average native grayscale samples across 24 px at approximately 2 µm intervals. Save both unsupported extensions as missing.",
+        "Apply a 5 µm Gaussian along the registered P-to-A arc in each frame. Renormalize at the ends of the supported strip. Keep all 207 times and their original sampling masks. The NPZ includes the unsmoothed transverse means."
+      ],
+      "limit": "The AVI covers 206 min, while published Figure 2g spans 240 min. Its time offset is unverified. The visible PSM corridor and yolk outline were used for registration and sampling. The loss of anterior sampling support does not establish anterior tissue loss. The posterior gap describes changing coverage relative to the yolk. Cell motion, embryo rotation and growth cannot be separated with this single-channel movie.",
+      "axes": [
+        [
+          "Horizontal axis",
+          "Time since the first released frame (h)"
+        ],
+        [
+          "Vertical axis",
+          "Arc length along the fixed P-to-A reference (approx. µm)"
+        ]
+      ],
+      "source_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC10102234.1/41467_2023_37745_MOESM4_ESM.avi",
+      "downloads": {
+        "svg": "figures/yabe-2023-movie1/fixed-ap-smooth5/plot.svg",
+        "png": "figures/yabe-2023-movie1/fixed-ap-smooth5/plot.png"
+      },
+      "audit_path": "data/derived/yabe-2023-movie1/fixed-ap-smooth5/review.json",
+      "data_path": "data/derived/yabe-2023-movie1/fixed-ap-smooth5/kymograph.npz",
+      "provenance_path": "data/derived/yabe-2023-movie1/fixed-ap-smooth5/audit.json",
+      "alt": "Spatially smoothed Her7–3×Achilles signal on the fixed A/P reference arc",
+      "reference_comparison": {
+        "label": "Compare with Figure 2g",
+        "preview": "figures/yabe-2023-movie1/fixed-ap-smooth5/published.png",
+        "alt": "Spatially smoothed Movie 1 extraction beside published WT Figure 2g",
+        "note": "The AVI covers 206 min, while published Figure 2g spans 240 min. Its time offset is unverified. The visible PSM corridor and yolk outline were used for registration and sampling. The loss of anterior sampling support does not establish anterior tissue loss. The posterior gap describes changing coverage relative to the yolk. Cell motion, embryo rotation and growth cannot be separated with this single-channel movie.",
+        "reuse_license": {
+          "label": "CC BY 4.0",
+          "url": "https://creativecommons.org/licenses/by/4.0/",
+          "credit": "Yabe, Uriu & Takada (2023), Figure 2g. Cropped and reoriented beside the Clock Explorer redraw."
+        }
+      },
+      "coordinate_reference": "Fixed final-frame posterior cap → fixed anterior reference",
+      "review_comparisons": [
+        {
+          "label": "Compare spatial smoothing",
+          "preview": "figures/yabe-2023-movie1/fixed-ap-smooth5/smoothing-comparison.png",
+          "alt": "Unsmoothed and spatially smoothed Her7 with fixed P and A",
+          "note": "Both panels use the same axes, missing-data mask and intensity scale. Time is unfiltered."
+        },
+        {
+          "label": "Earlier sampling comparison (unsmoothed)",
+          "preview": "figures/yabe-2023-movie1/fixed-ap/old-new.png",
+          "alt": "Moving posterior origin and fixed-reference extractions on shared axes.",
+          "note": "Both panels use the same time and distance limits and a pooled display scale. Gray marks positions without a measurement."
+        }
+      ]
+    },
+    "plot_layout": "compact",
+    "detail_layout": "combined_sources",
+    "experimental_facts": [
+      {
+        "label": "Tissue",
+        "value": "Embryonic PSM",
+        "evidence_ids": [
+          "article"
+        ]
+      },
+      {
+        "label": "Preparation",
+        "value": "WT embryo · heterozygous reporter knock-in",
+        "evidence_ids": [
+          "article"
+        ]
+      },
+      {
+        "label": "View",
+        "value": "Light-sheet fluorescence",
+        "evidence_ids": [
+          "movie-1"
+        ]
+      },
+      {
+        "label": "Temperature",
+        "value": "23.5°C",
+        "unverified": false
+      }
+    ],
+    "axis_polarity": {
+      "top": "A",
+      "bottom": "P",
+      "status": "supported",
+      "note": "A above P. P is the fixed final-frame posterior cap. A is the fixed first-frame anterior reach. White circles in the ROI identify both registered references.",
+      "evidence_ids": [
+        "article",
+        "movie-1"
+      ]
+    }
+  },
+  "rohde-2024-oct-p2-mespba": {
+    "target_genes": [
+      "mesp-ba"
+    ],
+    "conditions": [
+      "Nonmutant reporter embryo"
+    ],
+    "plot_layout": "compact",
+    "detail_layout": "combined_sources",
+    "method_figure": {
+      "title": "Sampling & kymograph",
+      "context": "Mesp-ba–mKate2 · October 2019, Position 2 · 240 frames · 0–358.5 min",
+      "roi": "figures/rohde-2024-oct-p2-mespba/fixed-ap/roi.png",
+      "roi_alt": "Four Mesp-ba source frames with the recorded field, measured flank and fixed reference ends.",
+      "roi_note": "P and A are fixed positions along the registered flank. The solid band marks the measured strip. Dashed lines reach the reference ends across unsupported intervals. The thin rectangle outlines the recorded field.",
+      "steps": [
+        "Use all 240 Mesp-ba and nuclear GFP projection pairs at 90 s intervals. Follow the previously traced PSM and somite flank in the native frames.",
+        "Track anterior nuclear features in H2A–GFP across one- and four-frame intervals. Register their displacement along the curved strip. Set P at the final posterior-side reference and A at the furthest measured anterior bin. Both stay fixed in registered arc length.",
+        "At 2 µm arc-length intervals, average 17 Mesp-ba readings across a 22.19 µm strip. Require the entire width to lie in the field and the nuclear tissue envelope. Display the connected measured band as solid. Leave P-side gaps missing.",
+        "When a previously measured A-side bin leaves the full-width field, hold its last observed intensity at the same registered position. Hatch those estimates. Resume measurement immediately on re-entry. Gray marks missing values. Scale colors using measured data across the recording."
+      ],
+      "limit": "The hatched region assumes that anterior expression persists after leaving the camera. Timing of off-field expression changes is unknown. The late posterior tip also leaves the field, so its exact final anatomical position and the cause of every P-side gap are unresolved.",
+      "axes": [
+        [
+          "Horizontal axis",
+          "Time from the first stack (h)"
+        ],
+        [
+          "Vertical axis",
+          "Registered arc length from P (µm)"
+        ]
+      ],
+      "coordinate_reference": "Registered arc length from fixed P",
+      "source_url": "https://sv-open.epfl.ch/upoates-public/Rohde_Bercowsky_eLife2024_Data/in_vivo_data/20191031_140601_11_Tg_mespbamKate2a_h2agfp/Position%202_Stack%201_max/",
+      "downloads": {
+        "svg": "figures/rohde-2024-oct-p2-mespba/fixed-ap/plot.svg",
+        "png": "figures/rohde-2024-oct-p2-mespba/fixed-ap/plot.png"
+      },
+      "data_path": "data/derived/rohde-2024-oct-p2-mespba/fixed-ap/kymograph.npz",
+      "provenance_path": "data/derived/rohde-2024-oct-p2-mespba/fixed-ap/audit.json",
+      "audit_path": "data/derived/rohde-2024-oct-p2-mespba/fixed-ap/review.json",
+      "alt": "Registered Mesp-ba stripes with a hatched anterior persistence estimate and gray missing positions.",
+      "reference_comparison": {
+        "label": "Compare with the previous extraction",
+        "preview": "figures/rohde-2024-oct-p2-mespba/fixed-ap/comparison.png",
+        "alt": "Previous projection beside the fixed A/P reconstruction.",
+        "note": "Both panels use the same fluorescence color scale. The new position axis measures distance along the curved strip."
+      },
+      "public_sampling_note": "P and A are fixed along the registered flank. Measured and inferred positions remain marked separately in the kymograph."
+    },
+    "experimental_facts": [
+      {
+        "label": "Tissue",
+        "value": "Embryonic PSM and forming somites",
+        "evidence_ids": [
+          "oct-p2-paper"
+        ]
+      },
+      {
+        "label": "Preparation",
+        "value": "Intact embryo · October 2019, Position 2",
+        "evidence_ids": [
+          "oct-p2-archive"
+        ]
+      },
+      {
+        "label": "View",
+        "value": "Lateral light-sheet projection",
+        "evidence_ids": [
+          "oct-p2-paper"
+        ]
+      },
+      {
+        "label": "Temperature",
+        "value": "28.5°C",
+        "evidence_ids": [
+          "oct-p2-paper"
+        ]
+      }
+    ],
+    "axis_polarity": {
+      "top": "A",
+      "bottom": "P",
+      "status": "supported",
+      "note": "A is the fixed anterior arc reference. P is the final-frame posterior-side reference. The final tail tip is partly outside the field. Hatching marks the off-field persistence estimate.",
+      "evidence_ids": [
+        "oct-p2-paper",
+        "oct-p2-archive"
+      ]
+    },
+    "detail_asset_paths": [
+      "data/derived/rohde-2024-oct-p2-mespba/fixed-ap/kymograph.npz",
+      "data/derived/rohde-2024-oct-p2-mespba/fixed-ap/audit.json",
+      "data/derived/rohde-2024-oct-p2-mespba/fixed-ap/review.json",
+      "data/derived/rohde-2024-oct-p2-mespba/source-manifest.json"
+    ],
+    "overview_summary": "The October 2019 Position 2 light-sheet recording follows Mesp-ba in newly forming somites. Solid bands in the movie show the measured flank. Hatching on the kymograph identifies the anterior persistence estimate outside the camera field."
+  },
+  "keseroglu-2023-wt-her1-her7-venus": {
+    "target_genes": [
+      "her1",
+      "her7"
+    ],
+    "conditions": [
+      "Combined Venus channel · WT background"
+    ],
+    "method_figure": {
+      "title": "Sampling & kymograph",
+      "context": "Her1 / Her7–Venus · WT 1.nd2 · frames 60–144 · 5.00–12.00 h",
+      "roi": "figures/keseroglu-2023-wt-her1-her7-venus/roi.png",
+      "roi_alt": "Corresponding brightfield and fluorescence at three timepoints, with the measured strip, endpoints and early virtual extension indicated.",
+      "roi_note": "Solid orange bounds enclose the measured tissue. A follows one brightfield somite landmark. P is a common projected-distance zero. It coincides with the sampled caudal bud in the final frame. Earlier dashed lines extend along the local tail tangent by the measured arc-length deficit. Gray cells lack measurements.",
+      "steps": [
+        "Open specimen 1.nd2 from the WT-background 26°C archive. Source frames 60–144, zero-based, from the 361-time-point recording (0–30.00 h). The first z-plane timestamps place this continuous 85-frame window at 5.002–12.002 h from the start of imaging. Selected a continuous interval during which the caudal bud and the same anterior somite landmark can both be used in brightfield. Before the interval the tail is less distinct from the yolk. As the embryo bends later, axial path length increasingly depends on projection. The source deposit includes the full recording.",
+        "Max-project five native YFP z planes for each time point. Track one anterior somite landmark in the central brightfield plane by forward/backward optical flow. Trace a curved path to the caudal bud on nine brightfield keyframes and interpolate between them.",
+        "Measure bilinear YFP intensity at seven transverse positions, spanning 15.5 µm. The native pixel size is 2.58368 µm. Exclude one stationary 3 × 3 px fluorescent spot where tissue moves underneath and average the remaining samples when at least three are available. The NPZ includes both corrected and original means.",
+        "Align all curves to the same anterior somite landmark. Use the longest projected curve, frame 144, to define a common P-distance zero. Keep unsupported positions missing. Use the global 1st and 99.5th percentiles for display."
+      ],
+      "limit": "One WT-background specimen. The two Venus fusions share a detector, so their individual contributions cannot be resolved. The curved distance is measured in the lateral projection. Native widefield fluorescence includes optical background from the yolk.",
+      "coordinate_reference": "A tracked on an anterior somite · common projected P zero",
+      "signal_note": "The YFP detector records Her1–Venus and Her7–Venus together. Brightfield supplies the structural landmarks.",
+      "source_sample": "WT background · specimen 1.nd2",
+      "experimental_model": "Intact WT-background embryo",
+      "axes": [
+        [
+          "Horizontal axis",
+          "Actual elapsed time since source frame 0 (h)"
+        ],
+        [
+          "Vertical axis",
+          "Projected arc distance from the final posterior reference (µm)"
+        ]
+      ],
+      "source_url": "https://www.ebi.ac.uk/biostudies/studies/S-BSST1156",
+      "downloads": {
+        "svg": "figures/keseroglu-2023-wt-her1-her7-venus/plot.svg",
+        "png": "figures/keseroglu-2023-wt-her1-her7-venus/plot.png"
+      },
+      "audit_path": "data/derived/keseroglu-2023-wt-her1-her7-venus/review.json",
+      "data_path": "data/derived/keseroglu-2023-wt-her1-her7-venus/kymograph.npz",
+      "provenance_path": "data/derived/keseroglu-2023-wt-her1-her7-venus/audit.json",
+      "alt": "Moving fluorescent bands of the combined Her1 / Her7–Venus reporter along the nascent body axis.",
+      "reference_comparison": {
+        "label": "Check bands against source frames",
+        "preview": "figures/keseroglu-2023-wt-her1-her7-venus/frame-match.png",
+        "alt": "Matched detector positions at three measured times, marked in the raw YFP frames and kymograph.",
+        "note": "Each ring marks the brightest sampled location at its time; the same detector location and intensity are recorded in the processing audit."
+      }
+    },
+    "plot_layout": "compact",
+    "detail_layout": "combined_sources",
+    "experimental_facts": [
+      {
+        "label": "Signal",
+        "value": "Combined fluorescence in one Venus channel",
+        "evidence_ids": [
+          "wt-file",
+          "wt-method"
+        ]
+      },
+      {
+        "label": "Tissue",
+        "value": "Embryonic PSM and forming somites",
+        "evidence_ids": [
+          "wt-method"
+        ]
+      },
+      {
+        "label": "Preparation",
+        "value": "WT background · embryo 1",
+        "evidence_ids": [
+          "wt-deposit",
+          "wt-file"
+        ]
+      },
+      {
+        "label": "View",
+        "value": "Lateral widefield · 5-plane projection",
+        "evidence_ids": [
+          "wt-file",
+          "wt-method"
+        ]
+      },
+      {
+        "label": "Temperature",
+        "value": "26°C",
+        "evidence_ids": [
+          "wt-deposit"
+        ]
+      }
+    ],
+    "axis_polarity": {
+      "top": "A",
+      "bottom": "P",
+      "status": "supported",
+      "note": "The caudal bud and anterior somite reference are visible on paired structural frames.",
+      "evidence_ids": [
+        "wt-file",
+        "wt-method"
+      ]
+    }
+  },
+  "mok-2021-tcf15-enh2": {
+    "target_genes": [
+      "TCF15"
+    ],
+    "conditions": [
+      "Enhancer reporter in intact embryo"
+    ],
+    "method_figure": {
+      "title": "Sampling & kymograph",
+      "context": "TCF15 enhancer · Movie 1 · 138 of 258 frames · nominal 13.7 h",
+      "roi": "figures/mok-2021-tcf15-enh2/roi.png",
+      "roi_alt": "Matched cropped structural and reporter images with orange axial strip on the same paraxial flank.",
+      "roi_note": "A and P are fixed on the straightened axis of the upper somite row. The solid strip shows the sampled tissue. The dashed line extends to the final-frame P reference. These positions are gray in the kymograph.",
+      "steps": [
+        "Open Supplementary Movie 1. The left panel overlays the fluorescent reporter on anatomy. The right panel contains the corresponding monochrome fluorescence display. Identify the anterior head at image left and posterior axis at image right using the movie legend and Supplementary Fig. 5i.",
+        "Use the continuous interval with recognizable somites on one paraxial flank. Trace the same flank on eight anatomical keyframes, including its visible posterior extent in the final frame. Track the red component of the anatomy panel by forward and backward optical flow between keyframes. Blend the two tracks, straighten the flank and register anterior somite texture backward from the final frame using the red anatomy channel.",
+        "Transfer the corridor to the aligned fluorescence panel. Reduce both panels twofold by area averaging and take the mean of 13 positions normal to the curve at each arc-length bin. Set A to zero and P to the final-frame flank length. Sample at fixed arc-length bins from A. End the solid strip at the last supported bin in each frame. Project the remaining distance along the local flank direction as a dashed guide to P.",
+        "Use one intensity scale across all selected frames. Convert analysis pixels to approximate micrometres using the 500 µm bar on the corresponding rotated full-field view in Supplementary Fig. 5i. Leave the posterior guide bins missing and display them in gray."
+      ],
+      "limit": "Bright regions approach the display ceiling. Stripe gaps remain visible, but intensity within saturated somites is poorly resolved. P identifies the posterior end of the selected flank in the last frame. The complete embryonic tail tip is outside this measurement. Reporter accumulation and tissue motion contribute to the pattern.",
+      "coordinate_reference": "Arc length from fixed A to the final-frame posterior flank reference",
+      "signal_note": "TCF15 Enh-2 Citrine enhancer reporter · released fluorescence display",
+      "source_sample": "Supplementary Movie 1",
+      "experimental_model": "Intact chick embryo",
+      "axes": [
+        [
+          "Horizontal axis",
+          "Frames 120–257 of 258. The methods give a nominal six-minute interval. Times are approximate, relative to frame 120. Source exposure timestamps are unavailable."
+        ],
+        [
+          "Vertical axis",
+          "Arc length from fixed A to the final-frame posterior flank reference"
+        ]
+      ],
+      "source_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC7895974.1/41467_2021_21426_MOESM2_ESM.mov",
+      "downloads": {
+        "svg": "figures/mok-2021-tcf15-enh2/plot.svg",
+        "png": "figures/mok-2021-tcf15-enh2/plot.png"
+      },
+      "audit_path": "data/derived/mok-2021-tcf15-enh2/review.json",
+      "data_path": "data/derived/mok-2021-tcf15-enh2/kymograph.npz",
+      "provenance_path": "data/derived/mok-2021-tcf15-enh2/audit.json",
+      "alt": "TCF15 enhancer activity in a single paraxial strip during chick somite formation.",
+      "reference_comparison": {
+        "label": "Check somite clefts in the original frames",
+        "preview": "figures/mok-2021-tcf15-enh2/frame-match.png",
+        "alt": "Three selected local fluorescence minima mapped to reporter frames and the corresponding heatmap.",
+        "note": "Rings correspond to local intensity troughs along the sampled reporter strip."
+      }
+    },
+    "plot_layout": "compact",
+    "detail_layout": "combined_sources",
+    "experimental_facts": [
+      {
+        "label": "Tissue",
+        "value": "PSM and forming somites",
+        "evidence_ids": [
+          "mok-tcf-figure"
+        ]
+      },
+      {
+        "label": "Preparation",
+        "value": "Intact chick embryo · ex ovo",
+        "evidence_ids": [
+          "mok-tcf-method"
+        ]
+      },
+      {
+        "label": "View",
+        "value": "Widefield · one paraxial flank",
+        "evidence_ids": [
+          "mok-tcf-movie"
+        ]
+      },
+      {
+        "label": "Temperature",
+        "value": "37°C",
+        "evidence_ids": [
+          "mok-tcf-method"
+        ]
+      }
+    ],
+    "axis_polarity": {
+      "top": "A",
+      "bottom": "P",
+      "status": "supported",
+      "note": "Movie legend identifies the anterior on the left and posterior on the right. Sampling begins on the anterior side.",
+      "evidence_ids": [
+        "mok-tcf-legend",
+        "mok-tcf-figure"
+      ]
+    }
+  },
+  "mok-2021-movie2-meox1": {
+    "target_genes": [
+      "MEOX1"
+    ],
+    "conditions": [
+      "Enhancer reporter · unilateral somite row"
+    ],
+    "method_figure": {
+      "title": "Sampling & kymograph",
+      "context": "MEOX1 enhancer–Citrine · Movie 2 · source frames 112–256 of 257 · nominal ≈11.2–25.6 h",
+      "roi": "figures/mok-2021-movie2-meox1/roi.png",
+      "roi_alt": "Enhancer reporter · unilateral somite row with the sampled band in early, middle and final frames.",
+      "roi_note": "Identify the upper somite row in the left structural panel. The matching right panel shows the Citrine reporter. Anterior is to the left.",
+      "steps": [
+        "Identify the upper somite row in the left structural panel. The matching right panel shows the Citrine reporter. Anterior is to the left.",
+        "Trace five points on ten anatomical keyframes over source frames 112–256. Track the structural channel between keyframes in both directions. Straighten the flank and align anterior somite texture backward from frame 256.",
+        "Set A to zero and P to the posterior endpoint of the final-frame flank. Sample the right reporter panel at approximately two native pixels per arc-length bin, averaging 21 transverse samples across a 20-pixel width. Only the solid strip contributes values.",
+        "Leave unsupported P-side bins missing. Plot A above P and use the global 1st–99th percentile range. Time follows the nominal six-minute acquisition interval from the start of Movie 2."
+      ],
+      "limit": "The reporter measures MEOX1 enhancer activity during somite differentiation. Clock periodicity is unestablished. The media export has no independent per-frame acquisition times or usable in-frame length scale. P marks the posterior limit of the selected paraxial flank in frame 256. The anatomical tail tip was not established.",
+      "axes": [
+        [
+          "Horizontal axis",
+          "Nominal elapsed time at 6 min per source frame (h)"
+        ],
+        [
+          "Vertical axis",
+          "Arc length from fixed A to the Movie 2 final-frame posterior reference (native export px), growing posteriorward"
+        ]
+      ],
+      "source_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC7895974.1/41467_2021_21426_MOESM3_ESM.mov",
+      "downloads": {
+        "svg": "figures/mok-2021-movie2-meox1/plot.svg",
+        "png": "figures/mok-2021-movie2-meox1/plot.png"
+      },
+      "audit_path": "data/derived/mok-2021-movie2-meox1/review.json",
+      "data_path": "data/derived/mok-2021-movie2-meox1/kymograph.npz",
+      "provenance_path": "data/derived/mok-2021-movie2-meox1/audit.json",
+      "alt": "MEOX1 enhancer–Citrine space–time profile",
+      "coordinate_reference": "Arc length from fixed A to the Movie 2 final-frame posterior reference"
+    },
+    "plot_layout": "compact",
+    "detail_layout": "combined_sources",
+    "experimental_facts": [
+      {
+        "label": "Tissue",
+        "value": "Paraxial mesoderm and somites",
+        "evidence_ids": [
+          "article"
+        ]
+      },
+      {
+        "label": "Preparation",
+        "value": "Enhancer reporter · unilateral somite row",
+        "evidence_ids": [
+          "article"
+        ]
+      },
+      {
+        "label": "View",
+        "value": "Widefield brightfield and fluorescence",
+        "evidence_ids": [
+          "meox1-enh-movie2"
+        ]
+      },
+      {
+        "label": "Temperature",
+        "value": "37°C",
+        "unverified": false
+      }
+    ],
+    "axis_polarity": {
+      "top": "A",
+      "bottom": "P",
+      "status": "supported",
+      "note": "Supplementary Movie 2 legend explicitly places A left and P right. Anterior at the top of the kymograph.",
+      "evidence_ids": [
+        "article",
+        "meox1-enh-movie2"
+      ]
+    },
+    "detail_asset_paths": [
+      "data/derived/mok-2021-movie2-meox1/kymograph.npz",
+      "data/derived/mok-2021-movie2-meox1/review.json",
+      "data/derived/mok-2021-movie2-meox1/audit.json"
+    ]
+  },
+  "schmitz-elbers-2021-s2-cortex": {
+    "hidden": true,
+    "target_genes": [],
+    "conditions": [
+      "Chicken embryo · 240 nM SiR-actin"
+    ],
+    "method_figure": {
+      "title": "Sampling & kymograph",
+      "context": "Movie S2 · Fluorogenic F-actin stain · 240 nM · ≈ 0–10 h (nominal)",
+      "roi": "figures/schmitz-elbers-2021-s2-cortex/sampling.png",
+      "roi_alt": "Source frames with the sampled strip.",
+      "roi_note": "The orange band follows one somite row between annotated keyframes. A is at image left.",
+      "steps": [
+        "Trace the somite row on the fluorescence panel in representative frames.",
+        "Interpolate the strip geometry between keyframes and sample the original display pixels across the local normal.",
+        "Average across its width at each distance and retain unsupported positions as missing."
+      ],
+      "limit": "The strip follows one somite row. These are display intensities from a structural stain.",
+      "coordinate_reference": "Distance from the anterior edge of the tracked strip (approx. µm)",
+      "signal_note": "Fluorogenic F-actin stain · 240 nM",
+      "source_sample": "Movie S2",
+      "experimental_model": "Whole chick embryo",
+      "axes": [
+        [
+          "Horizontal axis",
+          "Source frame. Frames 0–120. Nominal hours use the reported five-minute interval. Frame 121 is black."
+        ],
+        [
+          "Vertical axis",
+          "Distance from the anterior edge of the tracked strip (approx. µm)"
+        ]
+      ],
+      "source_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC8303455.1/cells-10-01578-s001.zip",
+      "downloads": {
+        "svg": "figures/schmitz-elbers-2021-s2-cortex/plot.svg",
+        "png": "figures/schmitz-elbers-2021-s2-cortex/plot.png"
+      },
+      "data_path": "data/derived/schmitz-elbers-2021-s2-cortex/matrix.npz",
+      "provenance_path": "data/derived/schmitz-elbers-2021-s2-cortex/audit.json",
+      "alt": "F-actin · high-magnification somites kymograph"
+    },
+    "plot_layout": "compact",
+    "detail_layout": "combined_sources",
+    "experimental_facts": [
+      {
+        "label": "Tissue",
+        "value": "Forming somites",
+        "evidence_ids": [
+          "Movie S2"
+        ]
+      },
+      {
+        "label": "Preparation",
+        "value": "Chicken embryo · 240 nM SiR-actin",
+        "evidence_ids": [
+          "Movie S2"
+        ]
+      },
+      {
+        "label": "Signal",
+        "value": "F-actin (SiR-actin staining)",
+        "evidence_ids": [
+          "Movie S2"
+        ]
+      }
+    ],
+    "axis_polarity": {
+      "top": "A",
+      "bottom": "P",
+      "status": "supported",
+      "note": "The orange band follows one somite row between annotated keyframes. A is at image left.",
+      "evidence_ids": [
+        "Movie S2"
+      ]
+    },
+    "target_gene_applicable": false
+  },
+  "liu-2024-hes7-video5": {
+    "target_genes": [
+      "HES7"
+    ],
+    "conditions": [
+      "Human hPSC-derived microfluidic PSM"
+    ],
+    "method_figure": {
+      "title": "Sampling & kymograph",
+      "context": "Video 5 · HES7 reporter · 48–96 h",
+      "roi": "figures/liu-2024-hes7-video5/sampling.png",
+      "roi_alt": "The same fixed full-width sampling strip at 48, 72 and 96 hours.",
+      "roi_note": "The sampling strip spans the microtrench. A marks the left rostral end and P the right caudal end.",
+      "steps": [
+        "Use the first encoded frame for each printed half-hour timestamp from 48 to 96 h in Video 5.",
+        "Average decoded grayscale values across rows 103–180 of the microtrench at every axial column. Read distance from its caudal field edge using the 200 µm scale bar.",
+        "Retain the original strip means in the matrix. For the plot, smooth only along space with σ = 25 µm and use one intensity scale across the movie."
+      ],
+      "limit": "Intensities come from the compressed grayscale fluorescence export. Distance is estimated from the 200 µm scale bar. The fixed strip includes background near the rounded field ends.",
+      "coordinate_reference": "Caudal to rostral along the fixed microtrench",
+      "signal_note": "HES7–Achilles · grayscale fluorescence export",
+      "source_sample": "Supplementary Video 5",
+      "experimental_model": "Human hPSC-derived microfluidic PSM",
+      "axes": [
+        [
+          "Time",
+          "Culture hours as printed in Video 5. All 97 time points at 0.5 h intervals."
+        ],
+        [
+          "Space",
+          "Figure 4b identifies the rostral end at left and the caudal end at right. Matched movie frames confirm the same orientation. The caudal field edge is 0 µm."
+        ],
+        [
+          "Pattern",
+          "Early waves travel from both ends toward the middle. Later waves persist from the caudal end."
+        ]
+      ],
+      "source_url": "https://www.biorxiv.org/content/biorxiv/early/2023/11/01/2023.10.29.564399/DC6/embed/media-6.mp4?download=true",
+      "downloads": {
+        "svg": "figures/liu-2024-hes7-video5/plot.svg",
+        "png": "figures/liu-2024-hes7-video5/plot.png"
+      },
+      "data_path": "data/derived/liu-2024-hes7-video5/matrix.npz",
+      "provenance_path": "data/derived/liu-2024-hes7-video5/audit.json",
+      "alt": "HES7 activity over culture hours and distance from the caudal field edge",
+      "reference_comparison": {
+        "label": "Compare with published Figure 4c",
+        "preview": "figures/liu-2024-hes7-video5/fig4c-comparison.png",
+        "alt": "Published Figure 4c above the independent Video 5 extraction with the same axis orientation.",
+        "note": "Both panels show space from rostral to caudal and time increasing upward. The reconstructed values use the grayscale video display and a separate intensity scale."
+      }
+    },
+    "plot_layout": "compact",
+    "detail_layout": "combined_sources",
+    "experimental_facts": [
+      {
+        "label": "Tissue",
+        "value": "PSM and forming somites",
+        "evidence_ids": [
+          "Fig. 4"
+        ]
+      },
+      {
+        "label": "Preparation",
+        "value": "Human hPSC-derived microfluidic model",
+        "evidence_ids": [
+          "Methods",
+          "Fig. 4"
+        ]
+      },
+      {
+        "label": "View",
+        "value": "Confocal HES7 fluorescence",
+        "evidence_ids": [
+          "Video 5"
+        ]
+      },
+      {
+        "label": "Temperature",
+        "value": "37°C",
+        "evidence_ids": [
+          "Methods"
+        ]
+      }
+    ],
+    "axis_polarity": {
+      "top": "A",
+      "bottom": "P",
+      "status": "supported",
+      "note": "Figure 4b identifies the rostral end at left and the caudal end at right. Matched movie frames confirm the same orientation.",
+      "evidence_ids": [
+        "Fig. 4",
+        "Video 5"
+      ]
+    }
+  },
+  "makwana-2025-hes7-video2": {
+    "target_genes": [
+      "HES7"
+    ],
+    "plot_layout": "compact",
+    "detail_layout": "combined_sources",
+    "experimental_facts": [
+      {
+        "label": "Tissue",
+        "value": "Presomitic mesoderm",
+        "evidence_ids": [
+          "fig3"
+        ]
+      },
+      {
+        "label": "Preparation",
+        "value": "Human trunk-like structure · iPSC-derived",
+        "evidence_ids": [
+          "fig3"
+        ]
+      },
+      {
+        "label": "View",
+        "value": "HES7 pseudocolor over brightfield",
+        "evidence_ids": [
+          "video-2"
+        ]
+      },
+      {
+        "label": "Temperature",
+        "value": "37°C",
+        "evidence_ids": [
+          "methods"
+        ]
+      }
+    ],
+    "axis_polarity": {
+      "top": "A",
+      "bottom": "P",
+      "status": "supported",
+      "note": "Formed somites define the anterior side of the traced corridor.",
+      "evidence_ids": [
+        "fig3",
+        "video-2"
+      ]
+    },
+    "method_figure": {
+      "title": "Sampling & kymograph",
+      "context": "HES7–Achilles · Supplementary Video 2 · 64 frames",
+      "roi": "figures/makwana-2025-hes7-video2/sampling.png",
+      "roi_alt": "Same HES7 specimen with the sampling strip in four recorded frames.",
+      "roi_note": "The solid band follows the visible tissue. The dashed line extends to the posterior reference where the first frames end sooner.",
+      "source_sample": "One hTLS in Supplementary Video 2",
+      "experimental_model": "Human trunk-like structure · iPSC-derived",
+      "coordinate_reference": "Arc length from the tracked anterior landmark. The P reference uses the final-frame extent.",
+      "signal_note": "Relative HES7 video color index",
+      "steps": [
+        "Use all 64 timestamped frames in Supplementary Video 2. The last frame is 115.75 h, matching Fig. 3B.",
+        "Trace the same presomitic corridor from the anterior somite row toward the posterior tip in six frames and interpolate between them.",
+        "Estimate the displayed HES7 color level with the published color scale and average across the 40-pixel strip.",
+        "Apply 4 µm spatial smoothing to the preview, preserving blank bins outside the observed band. Display high values in dark red."
+      ],
+      "color_note": "Dark red marks higher display signal. Gray marks unsupported positions.",
+      "axes": [
+        [
+          "Time axis",
+          "100–115.75 h after differentiation · one image per 15 min."
+        ],
+        [
+          "Space axis",
+          "Arc length from the tracked anterior landmark. The P reference uses the final-frame extent."
+        ]
+      ],
+      "limit": "Color is reconstructed from the compressed pseudocolor and brightfield composite. Values are qualitative display indices. Distance is estimated from the movie scale bar.",
+      "source_url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41556-025-01813-8/MediaObjects/41556_2025_1813_MOESM5_ESM.avi",
+      "downloads": {
+        "svg": "figures/makwana-2025-hes7-video2/plot.svg",
+        "png": "figures/makwana-2025-hes7-video2/plot.png"
+      },
+      "data_path": "data/derived/makwana-2025-hes7-video2/matrix.npz",
+      "provenance_path": "data/derived/makwana-2025-hes7-video2/audit.json",
+      "alt": "Kymograph of HES7 waves in a human trunk-like structure.",
+      "review_comparisons": [
+        {
+          "label": "Compare with published Fig. 3B",
+          "note": "The four repeated HES7 peaks line up in time. The authors plot posterior at left and culture time downward.",
+          "preview": "figures/makwana-2025-hes7-video2/author-comparison.png",
+          "alt": "Reconstructed HES7 kymograph and Makwana et al. Fig. 3B.",
+          "reuse_license": {
+            "label": "CC BY 4.0",
+            "url": "https://creativecommons.org/licenses/by/4.0/",
+            "credit": "Makwana et al. (2025), Fig. 3B. © Crown 2025. Cropped and shown alongside a Clock Explorer redraw."
+          }
+        }
+      ]
+    }
+  },
+  "shimojo-2016-s1-dll1": {
+    "target_genes": [
+      "Dll1"
+    ],
+    "detail_layout": "combined_sources",
+    "plot_layout": "compact",
+    "axis_polarity": {
+      "top": "A",
+      "bottom": "P",
+      "status": "supported",
+      "note": "Figure 1C identifies S0 and S-1 on the anterior side. Figure 1D places A above P.",
+      "evidence_ids": [
+        "shimojo-fig1"
+      ]
+    },
+    "experimental_facts": [
+      {
+        "label": "Tissue",
+        "value": "PSM · E10.5",
+        "evidence_ids": [
+          "shimojo-legend"
+        ]
+      },
+      {
+        "label": "Preparation",
+        "value": "Tail explant",
+        "evidence_ids": [
+          "shimojo-methods"
+        ]
+      },
+      {
+        "label": "View",
+        "value": "Bioluminescence imaging",
+        "evidence_ids": [
+          "shimojo-fig1",
+          "shimojo-s1"
+        ]
+      },
+      {
+        "label": "Temperature",
+        "value": "37°C",
+        "evidence_ids": [
+          "shimojo-methods"
+        ]
+      }
+    ],
+    "method_figure": {
+      "title": "Sampling & kymograph",
+      "context": "Dll1 · Movie S1 · 80 frames",
+      "source_sample": "Supplemental Movie S1",
+      "experimental_model": "E10.5 mouse tail explant",
+      "coordinate_reference": "Distance from the fixed posterior-side strip reference in video pixels.",
+      "signal_note": "Dll1 promoter-activity reporter · bioluminescence",
+      "roi": "figures/shimojo-2016-s1/sampling.png",
+      "roi_alt": "Early, middle and late grayscale frames with the source-coordinate ROI overlaid.",
+      "roi_note": "The orange band samples the left grayscale pane. A and P mark fixed image-side references. The dashed posterior guide marks rows outside the reviewed strip support.",
+      "steps": [
+        "Match the Figure 1B thumbnails to Movie S1 and derive the nominal experimental time from Fig. 1E.",
+        "Place a 31-pixel-wide strip on the image-right flank within the grayscale pane.",
+        "Average displayed grayscale values across the valid width. Carry the reviewed posterior boundary through the movie and leave unsupported rows blank.",
+        "Display the complete sequence with anterior above posterior and global white-to-red intensity scaling."
+      ],
+      "limit": "The compressed movie provides relative display intensity. The fixed image corridor retains tissue displacement and its physical pixel scale is unverified.",
+      "color_note": "White is low display intensity and deep red is high. Gray marks missing rows.",
+      "axes": [
+        [
+          "Time axis",
+          "Nominal 10 min per frame inferred from Fig. 1B and 1E. The same interval is extended through all 80 movie frames."
+        ],
+        [
+          "Space axis",
+          "Distance from the fixed posterior-side strip reference in video pixels."
+        ]
+      ],
+      "source_url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC4701973.1/supp_30.1.102_movie1.avi",
+      "downloads": {
+        "svg": "figures/shimojo-2016-s1/kymograph.svg",
+        "png": "figures/shimojo-2016-s1/kymograph.png"
+      },
+      "data_path": "data/derived/shimojo-2016-s1/kymograph.npz",
+      "provenance_path": "data/derived/shimojo-2016-s1/processing.json",
+      "reference_comparison": {
+        "label": "Published Fig. 1D comparison",
+        "note": "The first 58 movie frames align with the Figure 1B–E interval. Published Fig. 1D is shown on its original display scale.",
+        "preview": "figures/shimojo-2016-s1/figure-comparison.png",
+        "alt": "Reconstructed grayscale-video strip means next to published Figure 1D from Shimojo et al. (2016).",
+        "reuse_license": {
+          "label": "CC BY-NC 4.0 · Noncommercial",
+          "url": "https://creativecommons.org/licenses/by-nc/4.0/",
+          "credit": "© 2016 Shimojo et al., Figure 1D. Cropped and shown beside the Clock Explorer redraw."
+        }
+      },
+      "alt": "Nominal experiment time and axial grayscale display intensity of the Dll1 reporter."
+    }
+  },
+  "julich-2015-s5-fn1a": {
+    "target_genes": [
+      "fn1a"
+    ],
+    "plot_layout": "compact",
+    "detail_layout": "combined_sources",
+    "experimental_facts": [
+      {
+        "label": "Tissue",
+        "value": "PSM and forming somites",
+        "evidence_ids": [
+          "figure-7",
+          "movie-s5-fn1a"
+        ]
+      },
+      {
+        "label": "Preparation",
+        "value": "Intact zebrafish embryo",
+        "evidence_ids": [
+          "figure-7",
+          "movie-s5-fn1a"
+        ]
+      },
+      {
+        "label": "View",
+        "value": "Parasagittal confocal view",
+        "evidence_ids": [
+          "figure-7",
+          "movie-s5-fn1a"
+        ]
+      },
+      {
+        "label": "Signal",
+        "value": "Fibronectin at somite boundaries",
+        "evidence_ids": [
+          "figure-7",
+          "movie-s5-fn1a"
+        ]
+      }
+    ],
+    "axis_polarity": {
+      "top": "A",
+      "bottom": "P",
+      "status": "supported",
+      "note": "A and P mark regional directions within the displayed parasagittal field.",
+      "evidence_ids": [
+        "figure-7",
+        "movie-s5-fn1a"
+      ]
+    },
+    "method_figure": {
+      "title": "Sampling & kymograph",
+      "context": "Fn1a–EmeraldGFP · Movie S5 · 31 images",
+      "roi": "figures/julich-2015-s5-fn1a/sampling.png",
+      "roi_alt": "The same sampling strip at 0, 97.5 and 195 minutes.",
+      "roi_note": "The orange rectangle is the sampled band. A is at image left and P at image right, as shown by the author’s orientation key.",
+      "source_sample": "Movie S5 · fourth pass",
+      "experimental_model": "Intact zebrafish embryo",
+      "coordinate_reference": "Distance from the posterior side of the sampled field toward the anterior.",
+      "signal_note": "Fn1a protein deposition at forming somite boundaries.",
+      "steps": [
+        "Use the fourth pass of Movie S5, a fixed parasagittal view of the same embryo. Choose one image per acquisition.",
+        "Place the fixed-width sampling band along the row of developing somites, below the author’s arrow.",
+        "Average the green display intensity across the band at each anterior–posterior position.",
+        "Arrange the profiles in time order, with the anterior side above the posterior side."
+      ],
+      "limit": "The exported movie contains processed display intensities. Spatial calibration for the parasagittal export is unverified, so the plot uses video pixels.",
+      "color_note": "Dark red marks higher Fn1a display intensity at the segment boundaries.",
+      "axes": [
+        [
+          "Time axis",
+          "31 distinct images in the parasagittal pass of Movie S5, acquired every 6.5 min. Time is elapsed from the first image."
+        ],
+        [
+          "Space axis",
+          "Distance from the posterior side of the sampled field toward the anterior. Values use video pixels."
+        ]
+      ],
+      "source_url": "https://ars.els-cdn.com/content/image/1-s2.0-S1534580715003214-mmc6.mp4",
+      "downloads": {
+        "svg": "figures/julich-2015-s5-fn1a/plot.svg",
+        "png": "figures/julich-2015-s5-fn1a/plot.png"
+      },
+      "data_path": "data/derived/julich-2015-s5-fn1a/matrix.npz",
+      "provenance_path": "data/derived/julich-2015-s5-fn1a/audit.json",
+      "alt": "Kymograph of Fn1a deposition at forming somite boundaries.",
+      "public_sampling_note": "The fixed-width band follows one paraxial flank in the fourth pass of Movie S5. A is at image left and P at image right."
+    }
+  },
+  "venzin-2023-dual-tbx6": {
+    "target_genes": [
+      "tbx6"
+    ],
+    "conditions": [
+      "Intact zebrafish embryo"
+    ],
+    "plot_layout": "compact",
+    "detail_layout": "combined_sources",
+    "axis_polarity": {
+      "top": "A",
+      "bottom": "P",
+      "status": "supported",
+      "note": "A is on the right and P is on the left in the source video. The kymograph uses the anterior-aligned axis.",
+      "evidence_ids": [
+        "Lab video",
+        "Supplement"
+      ]
+    },
+    "experimental_facts": [
+      {
+        "label": "Tissue",
+        "value": "Embryonic PSM and forming somites",
+        "evidence_ids": [
+          "Lab video",
+          "Figure 2"
+        ]
+      },
+      {
+        "label": "Preparation",
+        "value": "Intact zebrafish embryo",
+        "evidence_ids": [
+          "Lab video",
+          "Figure 2"
+        ]
+      },
+      {
+        "label": "View",
+        "value": "Light-sheet fluorescence projection",
+        "evidence_ids": [
+          "Lab video",
+          "Methods"
+        ]
+      },
+      {
+        "label": "Temperature",
+        "value": "28.5°C (study protocol)",
+        "evidence_ids": [
+          "Methods"
+        ]
+      }
+    ],
+    "method_figure": {
+      "title": "Sampling & kymograph",
+      "context": "Tbx6–mNeonGreen · 111 images · 4 h 36 min–8 h 16 min",
+      "roi": "figures/venzin-2023-aligned/sampling.png",
+      "roi_alt": "Six source frames with the shared strip and mapped P reference",
+      "roi_note": "The shared orange strip follows the same lower flank in both channels. P is the final-frame reference mapped to the source image by the saved axial offset. Dashed segments connect P to the first supported sample, up to the visible field edge.",
+      "steps": [
+        "Keep the same 111 source images and shared 33 px strip on the lower flank.",
+        "Track gray nuclear texture near the anterior somite row. Check the longitudinal drift in a separate window.",
+        "Align the anterior landmark to its final-frame arc position. Shift both reporter profiles by the same amount.",
+        "Use the same color extraction and smoothing as before. Retain both ends of each supported sampling interval."
+      ],
+      "coordinate_reference": "Aligned distance from final P (video px)",
+      "signal_note": "Relative yellow contrast for Tbx6–mNeonGreen in the source video.",
+      "source_sample": "Same embryo and time window for both reporters",
+      "experimental_model": "Intact zebrafish embryo",
+      "axes": [
+        [
+          "Time axis",
+          "Source frames 138–248, 4 h 36 min–8 h 16 min on the lab video's elapsed clock, at 2 min per image. This interval keeps a traceable axial flank and includes the early right-hand Mesp-ba signal. The final encoded image contains a display artifact."
+        ],
+        [
+          "Space axis",
+          "Follow gray nuclear texture beside the anterior somite row and align its longitudinal displacement to the last usable frame. Apply the same arc-length offset to both reporters. P at zero is the posterior reference on that frame."
+        ],
+        [
+          "Signal",
+          "Relative yellow contrast for Tbx6–mNeonGreen in the source video."
+        ]
+      ],
+      "limit": "The 2D alignment stabilizes the anterior tissue along the sampled axis. Regional deformation and changes in projection remain. Color values are relative display contrast from the composite video.",
+      "source_url": "https://x.com/OatesLab/status/1724075364924764493",
+      "data_path": "data/derived/venzin-2023-aligned/tbx6/matrix.npz",
+      "provenance_path": "data/derived/venzin-2023-aligned/audit.json",
+      "downloads": {
+        "svg": "figures/venzin-2023-aligned/tbx6/plot.svg",
+        "png": "figures/venzin-2023-aligned/tbx6/plot.png"
+      },
+      "alt": "Time and anterior–posterior position of Tbx6–mNeonGreen display contrast",
+      "color_note": "Higher contrast appears darker red. Both plots use the same coordinates and separate display scales.",
+      "review_comparisons": [
+        {
+          "label": "Compare before and after alignment",
+          "note": "Each reporter retains the same contrast scale in both rows.",
+          "preview": "figures/venzin-2023-aligned/before-after.png",
+          "alt": "Two reporter kymographs on the original and aligned coordinates"
+        }
+      ],
+      "review_preview": "figures/venzin-2023-aligned/alignment-check.png",
+      "review_label": "Gray-feature alignment check",
+      "public_sampling_note": "The strip follows the same lower flank in both channels. P is the final-frame reference mapped into each source frame using the saved axial offset."
+    },
+    "detail_asset_paths": [
+      "data/derived/venzin-2023-aligned/tbx6/matrix.npz"
+    ]
+  },
+  "venzin-2023-dual-mespba": {
+    "target_genes": [
+      "mesp-ba"
+    ],
+    "conditions": [
+      "Intact zebrafish embryo"
+    ],
+    "plot_layout": "compact",
+    "detail_layout": "combined_sources",
+    "axis_polarity": {
+      "top": "A",
+      "bottom": "P",
+      "status": "supported",
+      "note": "A is on the right and P is on the left in the source video. The kymograph uses the anterior-aligned axis.",
+      "evidence_ids": [
+        "Lab video",
+        "Supplement"
+      ]
+    },
+    "experimental_facts": [
+      {
+        "label": "Tissue",
+        "value": "Embryonic PSM and forming somites",
+        "evidence_ids": [
+          "Lab video",
+          "Figure 2"
+        ]
+      },
+      {
+        "label": "Preparation",
+        "value": "Intact zebrafish embryo",
+        "evidence_ids": [
+          "Lab video",
+          "Figure 2"
+        ]
+      },
+      {
+        "label": "View",
+        "value": "Light-sheet fluorescence projection",
+        "evidence_ids": [
+          "Lab video",
+          "Methods"
+        ]
+      },
+      {
+        "label": "Temperature",
+        "value": "28.5°C (study protocol)",
+        "evidence_ids": [
+          "Methods"
+        ]
+      }
+    ],
+    "method_figure": {
+      "title": "Sampling & kymograph",
+      "context": "Mesp-ba–mKate2 · 111 images · 4 h 36 min–8 h 16 min",
+      "roi": "figures/venzin-2023-aligned/sampling.png",
+      "roi_alt": "Six source frames with the shared strip and mapped P reference",
+      "roi_note": "The shared orange strip follows the same lower flank in both channels. P is the final-frame reference mapped to the source image by the saved axial offset. Dashed segments connect P to the first supported sample, up to the visible field edge.",
+      "steps": [
+        "Keep the same 111 source images and shared 33 px strip on the lower flank.",
+        "Track gray nuclear texture near the anterior somite row. Check the longitudinal drift in a separate window.",
+        "Align the anterior landmark to its final-frame arc position. Shift both reporter profiles by the same amount.",
+        "Use the same color extraction and smoothing as before. Retain both ends of each supported sampling interval."
+      ],
+      "coordinate_reference": "Aligned distance from final P (video px)",
+      "signal_note": "Relative magenta contrast for Mesp-ba–mKate2 in the source video.",
+      "source_sample": "Same embryo and time window for both reporters",
+      "experimental_model": "Intact zebrafish embryo",
+      "axes": [
+        [
+          "Time axis",
+          "Source frames 138–248, 4 h 36 min–8 h 16 min on the lab video's elapsed clock, at 2 min per image. This interval keeps a traceable axial flank and includes the early right-hand Mesp-ba signal. The final encoded image contains a display artifact."
+        ],
+        [
+          "Space axis",
+          "Follow gray nuclear texture beside the anterior somite row and align its longitudinal displacement to the last usable frame. Apply the same arc-length offset to both reporters. P at zero is the posterior reference on that frame."
+        ],
+        [
+          "Signal",
+          "Relative magenta contrast for Mesp-ba–mKate2 in the source video."
+        ]
+      ],
+      "limit": "The 2D alignment stabilizes the anterior tissue along the sampled axis. Regional deformation and changes in projection remain. Color values are relative display contrast from the composite video.",
+      "source_url": "https://x.com/OatesLab/status/1724075364924764493",
+      "data_path": "data/derived/venzin-2023-aligned/mespba/matrix.npz",
+      "provenance_path": "data/derived/venzin-2023-aligned/audit.json",
+      "downloads": {
+        "svg": "figures/venzin-2023-aligned/mespba/plot.svg",
+        "png": "figures/venzin-2023-aligned/mespba/plot.png"
+      },
+      "alt": "Time and anterior–posterior position of Mesp-ba–mKate2 display contrast",
+      "color_note": "Higher contrast appears darker red. Both plots use the same coordinates and separate display scales.",
+      "review_comparisons": [
+        {
+          "label": "Compare before and after alignment",
+          "note": "Each reporter retains the same contrast scale in both rows.",
+          "preview": "figures/venzin-2023-aligned/before-after.png",
+          "alt": "Two reporter kymographs on the original and aligned coordinates"
+        }
+      ],
+      "review_preview": "figures/venzin-2023-aligned/alignment-check.png",
+      "review_label": "Gray-feature alignment check",
+      "public_sampling_note": "The strip follows the same lower flank in both channels. P is the final-frame reference mapped into each source frame using the saved axial offset."
+    },
+    "detail_asset_paths": [
+      "data/derived/venzin-2023-aligned/mespba/matrix.npz"
+    ]
+  }
+}

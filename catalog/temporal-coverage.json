@@ -1,0 +1,466 @@
+{
+  "chhabra-2026": {
+    "mode": "all",
+    "unit": "timepoints",
+    "used": 119,
+    "total": 119,
+    "ranges_inclusive": [
+      [
+        0,
+        118
+      ]
+    ],
+    "note": "All 119 time points in the selected author intensity matrix are used; this does not mean all samples in the paper.",
+    "index_origin": 0
+  },
+  "lauschke-2013": {
+    "mode": "all",
+    "unit": "frames",
+    "used": 61,
+    "total": 61,
+    "ranges_inclusive": [
+      [
+        0,
+        60
+      ]
+    ],
+    "note": "The current wavefront-fit primary uses all 61 Video 5 frames. Thirteen frames support the center fit; others continue by BF translation. It is not a full-image average.",
+    "index_origin": 0
+  },
+  "sonnen-2018": {
+    "mode": "all",
+    "unit": "frames",
+    "used": 155,
+    "total": 155,
+    "ranges_inclusive": [
+      [
+        0,
+        154
+      ]
+    ],
+    "note": "All 155 frames of the selected Movie S2 are used; times come from the frame overlays.",
+    "index_origin": 0
+  },
+  "delaune-2012": {
+    "mode": "all",
+    "unit": "frames",
+    "used": 24,
+    "total": 24,
+    "ranges_inclusive": [
+      [
+        0,
+        23
+      ]
+    ],
+    "note": "All 24 frames of the selected Movie S1 are used, with a fixed sampling strip and no tissue tracking.",
+    "index_origin": 0
+  },
+  "yaman-2023": {
+    "mode": "all",
+    "unit": "timepoints",
+    "used": 172,
+    "total": 172,
+    "ranges_inclusive": [
+      [
+        0,
+        171
+      ]
+    ],
+    "note": "All 172 time points in the selected author example matrix are used; the corresponding source movie is not identified.",
+    "index_origin": 0
+  },
+  "rohde-2024": {
+    "measured_space_range": [
+      67.15821039988747,
+      309.3904458327206
+    ],
+    "mode": "measured",
+    "unit": "timepoints",
+    "used": 210,
+    "total": 300,
+    "ranges_inclusive": [
+      [
+        10,
+        207
+      ],
+      [
+        209,
+        220
+      ]
+    ],
+    "duration_label": "0.25–5.50 h",
+    "note": "The acquisition axis has 300 positions. The selected PSM4 cohort has measurements at indices 10–207 and 209–220: 210 time points. Index 208 is missing. All time positions are retained; source-movie frames were not discarded.",
+    "index_origin": 0,
+    "missing_within_extent": [
+      208
+    ]
+  },
+  "sanaki-2022": {
+    "mode": "all",
+    "unit": "frames",
+    "used": 362,
+    "total": 362,
+    "ranges_inclusive": [
+      [
+        0,
+        361
+      ]
+    ],
+    "note": "Source clock labels include both specimen repositioning intervals.",
+    "index_origin": 0
+  },
+  "miao-2023": {
+    "mode": "subset",
+    "unit": "frames",
+    "used": 52,
+    "total": 195,
+    "ranges_inclusive": [
+      [
+        0,
+        51
+      ]
+    ],
+    "note": "The first 52 of 195 source frames (indices 0–51) span differentiation times 50.5–63.913 h. The cutoff near 64 h was an analysis choice to reduce MESP2 mixing, not an author-prescribed cutoff.",
+    "index_origin": 0
+  },
+  "miao-2023-segmentoid": {
+    "mode": "all",
+    "unit": "timepoints",
+    "used": 150,
+    "total": 150,
+    "ranges_inclusive": [
+      [
+        0,
+        149
+      ]
+    ],
+    "note": "The card uses all 150 of 150 time points in the selected WT matrix. The knockout comparison in the details uses all 139 of 139 time points in its separate matrix.",
+    "index_origin": 0
+  },
+  "masamizu-2006": {
+    "mode": "all",
+    "unit": "frames",
+    "used": 45,
+    "total": 45,
+    "ranges_inclusive": [
+      [
+        0,
+        44
+      ]
+    ],
+    "note": "All 45 of 45 frames in the selected Movie 2 are used. The biological sampling interval is unverified, so the axis remains frame index.",
+    "index_origin": 0
+  },
+  "lauschke-2013-embryo": {
+    "mode": "all",
+    "unit": "frames",
+    "used": 126,
+    "total": 126,
+    "ranges_inclusive": [
+      [
+        0,
+        125
+      ]
+    ],
+    "index_origin": 0,
+    "note": "All 126 Video 1 frames (0–20.92 h), with a moving P-to-A curved strip. Original overlay times and the source pose change at 16.67–16.92 h are retained. The earlier 0–10 h straight reference is archived separately."
+  },
+  "lauschke-2013-mpsm": {
+    "mode": "all",
+    "unit": "frames",
+    "used": 160,
+    "total": 160,
+    "ranges_inclusive": [
+      [
+        0,
+        159
+      ]
+    ],
+    "index_origin": 0,
+    "note": "Use all 160 Video 2 frames. The center is fitted from continuous early wavefronts and continued later by matching Video 3 translation. Preserve per-frame overlay timestamps."
+  },
+  "lauschke-2013-mesp2": {
+    "mode": "all",
+    "unit": "frames",
+    "used": 61,
+    "total": 61,
+    "ranges_inclusive": [
+      [
+        0,
+        60
+      ]
+    ],
+    "index_origin": 0,
+    "note": "All 61 Video 6 frames, 0–10 h; timing checked against paired channels from the same specimen. Preserve original display levels and missing samples."
+  },
+  "sonnen-2018-embryo": {
+    "mode": "all",
+    "unit": "frames",
+    "used": 88,
+    "total": 88,
+    "ranges_inclusive": [
+      [
+        0,
+        87
+      ]
+    ],
+    "index_origin": 0,
+    "note": "All Movie S1 signal frames; experimental overlay time is separate from playback seconds."
+  },
+  "sonnen-2018-microfluidic": {
+    "mode": "all",
+    "unit": "frames",
+    "used": 111,
+    "total": 111,
+    "ranges_inclusive": [
+      [
+        0,
+        110
+      ]
+    ],
+    "index_origin": 0,
+    "note": "All Movie S3 signal frames; experimental overlay time is separate from playback seconds."
+  },
+  "chhabra-2026-22c": {
+    "mode": "all",
+    "unit": "timepoints",
+    "used": 127,
+    "total": 127,
+    "ranges_inclusive": [
+      [
+        0,
+        126
+      ]
+    ],
+    "index_origin": 0,
+    "note": "All 127 time points in the 22°C intensity matrix for 20210301 P1."
+  },
+  "chhabra-2026-32c": {
+    "mode": "all",
+    "unit": "timepoints",
+    "used": 188,
+    "total": 188,
+    "ranges_inclusive": [
+      [
+        0,
+        187
+      ]
+    ],
+    "index_origin": 0,
+    "note": "All 188 time points in the 32°C intensity matrix for 20220428 P1."
+  },
+  "miao-2023-segmentoid-mesp2": {
+    "mode": "all",
+    "unit": "timepoints",
+    "used": 150,
+    "total": 150,
+    "ranges_inclusive": [
+      [
+        0,
+        149
+      ]
+    ],
+    "index_origin": 0,
+    "note": "All 150 time points in the WT #1 MESP2 matrix are displayed."
+  },
+  "eck-2026-fig4c": {
+    "mode": "measured",
+    "unit": "timepoints",
+    "used": 140,
+    "total": 158,
+    "index_origin": 0,
+    "ranges_inclusive": [
+      [
+        0,
+        1
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        9,
+        25
+      ],
+      [
+        27,
+        39
+      ],
+      [
+        41,
+        43
+      ],
+      [
+        45,
+        47
+      ],
+      [
+        50,
+        60
+      ],
+      [
+        62,
+        72
+      ],
+      [
+        74,
+        77
+      ],
+      [
+        79,
+        84
+      ],
+      [
+        86,
+        87
+      ],
+      [
+        89,
+        95
+      ],
+      [
+        98,
+        118
+      ],
+      [
+        120,
+        125
+      ],
+      [
+        128,
+        151
+      ],
+      [
+        153,
+        157
+      ]
+    ],
+    "note": "Figure 4C displays 140 recorded scans within 158 elapsed one-minute scan slots. Unacquired slots are missing."
+  },
+  "rohde-2024-axial": {
+    "mode": "all",
+    "unit": "frames",
+    "used": 300,
+    "total": 300,
+    "duration_label": "0–7.475 h",
+    "note": "One tissue projection every 90 s."
+  },
+  "aulehla-2008": {
+    "mode": "all",
+    "unit": "frames",
+    "used": 75,
+    "total": 75,
+    "duration_label": "0–11.98 h",
+    "note": "All decoded frames, timed by the source movie annotations."
+  },
+  "aulehla-2008-mutant": {
+    "mode": "all",
+    "unit": "frames",
+    "used": 75,
+    "total": 75,
+    "duration_label": "0–11.99 h",
+    "note": "All decoded frames, timed by the source movie annotations."
+  },
+  "isomura-2026-s1": {
+    "mode": "all",
+    "unit": "frames",
+    "used": 223,
+    "total": 223,
+    "duration_label": "0–22.2 h",
+    "note": "All decoded frames, timed by the source movie annotations."
+  },
+  "yabe-2023-movie1": {
+    "mode": "all",
+    "unit": "frames",
+    "used": 207,
+    "total": 207,
+    "duration_label": "0–3.43333 h",
+    "note": "All 207 source movie frames at the one-minute acquisition interval."
+  },
+  "rohde-2024-oct-p2-mespba": {
+    "mode": "all",
+    "unit": "frames",
+    "used": 240,
+    "total": 240,
+    "duration_label": "0–5.975 h",
+    "note": "All 240 recorded stacks. One stack every 90 s."
+  },
+  "keseroglu-2023-wt-her1-her7-venus": {
+    "mode": "subset",
+    "unit": "frames",
+    "used": 85,
+    "total": 361,
+    "duration_label": "5.00–12.00 h",
+    "note": "Source frames 60–144, zero-based, from the 361-time-point recording (0–30.00 h). The first z-plane timestamps place this continuous 85-frame window at 5.002–12.002 h from the start of imaging. Selected a continuous interval during which the caudal bud and the same anterior somite landmark can both be used in brightfield. Before the interval the tail is less distinct from the yolk. As the embryo bends later, axial path length increasingly depends on projection. The source deposit includes the full recording."
+  },
+  "mok-2021-tcf15-enh2": {
+    "mode": "subset",
+    "unit": "frames",
+    "used": 138,
+    "total": 258,
+    "duration_label": "≈ 0–13.7 h",
+    "note": "Frames 120–257 of 258. The methods give a nominal six-minute interval. Times are approximate, relative to frame 120. Source exposure timestamps are unavailable."
+  },
+  "mok-2021-movie2-meox1": {
+    "mode": "subset",
+    "unit": "frames",
+    "used": 145,
+    "total": 257,
+    "duration_label": "≈ 11.2–25.6 h",
+    "note": "Source frames 112–256 of 257. Times follow the nominal 6 min acquisition interval stated in Methods. Source movie has no experimental timestamps."
+  },
+  "schmitz-elbers-2021-s2-cortex": {
+    "mode": "subset",
+    "unit": "frames",
+    "used": 121,
+    "total": 122,
+    "duration_label": "≈ 0–10 h (nominal)",
+    "note": "Frames 0–120. Nominal hours use the reported five-minute interval. Frame 121 is black."
+  },
+  "liu-2024-hes7-video5": {
+    "mode": "full",
+    "unit": "time points",
+    "used": 97,
+    "total": 97,
+    "duration_label": "48–96 h",
+    "note": "All 97 printed half-hour times. The 272 encoded frames include the title and repeats."
+  },
+  "makwana-2025-hes7-video2": {
+    "mode": "full",
+    "unit": "frames",
+    "used": 64,
+    "total": 64,
+    "note": "100–115.75 h after differentiation · one image per 15 min."
+  },
+  "shimojo-2016-s1-dll1": {
+    "mode": "full",
+    "unit": "frames",
+    "used": 80,
+    "total": 80,
+    "duration_label": "≈ 0–13.17 h",
+    "note": "Nominal 10 min per frame inferred from Fig. 1B and 1E. The same interval is extended through all 80 movie frames."
+  },
+  "julich-2015-s5-fn1a": {
+    "mode": "full",
+    "unit": "frames",
+    "used": 31,
+    "total": 31,
+    "note": "31 distinct images in the parasagittal pass of Movie S5, acquired every 6.5 min. Time is elapsed from the first image."
+  },
+  "venzin-2023-dual-tbx6": {
+    "mode": "subset",
+    "unit": "frames",
+    "used": 111,
+    "total": 250,
+    "duration_label": "4 h 36 min–8 h 16 min",
+    "note": "Source frames 138–248, 4 h 36 min–8 h 16 min on the lab video's elapsed clock, at 2 min per image. This interval keeps a traceable axial flank and includes the early right-hand Mesp-ba signal. The final encoded image contains a display artifact."
+  },
+  "venzin-2023-dual-mespba": {
+    "mode": "subset",
+    "unit": "frames",
+    "used": 111,
+    "total": 250,
+    "duration_label": "4 h 36 min–8 h 16 min",
+    "note": "Source frames 138–248, 4 h 36 min–8 h 16 min on the lab video's elapsed clock, at 2 min per image. This interval keeps a traceable axial flank and includes the early right-hand Mesp-ba signal. The final encoded image contains a display artifact."
+  }
+}

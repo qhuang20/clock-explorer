@@ -1,0 +1,8 @@
+catalog/
+assets/
+dist/
+node_modules/
+work/
+outputs/
+package-lock.json
+.local/

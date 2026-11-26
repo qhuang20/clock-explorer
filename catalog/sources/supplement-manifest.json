@@ -1,0 +1,282 @@
+[
+  {
+    "paper": "miao-2023",
+    "label": "41586_2022_5655_MOESM12_ESM.mp4",
+    "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-022-05655-4/MediaObjects/41586_2022_5655_MOESM12_ESM.mp4",
+    "path": "data/source-archive/miao-2023/41586_2022_5655_MOESM12_ESM.mp4",
+    "kind": "published movie",
+    "status": "archived",
+    "bytes": 8517300,
+    "sha256": "e8ccc911b7f68305ff6f1e025fc8dbfc0ef8116e14eb93ed4ad82fb467929620"
+  },
+  {
+    "paper": "miao-2023",
+    "label": "41586_2022_5655_MOESM10_ESM.mp4",
+    "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-022-05655-4/MediaObjects/41586_2022_5655_MOESM10_ESM.mp4",
+    "path": "data/source-archive/miao-2023/41586_2022_5655_MOESM10_ESM.mp4",
+    "kind": "published movie",
+    "status": "archived",
+    "bytes": 12573957,
+    "sha256": "0028152b7f6d9eed0611893b486009afab15289e0811d582ae3441348fb90ab5"
+  },
+  {
+    "paper": "miao-2023",
+    "label": "41586_2022_5655_MOESM13_ESM.mp4",
+    "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-022-05655-4/MediaObjects/41586_2022_5655_MOESM13_ESM.mp4",
+    "path": "data/source-archive/miao-2023/41586_2022_5655_MOESM13_ESM.mp4",
+    "kind": "published movie",
+    "status": "archived",
+    "bytes": 8973413,
+    "sha256": "9e526883194d980ea38cc96d3c738e626d101c16a70a32578a2e1d3ca2b19819"
+  },
+  {
+    "paper": "miao-2023",
+    "label": "41586_2022_5655_MOESM11_ESM.mp4",
+    "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-022-05655-4/MediaObjects/41586_2022_5655_MOESM11_ESM.mp4",
+    "path": "data/source-archive/miao-2023/41586_2022_5655_MOESM11_ESM.mp4",
+    "kind": "published movie",
+    "status": "archived",
+    "bytes": 10873822,
+    "sha256": "c6654ac66dabb821b1e2f74b5bd6288ba1db3a0ee958e7df39aecd08a7ef1da2"
+  },
+  {
+    "paper": "miao-2023",
+    "label": "41586_2022_5655_MOESM14_ESM.mp4",
+    "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-022-05655-4/MediaObjects/41586_2022_5655_MOESM14_ESM.mp4",
+    "path": "data/source-archive/miao-2023/41586_2022_5655_MOESM14_ESM.mp4",
+    "kind": "published movie",
+    "status": "archived",
+    "bytes": 8991685,
+    "sha256": "62f83fed235f68c360b2f684e4fbc13bb657d871cc1bfee630d8518c800a67cb"
+  },
+  {
+    "paper": "miao-2023",
+    "label": "41586_2022_5655_MOESM18_ESM.xlsx",
+    "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-022-05655-4/MediaObjects/41586_2022_5655_MOESM18_ESM.xlsx",
+    "path": "data/source-archive/miao-2023/41586_2022_5655_MOESM18_ESM.xlsx",
+    "kind": "source table / documentation",
+    "status": "archived",
+    "bytes": 87693,
+    "sha256": "d37bfe43eccd534a8aaf2e79f4f69faa174873c4555b798959f04f3ba1a312e4"
+  },
+  {
+    "paper": "miao-2023",
+    "label": "41586_2022_5655_MOESM19_ESM.xlsx",
+    "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-022-05655-4/MediaObjects/41586_2022_5655_MOESM19_ESM.xlsx",
+    "path": "data/source-archive/miao-2023/41586_2022_5655_MOESM19_ESM.xlsx",
+    "kind": "source table / documentation",
+    "status": "archived",
+    "bytes": 793141,
+    "sha256": "fdc81324f853d58187a16adeda3192e474d71e26ede81f0163d8785cc30a43c5"
+  },
+  {
+    "paper": "miao-2023",
+    "label": "41586_2022_5655_MOESM16_ESM.mp4",
+    "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-022-05655-4/MediaObjects/41586_2022_5655_MOESM16_ESM.mp4",
+    "path": "data/source-archive/miao-2023/41586_2022_5655_MOESM16_ESM.mp4",
+    "kind": "published movie",
+    "status": "archived",
+    "bytes": 11363296,
+    "sha256": "f760e01e4ed6f8f2ad88cef6060c2e6e0d67c02dcfb53f4a0346afc2bff73606"
+  },
+  {
+    "paper": "miao-2023",
+    "label": "41586_2022_5655_MOESM20_ESM.xlsx",
+    "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-022-05655-4/MediaObjects/41586_2022_5655_MOESM20_ESM.xlsx",
+    "path": "data/source-archive/miao-2023/41586_2022_5655_MOESM20_ESM.xlsx",
+    "kind": "source table / documentation",
+    "status": "archived",
+    "bytes": 38769,
+    "sha256": "770a9285fa45513ce79a697b8fe74a8e94ad46dfeda683f8e791fb7546dfe4ab"
+  },
+  {
+    "paper": "miao-2023",
+    "label": "41586_2022_5655_MOESM15_ESM.mp4",
+    "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-022-05655-4/MediaObjects/41586_2022_5655_MOESM15_ESM.mp4",
+    "path": "data/source-archive/miao-2023/41586_2022_5655_MOESM15_ESM.mp4",
+    "kind": "published movie",
+    "status": "archived",
+    "bytes": 13520313,
+    "sha256": "180c44185662f1f01b6d11cfa2e92956f37407fa09aeae4c131d6e47789a8f6b"
+  },
+  {
+    "paper": "miao-2023",
+    "label": "41586_2022_5655_MOESM17_ESM.mp4",
+    "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-022-05655-4/MediaObjects/41586_2022_5655_MOESM17_ESM.mp4",
+    "path": "data/source-archive/miao-2023/41586_2022_5655_MOESM17_ESM.mp4",
+    "kind": "published movie",
+    "status": "archived",
+    "bytes": 9716122,
+    "sha256": "b473a54cb20c64548d50fdd096d511f80a488ed781a732c734ad8c99ec7c6aff"
+  },
+  {
+    "paper": "miao-2023",
+    "label": "41586_2022_5655_MOESM1_ESM.pdf",
+    "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-022-05655-4/MediaObjects/41586_2022_5655_MOESM1_ESM.pdf",
+    "path": "data/source-archive/miao-2023/41586_2022_5655_MOESM1_ESM.pdf",
+    "kind": "source table / documentation",
+    "status": "archived",
+    "bytes": 4031395,
+    "sha256": "268ed7db13b385b38abe61934a49525db41ec14ca9c038220f667601e6e7bb1e"
+  },
+  {
+    "paper": "miao-2023",
+    "label": "41586_2022_5655_MOESM21_ESM.xlsx",
+    "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-022-05655-4/MediaObjects/41586_2022_5655_MOESM21_ESM.xlsx",
+    "path": "data/source-archive/miao-2023/41586_2022_5655_MOESM21_ESM.xlsx",
+    "kind": "source table / documentation",
+    "status": "archived",
+    "bytes": 211241,
+    "sha256": "41acbfdeaf9ffadc2bc6df9c6218f52c6e2ab0d9e688004112eb3d82fe623213"
+  },
+  {
+    "paper": "miao-2023",
+    "label": "41586_2022_5655_MOESM22_ESM.xlsx",
+    "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-022-05655-4/MediaObjects/41586_2022_5655_MOESM22_ESM.xlsx",
+    "path": "data/source-archive/miao-2023/41586_2022_5655_MOESM22_ESM.xlsx",
+    "kind": "source table / documentation",
+    "status": "archived",
+    "bytes": 101875,
+    "sha256": "ddd81569eb3c5e8da88cd93306d5714ac19d0f1a1b302bf20bcac52bab4cc9e1"
+  },
+  {
+    "paper": "miao-2023",
+    "label": "41586_2022_5655_MOESM24_ESM.xlsx",
+    "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-022-05655-4/MediaObjects/41586_2022_5655_MOESM24_ESM.xlsx",
+    "path": "data/source-archive/miao-2023/41586_2022_5655_MOESM24_ESM.xlsx",
+    "kind": "source table / documentation",
+    "status": "archived",
+    "bytes": 34975,
+    "sha256": "5420847403b62d4e49edd7b09d055f145c666ab27bb5d385a52192d2e19103ad"
+  },
+  {
+    "paper": "miao-2023",
+    "label": "41586_2022_5655_MOESM25_ESM.xlsx",
+    "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-022-05655-4/MediaObjects/41586_2022_5655_MOESM25_ESM.xlsx",
+    "path": "data/source-archive/miao-2023/41586_2022_5655_MOESM25_ESM.xlsx",
+    "kind": "source table / documentation",
+    "status": "archived",
+    "bytes": 33661,
+    "sha256": "2cbf50580fd8c749f493c36f783b05e5361ff3eb92f8f81fce2a82bcc973c462"
+  },
+  {
+    "paper": "miao-2023",
+    "label": "41586_2022_5655_MOESM26_ESM.xlsx",
+    "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-022-05655-4/MediaObjects/41586_2022_5655_MOESM26_ESM.xlsx",
+    "path": "data/source-archive/miao-2023/41586_2022_5655_MOESM26_ESM.xlsx",
+    "kind": "source table / documentation",
+    "status": "archived",
+    "bytes": 111893,
+    "sha256": "d2ad33d5d378de9afb2b311ed46269c1b2595af33e7714885d2fadbf9e90f3af"
+  },
+  {
+    "paper": "miao-2023",
+    "label": "41586_2022_5655_MOESM27_ESM.xlsx",
+    "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-022-05655-4/MediaObjects/41586_2022_5655_MOESM27_ESM.xlsx",
+    "path": "data/source-archive/miao-2023/41586_2022_5655_MOESM27_ESM.xlsx",
+    "kind": "source table / documentation",
+    "status": "archived",
+    "bytes": 357318,
+    "sha256": "1b096c15273c8f6016eddd3698d5fd2b2abe10420ae9edfb9fc5b3e90868a5a0"
+  },
+  {
+    "paper": "miao-2023",
+    "label": "41586_2022_5655_MOESM28_ESM.xlsx",
+    "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-022-05655-4/MediaObjects/41586_2022_5655_MOESM28_ESM.xlsx",
+    "path": "data/source-archive/miao-2023/41586_2022_5655_MOESM28_ESM.xlsx",
+    "kind": "source table / documentation",
+    "status": "archived",
+    "bytes": 10217,
+    "sha256": "0151868ff6abaf1dc75d655e8b0ef4a1125d8a80d3055403f48118ab25eb9c19"
+  },
+  {
+    "paper": "miao-2023",
+    "label": "41586_2022_5655_MOESM23_ESM.xlsx",
+    "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-022-05655-4/MediaObjects/41586_2022_5655_MOESM23_ESM.xlsx",
+    "path": "data/source-archive/miao-2023/41586_2022_5655_MOESM23_ESM.xlsx",
+    "kind": "source table / documentation",
+    "status": "archived",
+    "bytes": 1070353,
+    "sha256": "810ea1d795dc5776aa096ebd7264d9262aab5ddba80f634f91791418e26da18f"
+  },
+  {
+    "paper": "miao-2023",
+    "label": "41586_2022_5655_MOESM4_ESM.csv",
+    "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-022-05655-4/MediaObjects/41586_2022_5655_MOESM4_ESM.csv",
+    "path": "data/source-archive/miao-2023/41586_2022_5655_MOESM4_ESM.csv",
+    "kind": "source table / documentation",
+    "status": "archived",
+    "bytes": 28472,
+    "sha256": "c3f465f6dd45934f94922fc6fb801674714fbddcaa639d1982ad1c263936630a"
+  },
+  {
+    "paper": "miao-2023",
+    "label": "41586_2022_5655_MOESM5_ESM.csv",
+    "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-022-05655-4/MediaObjects/41586_2022_5655_MOESM5_ESM.csv",
+    "path": "data/source-archive/miao-2023/41586_2022_5655_MOESM5_ESM.csv",
+    "kind": "source table / documentation",
+    "status": "archived",
+    "bytes": 273830,
+    "sha256": "8222277c28a282d5bb37ef6a8a9437e875967ac4e7dd6c33cbe076b1d351eb4d"
+  },
+  {
+    "paper": "miao-2023",
+    "label": "41586_2022_5655_MOESM7_ESM.mp4",
+    "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-022-05655-4/MediaObjects/41586_2022_5655_MOESM7_ESM.mp4",
+    "path": "data/source-archive/miao-2023/41586_2022_5655_MOESM7_ESM.mp4",
+    "kind": "published movie",
+    "status": "archived",
+    "bytes": 11351602,
+    "sha256": "6689c3c9d6ffc22b935d4046d19d7b26e832c9b267b3a6ea96f90e7530f342d3"
+  },
+  {
+    "paper": "miao-2023",
+    "label": "41586_2022_5655_MOESM3_ESM.csv",
+    "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-022-05655-4/MediaObjects/41586_2022_5655_MOESM3_ESM.csv",
+    "path": "data/source-archive/miao-2023/41586_2022_5655_MOESM3_ESM.csv",
+    "kind": "source table / documentation",
+    "status": "archived",
+    "bytes": 2183630,
+    "sha256": "46fe4a7883cf9225260056f3bbc002f4bc74cc6aa06707d69ea85db7db3528b1"
+  },
+  {
+    "paper": "miao-2023",
+    "label": "41586_2022_5655_MOESM2_ESM.pdf",
+    "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-022-05655-4/MediaObjects/41586_2022_5655_MOESM2_ESM.pdf",
+    "path": "data/source-archive/miao-2023/41586_2022_5655_MOESM2_ESM.pdf",
+    "kind": "source table / documentation",
+    "status": "archived",
+    "bytes": 845424,
+    "sha256": "d036c102289365bffe7cc546aaaf4c2bf61b07e0e03423b66e0860a9362e07f8"
+  },
+  {
+    "paper": "miao-2023",
+    "label": "41586_2022_5655_MOESM8_ESM.mp4",
+    "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-022-05655-4/MediaObjects/41586_2022_5655_MOESM8_ESM.mp4",
+    "path": "data/source-archive/miao-2023/41586_2022_5655_MOESM8_ESM.mp4",
+    "kind": "published movie",
+    "status": "archived",
+    "bytes": 8443706,
+    "sha256": "4ac0b8f1514a594d7788a8bc9d755ece1ad409aaa3c99884d9a6433b0b95d7d7"
+  },
+  {
+    "paper": "miao-2023",
+    "label": "41586_2022_5655_MOESM6_ESM.mp4",
+    "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-022-05655-4/MediaObjects/41586_2022_5655_MOESM6_ESM.mp4",
+    "path": "data/source-archive/miao-2023/41586_2022_5655_MOESM6_ESM.mp4",
+    "kind": "published movie",
+    "status": "archived",
+    "bytes": 13526148,
+    "sha256": "17a5e7a269035d1afb77e3bf3408a3dda3bd700f5939902288bfa49936ff1d1a"
+  },
+  {
+    "paper": "miao-2023",
+    "label": "41586_2022_5655_MOESM9_ESM.mp4",
+    "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-022-05655-4/MediaObjects/41586_2022_5655_MOESM9_ESM.mp4",
+    "path": "data/source-archive/miao-2023/41586_2022_5655_MOESM9_ESM.mp4",
+    "kind": "published movie",
+    "status": "archived",
+    "bytes": 12776305,
+    "sha256": "5d56505336d5957cd1b14d587bd3e1fcf2d99fccd75da6a01f25e19eec64ee8c"
+  }
+]

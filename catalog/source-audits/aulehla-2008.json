@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "paper_id": "aulehla-2008",
+  "doi": "10.1038/ncb1679",
+  "article_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7391962/",
+  "checked": "2026-11-19",
+  "scope": "Selected gene-reporter movies for the local redraw.",
+  "signals": [
+    {
+      "reporter": "LuVeLu",
+      "target_gene": "Lfng",
+      "movie": "Movie 1",
+      "source_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fncb1679/MediaObjects/41556_2008_BFncb1679_MOESM15_ESM.mov",
+      "source_sha256": "01fc8a4c3cce41b2329a7510683eee5eb146f10a3c0a105cc4eea6c7e68f032a",
+      "experiment": "Control embryo",
+      "panel_relationship": "Figure 5a identifies the control Movie 1 and marks the PSM sampling line. Figure 5c uses space horizontally and time vertically. This local redraw uses a separately traced medial curve, movie green excess and time horizontally.",
+      "route": "axial",
+      "source_class": "Publisher display export"
+    },
+    {
+      "reporter": "LuVeLu",
+      "target_gene": "Lfng",
+      "movie": "Movie 2",
+      "source_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fncb1679/MediaObjects/41556_2008_BFncb1679_MOESM16_ESM.mov",
+      "source_sha256": "60189039e909bbaaab1753d0e46db88411886e8214f836711c30ad3f0e4bcf32",
+      "experiment": "Stabilized β-catenin mutant embryo",
+      "panel_relationship": "The mutant embryo and kymograph are shown in Fig. 5b,d. The local curve was traced independently on Movie 2. The paper puts space horizontally and time vertically.",
+      "route": "axial",
+      "source_class": "Publisher display export"
+    }
+  ]
+}

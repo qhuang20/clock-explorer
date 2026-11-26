@@ -1,0 +1,413 @@
+{
+  "schema_version": 1,
+  "paper_id": "sonnen-2018",
+  "checked": "2026-11-17",
+  "article_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5847172/",
+  "doi": "10.1016/j.cell.2018.01.026",
+  "scope": "Every published intensity/phase kymograph in main and supplementary figures, plus all available gene-reporter movies. Missing spatial data are skipped; rendered panels and one-dimensional time-series plots are not treated as raw spatial measurements.",
+  "sources_checked": [
+    "Primary full-text JATS including all figure captions and STAR Methods",
+    "Author-hosted paper PDF with Figures S1-S6",
+    "Complete official PMC attachment manifest: mmc1.pdf, mmc2.mp4, mmc3.mp4, mmc4.mp4",
+    "Document S1 (Data S1/S2): PDF time-series plots, not image stacks or numeric intensity matrices",
+    "All frames of all three public playback movies; source hash and decode metadata",
+    "2026-11-17: official full-resolution gr1/2/3/4/6 and figs1/2/3/6 images, verified against PMC manifest MD5s",
+    "2026-11-17: Document S1 inspected as rendered PDF: three pages containing plotted one-dimensional Data S1/S2, no image stacks or spatial matrices",
+    "2026-11-17: focused DOI/title repository search and author publication page; no additional exact-source deposition located"
+  ],
+  "signals": [
+    {
+      "target_gene": "Axin2",
+      "reporter": "Axin2T2A",
+      "preparation": "E10.5 embryo PSM; dorsal view",
+      "source_movie": "Movie S1",
+      "source_file": "mmc2.mp4",
+      "figure_match": ["Figure 1A/B"],
+      "dataset_id": "sonnen-2018-embryo",
+      "status": "local_display_video_reconstruction",
+      "not_same_sample_claim": ["Figure 1C dual Axin2T2A/Mesp2-GFP recording"]
+    },
+    {
+      "target_gene": "Axin2",
+      "reporter": "Axin2T2A",
+      "preparation": "Ex vivo mPSM",
+      "source_movie": "Movie S2",
+      "source_file": "mmc3.mp4",
+      "figure_match": ["Figure 1D-F"],
+      "dataset_id": "sonnen-2018",
+      "status": "existing_exploratory_reconstruction_preserved",
+      "not_same_sample_claim": [
+        "Figure 1G dual-reporter recording",
+        "Figure 2A reference sample"
+      ]
+    },
+    {
+      "target_gene": "Lfng",
+      "reporter": "LuVeLu",
+      "preparation": "Microfluidic ex vivo mPSM",
+      "source_movie": "Movie S3",
+      "source_file": "mmc4.mp4",
+      "figure_relation": ["Figure 3"],
+      "dataset_id": "sonnen-2018-microfluidic",
+      "status": "local_display_video_reconstruction",
+      "condition": "Exact drug/control pulse identity of this exported specimen unresolved; retain microfluidic context and dye exclusion.",
+      "not_same_sample_claim": ["Figure 2B unforced reference culture"]
+    },
+    {
+      "target_gene": "Mesp2",
+      "reporter": "Mesp2-GFP",
+      "preparation": "Embryonic PSM (1C), ex vivo mPSM (1G and S6)",
+      "figure_panels": [
+        "Figure 1C",
+        "Figure 1G",
+        "Figure S6C",
+        "Figure S6E",
+        "Figure S6G"
+      ],
+      "status": "source_not_found_in_checked_attachments",
+      "source_movie": null,
+      "dataset_id": null,
+      "required_inputs": [
+        "Dual-channel time-lapse stacks or validated separated Mesp2 channel for Figures 1C/G",
+        "Frame clock, pixel calibration and exact ROI or ROI reconstruction evidence",
+        "For S6: matched genotype and DMSO/alternating/simultaneous pulse conditions"
+      ],
+      "next_step": "Locate a deposited source or request it from authors if the user authorizes contact. No placeholder extraction or substitute Lauschke Mesp2 movie."
+    },
+    {
+      "target_gene": "Axin2",
+      "reporter": "Axin2T2A",
+      "figure_panels": ["Figure 2A", "Figure S2A-C"],
+      "status": "published_kymograph_available_exact_source_unlocated",
+      "source_movie": null
+    },
+    {
+      "target_gene": "Lfng",
+      "reporter": "LuVeLu",
+      "figure_panels": ["Figure 2B", "Figure S2D-F"],
+      "status": "published_kymograph_available_exact_source_unlocated",
+      "source_movie": null
+    },
+    {
+      "target_gene": "Axin2 / Lfng",
+      "reporter": "Axin2T2A-Luci / LuVeLu",
+      "figure_panels": ["Figure 2E/F", "Figure S2H/I"],
+      "status": "simultaneous_dual_reporter_source_unlocated",
+      "source_movie": null
+    }
+  ],
+  "additional_panels": [
+    {
+      "panels": [
+        "Figure S1E",
+        "Figure 3C",
+        "Figure 4G",
+        "Figure S3J",
+        "Figure 6A",
+        "Figure S6I-K"
+      ],
+      "signals": ["Axin2T2A", "LuVeLu"],
+      "status": "Published images or kymographs; no additional movie attachment assigned.",
+      "condition_scope": "Keep Chiron, IWP-2, DAPT, DMSO and alternating/simultaneous protocols distinct."
+    },
+    {
+      "reporter": "Lfng-T2A-VenusPEST",
+      "target_gene": "Lfng",
+      "status": "Validation dynamics stated as data not shown; no extra source located."
+    }
+  ],
+  "exclusions": [
+    {
+      "signal": "Merge",
+      "reason": "Composite visualization of existing reporter channels, not a third independent gene measurement."
+    },
+    {
+      "signal": "Cascade Blue inset in S3",
+      "reason": "Perfusion dye reference, not a gene reporter. Excluded from sampling."
+    },
+    {
+      "signal": "Brightfield-only images/playback",
+      "reason": "No gene signal; retain matched structural input for registration when available."
+    },
+    {
+      "signal": "Ripply2 / Uncx4.1 in Figure S6A/B",
+      "reason": "Fixed in situ endpoint assays, not deposited continuous reporter movies."
+    },
+    {
+      "signal": "Hes7 knockout in Figure S6C/D",
+      "reason": "Genotype/condition of Mesp2 experiment, not a separate Hes7 reporter movie."
+    }
+  ],
+  "author_methods": {
+    "figures_1C_1G": {
+      "z_projection": "maximum intensity",
+      "image_gaussian_um": 5,
+      "strip_direction": "posterior to anterior",
+      "strip_width_original_px": 50,
+      "strip_width_caption_um": 70,
+      "raw_pixel_size_um": 1.38,
+      "kymograph_gaussian_um": 5,
+      "registration": "explicit in Figure 1C caption"
+    },
+    "oscillation_dynamics": {
+      "z_projection": "maximum intensity",
+      "image_gaussian_um": 10,
+      "kymograph_gaussian_um": 10,
+      "strip_direction": "posterior to anterior",
+      "strip_width_original_px": null,
+      "strip_width_note": "The oscillation-dynamics paragraph does not specify width; do not inherit the 50 px / ~70 µm width explicitly tied to Figures 1C/G.",
+      "temporal_filter_note": "Post-kymograph Gaussian is described in µm, without a separate time-axis scale/kernel. A spatial-only control is not a literal reproduction of that complete step."
+    },
+    "reproduction_limit": "Public MP4s are flattened compressed display exports. Raw projection, exact author ROI and double-reporter identity cannot be reconstructed by assumption.",
+    "local_filter_control": "Added per-frame spatial σ=10 µm control for Movie S2, with the retained 40 px ROI and timestamps. No post-kymograph/time filter, raw z-projection, center refit or primary replacement. S1 (5 µm) and S3 (10 µm) already have per-frame controls; they remain independent reconstructions."
+  },
+  "kymograph_panel_groups": [
+    {
+      "id": "fig1c",
+      "panels": ["Figure 1C"],
+      "reporters": ["Axin2T2A", "Mesp2-GFP"],
+      "conditions": ["Dual-positive embryonic PSM"],
+      "original_figure": "data/source-archive/sonnen-2018/gr1.jpg",
+      "status": "skip_exact_source_not_found",
+      "available_spatial_source": null,
+      "related_movie_not_exact": ["Movie S1"],
+      "derived_views": [],
+      "decision": "Movie S1 is single-reporter and caption-linked to 1A/B; no paired image stack or author numeric matrix located."
+    },
+    {
+      "id": "fig1g",
+      "panels": ["Figure 1G"],
+      "reporters": ["Axin2T2A", "Mesp2-GFP"],
+      "conditions": ["Dual-positive ex vivo mPSM"],
+      "original_figure": "data/source-archive/sonnen-2018/gr1.jpg",
+      "status": "skip_exact_source_not_found",
+      "available_spatial_source": null,
+      "related_movie_not_exact": ["Movie S2"],
+      "derived_views": [],
+      "decision": "Movie S2 is caption-linked to 1D-F and does not supply the Mesp2 channel for 1G."
+    },
+    {
+      "id": "fig2a",
+      "panels": ["Figure 2A", "Figure S2A-C"],
+      "reporters": ["Axin2T2A"],
+      "conditions": ["Ex vivo reference culture"],
+      "original_figure": "data/source-archive/sonnen-2018/figs2.jpg",
+      "status": "skip_exact_source_not_found",
+      "available_spatial_source": null,
+      "related_movie_not_exact": ["Movie S2"],
+      "derived_views": ["Figure S2C phase"],
+      "decision": "S2A illustrates the author P-to-A line; S2B repeats 2A and S2C is phase derived from the same measurement. Exact source unlocated; no supported S2A match in all 155 Movie S2 frames."
+    },
+    {
+      "id": "fig2b",
+      "panels": ["Figure 2B", "Figure S2D-F"],
+      "reporters": ["LuVeLu"],
+      "conditions": ["Ex vivo reference culture"],
+      "original_figure": "data/source-archive/sonnen-2018/figs2.jpg",
+      "status": "skip_exact_source_not_found",
+      "available_spatial_source": null,
+      "related_movie_not_exact": ["Movie S3"],
+      "derived_views": ["Figure S2F phase"],
+      "decision": "S2D illustrates the author line; S2E repeats 2B and S2F is derived phase. Microfluidic Movie S3 is not documented as this exact sample."
+    },
+    {
+      "id": "figs2i",
+      "panels": ["Figure S2I"],
+      "reporters": ["Axin2T2A-Luci", "LuVeLu"],
+      "conditions": ["Simultaneous dual reporter; anterior mPSM"],
+      "original_figure": "data/source-archive/sonnen-2018/figs2.jpg",
+      "status": "skip_exact_source_not_found",
+      "available_spatial_source": null,
+      "related_movie_not_exact": [],
+      "derived_views": [],
+      "decision": "S2I is detrended/normalized and supplies Figure 2F traces. No simultaneous source images or spatial matrix located."
+    },
+    {
+      "id": "fig3c",
+      "panels": ["Figure 3C"],
+      "reporters": ["LuVeLu", "Axin2T2A"],
+      "conditions": ["Representative microfluidic experiments"],
+      "original_figure": "data/source-archive/sonnen-2018/gr3.jpg",
+      "status": "skip_exact_source_not_found",
+      "available_spatial_source": null,
+      "related_movie_not_exact": ["Movie S3"],
+      "derived_views": [],
+      "decision": "Schematic includes two representative kymographs. Movie S3 supplies LuVeLu only; exact panel identity and drug/control pulses are unresolved."
+    },
+    {
+      "id": "fig4g",
+      "panels": ["Figure 4G"],
+      "reporters": ["Axin2T2A"],
+      "conditions": ["DMSO control", "2 µM DAPT pulses"],
+      "original_figure": "data/source-archive/sonnen-2018/gr4.jpg",
+      "status": "skip_exact_source_not_found",
+      "available_spatial_source": null,
+      "related_movie_not_exact": [],
+      "derived_views": [],
+      "decision": "Data S1B contains plotted anterior time traces, not the two spatial image sequences."
+    },
+    {
+      "id": "fig6a",
+      "panels": ["Figure 6A"],
+      "reporters": ["LuVeLu"],
+      "conditions": [
+        "DMSO pulses",
+        "Alternating DAPT/Chiron",
+        "Simultaneous DAPT/Chiron"
+      ],
+      "original_figure": "data/source-archive/sonnen-2018/gr6.jpg",
+      "status": "skip_exact_source_not_found",
+      "available_spatial_source": null,
+      "related_movie_not_exact": ["Movie S3"],
+      "derived_views": [],
+      "decision": "No three matched spatial sequences or matrices located. Do not assign the unspecified Movie S3 condition to any of these panels."
+    },
+    {
+      "id": "figs1e",
+      "panels": ["Figure S1E"],
+      "reporters": ["Axin2T2A"],
+      "conditions": ["CHIR99021 agonist", "IWP-2 antagonist"],
+      "original_figure": "data/source-archive/sonnen-2018/figs1.jpg",
+      "status": "skip_exact_source_not_found",
+      "available_spatial_source": null,
+      "related_movie_not_exact": [],
+      "derived_views": [],
+      "decision": "S1D shows snapshots; the two treatment-specific continuous inputs for S1E were not deposited among the checked attachments."
+    },
+    {
+      "id": "figs3j",
+      "panels": ["Figure S3J"],
+      "reporters": ["Axin2T2A"],
+      "conditions": ["DMSO control", "5 µM Chiron pulses"],
+      "original_figure": "data/source-archive/sonnen-2018/figs3.jpg",
+      "status": "skip_exact_source_not_found",
+      "available_spatial_source": null,
+      "related_movie_not_exact": [],
+      "derived_views": [],
+      "decision": "Published control/treatment kymographs have no assigned spatial source. Plotted anterior traces in Data S1 do not restore spatial profiles."
+    },
+    {
+      "id": "figs6c",
+      "panels": ["Figure S6C"],
+      "reporters": ["Mesp2-GFP"],
+      "conditions": ["Hes7+/+ or Hes7+/−", "Hes7−/−"],
+      "original_figure": "data/source-archive/sonnen-2018/figs6.jpg",
+      "status": "skip_exact_source_not_found",
+      "available_spatial_source": null,
+      "related_movie_not_exact": [],
+      "derived_views": [],
+      "decision": "No Mesp2 time-lapse source located. Hes7 is the genotype, not an additional Hes7 reporter."
+    },
+    {
+      "id": "figs6e",
+      "panels": ["Figure S6E"],
+      "reporters": ["Mesp2-GFP"],
+      "conditions": [
+        "Alternating DMSO pulses",
+        "Alternating DAPT/Chiron pulses"
+      ],
+      "original_figure": "data/source-archive/sonnen-2018/figs6.jpg",
+      "status": "skip_exact_source_not_found",
+      "available_spatial_source": null,
+      "related_movie_not_exact": [],
+      "derived_views": [],
+      "decision": "No condition-matched Mesp2 movie or matrix located."
+    },
+    {
+      "id": "figs6g",
+      "panels": ["Figure S6G"],
+      "reporters": ["Mesp2-GFP"],
+      "conditions": ["Alternating DAPT/Chiron", "Simultaneous DAPT/Chiron"],
+      "original_figure": "data/source-archive/sonnen-2018/figs6.jpg",
+      "status": "skip_exact_source_not_found",
+      "available_spatial_source": null,
+      "related_movie_not_exact": [],
+      "derived_views": [],
+      "decision": "No condition-matched Mesp2 movie or matrix located."
+    },
+    {
+      "id": "figs6i_k",
+      "panels": ["Figure S6I", "Figure S6J", "Figure S6K"],
+      "reporters": ["Axin2T2A"],
+      "conditions": [
+        "DMSO control",
+        "Alternating DAPT/Chiron",
+        "Simultaneous DAPT/Chiron"
+      ],
+      "original_figure": "data/source-archive/sonnen-2018/figs6.jpg",
+      "status": "skip_exact_source_not_found",
+      "available_spatial_source": null,
+      "related_movie_not_exact": [],
+      "derived_views": [],
+      "decision": "No condition-matched spatial source located; preserve three separate treatments."
+    }
+  ],
+  "available_movie_actions": [
+    {
+      "movie": "Movie S1",
+      "dataset_id": "sonnen-2018-embryo",
+      "skill": "kymograph-axial",
+      "source_file": "mmc2.mp4",
+      "time_range_h": [0, 14.5],
+      "frame_count": 88,
+      "action": "existing_kymograph_rechecked_no_duplicate_card",
+      "same_specimen_published_panels": ["Figure 1A/B"],
+      "exact_published_kymograph_match": false,
+      "main_unchanged": true
+    },
+    {
+      "movie": "Movie S2",
+      "dataset_id": "sonnen-2018",
+      "skill": "kymograph-radial (exploratory origin)",
+      "source_file": "mmc3.mp4",
+      "time_range_h": [0, 25.69],
+      "frame_count": 155,
+      "action": "existing_kymograph_rechecked_no_duplicate_card",
+      "same_specimen_published_panels": ["Figure 1D-F"],
+      "exact_published_kymograph_match": false,
+      "main_unchanged": true
+    },
+    {
+      "movie": "Movie S3",
+      "dataset_id": "sonnen-2018-microfluidic",
+      "skill": "kymograph-radial (exploratory inner strip)",
+      "source_file": "mmc4.mp4",
+      "time_range_h": [0, 18.333333333333332],
+      "frame_count": 111,
+      "action": "existing_kymograph_rechecked_no_duplicate_card",
+      "same_specimen_published_panels": [],
+      "exact_published_kymograph_match": false,
+      "main_unchanged": true
+    }
+  ],
+  "comparison_review": {
+    "registration": "data/derived/sonnen-2018/paper-comparison/figure-frame-search.json",
+    "filter_control": "data/derived/sonnen-2018/paper-comparison/s2-spatial-control.npz",
+    "provenance": "data/derived/sonnen-2018/paper-comparison/provenance.json",
+    "numeric_recheck": "data/derived/sonnen-2018/paper-comparison/all-frame-baseline-review.json",
+    "outcome": "No exact published kymograph has an identified same-sample spatial input in the checked public attachments. All three available gene movies are already covered; no additional source-backed card is pending.",
+    "all_frame_result": {
+      "movies": 3,
+      "frames": 354,
+      "S1_max_absolute_display_error": 0,
+      "S2_max_absolute_display_error": 1.0800249583553523e-12,
+      "S3_max_absolute_display_error": 0,
+      "all_validity_masks_match": true,
+      "primary_files_unchanged": true,
+      "scope": "Saved geometry and native decoded signal only; center, anatomical registration and sample identity remain separate."
+    }
+  },
+  "input_policy": {
+    "usable_for_spatial_reproduction": [
+      "same-specimen image sequence or stack",
+      "numeric distance-by-time matrix with coordinates"
+    ],
+    "not_spatial_source": [
+      "figure JPEG or screenshot",
+      "single static snapshot",
+      "PDF of one-dimensional time traces",
+      "another specimen sharing a reporter"
+    ],
+    "missing_action": "Skip reconstruction; retain a concise panel-level gap record. Revisit only if a new usable source becomes available."
+  }
+}

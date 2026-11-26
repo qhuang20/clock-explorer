@@ -1,0 +1,8 @@
+# Optional: only needed to extract or redraw research data.
+# Validated environment versions; the browser build uses Python standard library only.
+numpy==2.5.4
+matplotlib==3.11.2
+tifffile==2026.11.8
+av==19.0.2
+Pillow==13.0.0
+scipy==1.18.1

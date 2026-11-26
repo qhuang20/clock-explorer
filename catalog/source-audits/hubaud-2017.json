@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "paper_id": "hubaud-2017",
+  "doi": "10.1016/j.cell.2017.08.043",
+  "article_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5722254/",
+  "checked": "2026-11-19",
+  "scope": "Reporter movies in this local pilot. Only the requested specimen was decoded and redrawn.",
+  "signals": [
+    {
+      "reporter": "LuVeLu",
+      "target_gene": "Lfng",
+      "movie": "Movie S1",
+      "source_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0092867417310012-mmc2.mp4",
+      "source_sha256": "eb3719d0d0dcbf554f871087e6b815c859d0f19eb240d95528097b3f57772c0f",
+      "experiment": "PSM explant culture",
+      "panel_relationship": "Figure 1C marks a center-to-upper-right strip for the 36 h kymograph in Figure 1B. Movie S1 covers 21.25 h. The local strip follows that direction from a fitted origin; specimen and exact ROI correspondence are unconfirmed.",
+      "route": "radial",
+      "source_class": "Publisher display export"
+    }
+  ],
+  "other_movies": [
+    {
+      "movie": "Movie S2",
+      "status": "outside selected baseline",
+      "subject": "Ablation"
+    },
+    {
+      "movie": "Movie S3",
+      "status": "outside selected baseline",
+      "subject": "Reaggregation"
+    },
+    {
+      "movie": "Movie S4",
+      "status": "outside selected baseline",
+      "subject": "Dissociated cells"
+    },
+    {
+      "movie": "Movie S5",
+      "status": "outside selected baseline",
+      "subject": "Density on micropatterns"
+    },
+    {
+      "movie": "Movie S6",
+      "status": "outside selected baseline",
+      "subject": "Notch inhibition"
+    }
+  ],
+  "figure_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0092867417310012-gr1_lrg.jpg"
+}

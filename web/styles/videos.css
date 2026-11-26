@@ -1,0 +1,286 @@
+/* Source movie playback: isolated from the comparison gallery. */
+.detailTabs {
+  overflow-x: auto;
+  flex-shrink: 0;
+}
+.detailTabs button {
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.videoShortcut {
+  color: var(--accent);
+  background: var(--light);
+  border: 0;
+  padding: 8px 12px;
+  font-size: 12px;
+  margin: 0 0 18px;
+}
+.videoSourceNotice {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4px 10px;
+  margin-bottom: 18px;
+  color: #8b6228;
+  font-size: 11px;
+}
+.videoSourceNotice .videoShortcut {
+  margin: 0;
+  border-radius: 8px;
+}
+.videoLicense {
+  color: #8b6228;
+  font-size: 11px;
+}
+.videoAttribution {
+  color: var(--muted);
+  font-size: 12px;
+  margin: 8px 0;
+}
+.videoToolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 12px;
+}
+.videoToolbar label {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 11px;
+  color: var(--muted);
+  min-width: 0;
+  flex: 1;
+}
+.videoToolbar select {
+  width: 100%;
+  max-width: 520px;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 10px 12px;
+}
+.videoCount {
+  font-size: 11px;
+  color: var(--muted);
+  white-space: nowrap;
+  align-self: flex-end;
+  padding-bottom: 10px;
+}
+.videoTitle {
+  margin: 0 0 12px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.videoFacts {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 16px;
+  font-size: 12px;
+  color: var(--muted);
+  margin-bottom: 14px;
+}
+.videoFacts .videoUsed {
+  color: var(--accent);
+  background: var(--light);
+  border-radius: 5px;
+  padding: 3px 7px;
+  font-size: 10px;
+}
+.sourceVideoStage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #101115;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.sourceVideoFrame {
+  position: relative;
+  width: 100%;
+}
+.sourceVideoFrame video {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.videoRoiComparison {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 12px;
+}
+.videoRoiComparison > * {
+  flex: 1 1 290px;
+  min-width: 0;
+}
+.videoRoiDiagram {
+  margin: 0;
+}
+.videoRoiDiagram[hidden] {
+  display: none;
+}
+.videoRoiDiagram figcaption {
+  margin-top: 5px;
+  color: var(--muted);
+  font-size: 11px;
+}
+.videoRoi {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+.videoRoi[hidden] {
+  display: none;
+}
+.videoControls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px 20px;
+  padding: 10px 0;
+  color: var(--muted);
+  font-size: 11px;
+}
+.videoControls label {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.videoControls select {
+  font-size: 11px;
+  padding: 4px 8px;
+}
+.videoControls > span:last-child {
+  margin-left: auto;
+}
+.videoRoiToggle input {
+  accent-color: var(--accent);
+  margin: 0;
+  width: 14px;
+  height: 14px;
+}
+.videoRoiStatus {
+  color: var(--muted);
+  font-size: 11px;
+}
+.videoDescription {
+  font-size: 12px;
+  color: var(--ink);
+  line-height: 1.6;
+  margin: 8px 0;
+}
+.videoTimeNote {
+  font-size: 11px;
+  color: var(--muted);
+  line-height: 1.6;
+  margin: 5px 0 16px;
+}
+.videoLinks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  font-size: 12px;
+  margin: 18px 0;
+}
+.videoDetails {
+  border-top: 1px solid var(--line);
+  padding: 14px 0;
+  font-size: 11px;
+  color: var(--muted);
+  line-height: 1.7;
+}
+.videoDetails summary {
+  cursor: pointer;
+}
+.videoDetails p {
+  margin: 9px 0;
+  overflow-wrap: anywhere;
+}
+.videoUnavailable {
+  padding: 44px 20px;
+  border-radius: 10px;
+  background: #f6f7f9;
+  text-align: center;
+  font-size: 12px;
+  color: var(--muted);
+}
+.videoUnavailable p {
+  margin-bottom: 12px;
+}
+.videoError {
+  font-size: 12px;
+  color: #9a5b22;
+  margin: 10px 0;
+}
+@media (max-width: 600px) {
+  .videoToolbar {
+    gap: 10px;
+  }
+  .videoToolbar select {
+    font-size: 12px;
+  }
+  .videoControls {
+    gap: 10px;
+  }
+  .detailTabs {
+    gap: 20px;
+  }
+}
+
+.videoRelation {
+  font-size: 11px;
+  color: var(--muted);
+  line-height: 1.5;
+  margin: -3px 0 14px;
+}
+.kymoCompareActions .cardVideoLink {
+  position: relative;
+  z-index: 2;
+  white-space: nowrap;
+  color: var(--accent);
+  font-weight: 500;
+}
+
+.videoStart {
+  position: absolute;
+  z-index: 2;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px 18px;
+  border: 1px solid #ffffff60;
+  border-radius: 24px;
+  background: #191825d9;
+  color: white;
+  white-space: nowrap;
+  font-size: 13px;
+}
+.videoStart:disabled {
+  cursor: wait;
+  opacity: 0.85;
+}
+
+.videoSpecimenLabel {
+  position: absolute;
+  top: 3%;
+  left: 27%;
+  padding: 2px 6px;
+  border-radius: 4px;
+  background: rgb(15 17 21 / 80%);
+  color: white;
+  font-size: 0.78rem;
+  pointer-events: none;
+}
+
+.samplingVideo video {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: 0.5rem;
+}
