@@ -233,9 +233,8 @@ straight/curved strip, or the saved projection footprint. Each video-derived
 card must provide the matching **Show sampling ROI** checkbox in
 its Video pane. Check it by default so the overlay appears on the video poster.
 Keep it beside Speed with the existing accent and typography.
-For Sonnen 2018 Movies S1–S3, the hosted player draws the synchronized ROI
-beside the original movie. Loopback previews use the same geometry in the
-on-video overlay, including when previewing the public build.
+For Sonnen 2018 Movies S1–S3, draw the synchronized ROI as a separate browser
+layer over the original video.
 
 Display the actual saved region/width in original source xy coordinates. Show
 curved band edges and its path, not just a chord or a first-frame screenshot.

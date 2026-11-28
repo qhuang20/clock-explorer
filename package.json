@@ -7,7 +7,7 @@
   "description": "Explore and compare segmentation-clock kymographs across species.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/qhuang20/segmentation-kymograph-explorer.git"
+    "url": "https://github.com/qhuang20/clock-explorer.git"
   },
   "engines": {
     "node": ">=22"

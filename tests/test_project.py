@@ -119,7 +119,7 @@ class ProjectTests(unittest.TestCase):
         self.assertEqual(movie["source_url"], movie["public_source_url"])
         self.assertTrue(movie["license"])
 
-    def test_sonnen_public_movies_keep_licensed_copies_and_use_roi_diagrams(self):
+    def test_sonnen_public_movies_keep_licensed_copies_and_use_roi_overlays(self):
         data = runtime_catalog()
         videos = read_json(CATALOG / "videos.json")
         movies = videos["papers"]["sonnen-2018"]["videos"]
@@ -131,11 +131,8 @@ class ProjectTests(unittest.TestCase):
                 self.assertEqual(movie["source_sha256"], movie["playback_sha256"])
                 self.assertEqual(movie["reuse_license"]["label"], "CC BY-NC-ND 4.0")
                 self.assertNotIn("poster", movie)
-                self.assertNotIn("sampling_rois", movie)
-                self.assertEqual(
-                    movie["sampling_roi_diagrams"], private_movie["sampling_rois"]
-                )
-                self.assertNotIn("sampling_roi_diagrams", private_movie)
+                self.assertEqual(movie["sampling_rois"], private_movie["sampling_rois"])
+                self.assertNotIn("sampling_roi_diagrams", movie)
 
     def test_public_playback_assets_have_source_specific_credit(self):
         manifest = read_json(CATALOG / "assets.json")["files"]

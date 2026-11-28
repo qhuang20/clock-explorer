@@ -441,8 +441,7 @@
             "label": "CC BY-NC-ND 4.0",
             "url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
             "credit": "© 2018 Sonnen et al. · Movie S1, Cell · Published by Elsevier. Original movie, unchanged. The independent kymograph records a separate intensity analysis."
-          },
-          "local_only_overlay": true
+          }
         },
         {
           "id": "movie-s2",
@@ -479,8 +478,7 @@
             "label": "CC BY-NC-ND 4.0",
             "url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
             "credit": "© 2018 Sonnen et al. · Movie S2, Cell · Published by Elsevier. Original movie, unchanged. The independent kymograph records a separate intensity analysis."
-          },
-          "local_only_overlay": true
+          }
         },
         {
           "id": "movie-s3",
@@ -517,8 +515,7 @@
             "label": "CC BY-NC-ND 4.0",
             "url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
             "credit": "© 2018 Sonnen et al. · Movie S3, Cell · Published by Elsevier. Original movie, unchanged. The independent kymograph records a separate intensity analysis."
-          },
-          "local_only_overlay": true
+          }
         }
       ],
       "default_video": "movie-s2",

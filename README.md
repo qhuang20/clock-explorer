@@ -46,8 +46,8 @@ Open the local URL printed in the terminal (normally <http://127.0.0.1:8765>).
 If that port is busy, the app selects a free one. This address serves your own
 computer. To use a fixed port, run `npm start -- --port 8766`.
 
-The repository is currently private, so cloning requires access. Notes are stored
-in your browser for each local address; keep the same port to return to them.
+Notes are stored in your browser for each local address; keep the same port to
+return to them.
 
 A fresh clone loads research assets from their source URLs. To download the core
 assets for local use:
@@ -75,7 +75,8 @@ in the ignored `assets/` directory. It serves a separate build from
 `.local/preview/` on loopback. Use `npm run dev -- --port 8780` to select a port.
 
 Edit the interface in `web/`, records in `catalog/`, and analysis in `analysis/`.
-`dist/` is generated. See the [contribution guide](.github/CONTRIBUTING.md),
+Use this public repository for changes to the website and its build. `dist/` is
+generated. See the [contribution guide](.github/CONTRIBUTING.md),
 [architecture](docs/architecture.md), [reproduction guide](docs/reproducing.md)
 and [hosting guide](docs/hosting.md).
 
